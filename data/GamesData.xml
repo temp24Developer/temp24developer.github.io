@@ -16,14 +16,15 @@
 			<link id="1" title="کافه بازار" url="https://cafebazaar.ir/app/com.temp24Developer.HitTheRoad"></link>
 		</GameLinks>
 		<GameSlides>
-			<slide id="1" alt="" aspect="landscape" img="slide_1.webp"></slide>
-			<slide id="2" alt="" aspect="landscape" img="slide_2.webp"></slide>
-			<slide id="3" alt="" aspect="landscape" img="slide_3.webp"></slide>
-			<slide id="4" alt="" aspect="landscape" img="slide_4.webp"></slide>
-			<slide id="5" alt="" aspect="landscape" img="slide_5.webp"></slide>
+			<slide id="1" alt="" aspect="land" img="slide_1.webp"></slide>
+			<slide id="2" alt="" aspect="land" img="slide_2.webp"></slide>
+			<slide id="3" alt="" aspect="land" img="slide_3.webp"></slide>
+			<slide id="4" alt="" aspect="land" img="slide_4.webp"></slide>
+			<slide id="5" alt="" aspect="land" img="slide_5.webp"></slide>
 		</GameSlides>
 	</game>
 
 </GamesData>
+
 
 
