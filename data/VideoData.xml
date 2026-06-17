@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--& problem in xml content replace by &amp;-->
+<VideoData>
+	<video id="1" titleEn="Base Programing" titleFa="مباحث پایه برنامه نویسی" cover="base_vid_1.jpg" desEn="3 Parts" desFa="3 قسمت">
+		<VideoLinks>
+			<link id="1" title="Youtube" url="https://www.youtube.com/playlist?list=PL8VyLtekGWyxSsHfWQW74756uq0odb8WQ"></link>
+		</VideoLinks>
+	</video>
+</VideoData>

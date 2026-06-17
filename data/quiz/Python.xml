@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quiz title="Python">
+
+	<question id="1">
+		<description>آیا پایتون هنگام مواجهه با شناسه‌های زبانی حساس به حروف بزرگ و کوچک است؟</description>
+		<options>
+			<option id="1">بله</option>
+			<option id="2">بستگی به ماشین دارد</option>
+			<option id="3">خیر</option>
+			<option id="4">بستگی به برنامه‌نویس دارد</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="2">
+		<description>نام کلمات کلیدی در پایتون چگونه نوشته می‌شود؟</description>
+		<options>
+			<option id="1">با حروف کوچک نوشته می‌شود</option>
+			<option id="2">با حروف بزرگ نوشته می‌شود</option>
+			<option id="3">با حروف بزرگ شروع می‌شود</option>
+			<option id="4">بعضی با حروف کوچک و بعضی با حروف بزرگ نوشته می‌شوند</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="3">
+		<description>حاصل عبارت 3 % 22 کدام است؟</description>
+		<options>
+			<option id="1">7</option>
+			<option id="2">1</option>
+			<option id="3">0</option>
+			<option id="4">5</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="4">
+		<description>کدام گزینه درباره تابع بازگشتی درست نیست؟</description>
+		<options>
+			<option id="1">تابع بازگشتی باید یک کیس پایه داشته باشد</option>
+			<option id="2">بازگشت بی‌نهایت زمانی رخ می‌دهد که کیس پایه درست بیان نشده باشد</option>
+			<option id="3">کد را قابل فهم می‌کند</option>
+			<option id="4">هر تابع بازگشتی باید یک مقدار برگشتی داشته باشد</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="5">
+		<description>
+			خروجی قطعه کد زیر چیست؟
+			aTuple = (1, 'jhon', 1+3)
+			print(type(aTuple[2:3]))
+		</description>
+		<options>
+			<option id="1">&lt;class 'set'&gt;</option>
+			<option id="2">&lt;class 'tuple'&gt;</option>
+			<option id="3">&lt;class 'list'&gt;</option>
+			<option id="4">&lt;class 'dict'&gt;</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="6">
+		<description>
+			چگونه می‌توان به کاراکتر "g" در لیست زیر دسترسی پیدا کرد؟
+			list = [10, ['aa','bb',['life','is','good'],'cc'], 33]
+		</description>
+		<options>
+			<option id="1">list[1][2][2][1]</option>
+			<option id="2">list[1][2][1][1]</option>
+			<option id="3">list[1][2][2][0]</option>
+			<option id="4">list[1][1][2][0]</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="7">
+		<description>کدام کلمه کلیدی برای ایجاد حلقه در پایتون استفاده می‌شود؟</description>
+		<options>
+			<option id="1">foreach</option>
+			<option id="2">while</option>
+			<option id="3">loop</option>
+			<option id="4">if</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="8">
+		<description>
+			خروجی قطعه کد زیر چیست؟
+			True = False
+			while True:
+			print(True)
+		</description>
+		<options>
+			<option id="1">True</option>
+			<option id="2">False</option>
+			<option id="3">True False</option>
+			<option id="4">خطا دارد</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="9">
+		<description>
+			حلقه زیر چند بار اجرا می‌شود؟
+			for i in range(-3):
+			print(i)
+		</description>
+		<options>
+			<option id="1">0</option>
+			<option id="2">1</option>
+			<option id="3">2</option>
+			<option id="4">3</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="10">
+		<description>
+			با اجرای کد زیر چند * چاپ می‌شود؟
+			i = 7
+			while i &gt; 0:
+			i -= 3
+			print('*')
+			if i &lt;= 3:
+			break
+		</description>
+		<options>
+			<option id="1">2</option>
+			<option id="2">3</option>
+			<option id="3">0</option>
+			<option id="4">1</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="11">
+		<description>کدام گزینه درباره توابع در پایتون صحیح است؟</description>
+		<options>
+			<option id="1">توابع نمی‌توانند به ماژولار بودن برنامه کمک کنند</option>
+			<option id="2">توابع پایتون از قبل ایجاد شده‌اند و کاربر نمی‌تواند تابع بسازد</option>
+			<option id="3">توابع قطعه‌کدهایی با قابلیت استفاده مجدد هستند</option>
+			<option id="4">توابع داخل کلاس‌ها با کلیدواژه clasfunc تعریف می‌شوند</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="12">
+		<description>حداکثر طول یک شناسه در پایتون چند کاراکتر است؟</description>
+		<options>
+			<option id="1">31 کاراکتر</option>
+			<option id="2">79 کاراکتر</option>
+			<option id="3">63 کاراکتر</option>
+			<option id="4">92 کاراکتر</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="13">
+		<description>کدام دستور رشته hello\example\test.txt را چاپ می‌کند؟</description>
+		<options>
+			<option id="1">print("hello\example\test.txt")</option>
+			<option id="2">print("hello\\\\example\\\\test.txt")</option>
+			<option id="3">print("hello\\"example\\"test.txt")</option>
+			<option id="4">print("hello"\\example"\\test.txt")</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="14">
+		<description>کدام گزینه نوع داده در پایتون نیست؟</description>
+		<options>
+			<option id="1">integer</option>
+			<option id="2">float</option>
+			<option id="3">complex</option>
+			<option id="4">input</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="15">
+		<description>کدام گزینه تابع داخلی پایتون است؟</description>
+		<options>
+			<option id="1">seed()</option>
+			<option id="2">sqrt()</option>
+			<option id="3">factorial()</option>
+			<option id="4">print()</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="16">
+		<description>دو شکل اصلی تابع کدام است؟</description>
+		<options>
+			<option id="1">تابع سفارشی</option>
+			<option id="2">تابع داخلی و تعریف‌شده توسط کاربر</option>
+			<option id="3">تابع کاربر</option>
+			<option id="4">تابع سیستمی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="17">
+		<description>list comprehension با خروجی [1 2 4 8 16 … 212] مربوط به کدام گزینه است؟</description>
+		<options>
+			<option id="1">[(2**x) for x in range(0,13)]</option>
+			<option id="2">[(x**2) for x in range(1,13)]</option>
+			<option id="3">[(2**x) for x in range(1,13)]</option>
+			<option id="4">[(x**2) for x in range(0,13)]</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="18">
+		<description>
+			خروجی کد زیر چیست؟
+			s = set([1,2,3])
+			s.union([4,5])
+			s([4,5])
+		</description>
+		<options>
+			<option id="1">1,2,3,4,5 / 1,2,3,4,5</option>
+			<option id="2">Error / 1,2,3,4,5</option>
+			<option id="3">1,2,3,4,5 / Error</option>
+			<option id="4">Error / Error</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="19">
+		<description>
+			خروجی کد زیر چیست؟
+			for i in 'jhon':
+			if i == 'o':
+			pass
+			print(i, end=',')
+		</description>
+		<options>
+			<option id="1">j,h,o,n</option>
+			<option id="2">j,h,n</option>
+			<option id="3">خطا دارد</option>
+			<option id="4">o</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="20">
+		<description>
+			خروجی کد زیر چیست؟
+			for num in range(-2, -5, -1):
+			print(num, end=',')
+		</description>
+		<options>
+			<option id="1">-4,-3,-1,-2</option>
+			<option id="2">-2,-1,0,1,2,3</option>
+			<option id="3">-2,-1,0</option>
+			<option id="4">-4,-3,-2</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="21">
+		<description>کدام گزینه درباره لیست‌ها درست است؟</description>
+		<options>
+			<option id="1">لیست‌ها به هیچ وجه قابل تغییر نیستند</option>
+			<option id="2">مقدار عناصر در تمام لیست‌ها قابل جایگزینی نیست</option>
+			<option id="3">لیست‌ها یک توالی دارای ترتیب هستند که با براکت برای استخراج عنصر استفاده می‌شود</option>
+			<option id="4">تمام عناصر لیست فقط باید از نوع str باشند</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="22">
+		<description>
+			تعریف زیر مربوط به کدام متد است؟
+			Converts a string to lower case
+		</description>
+		<options>
+			<option id="1">islower</option>
+			<option id="2">insuper</option>
+			<option id="3">lower</option>
+			<option id="4">rjust</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="23">
+		<description>
+			خروجی قطعه کد زیر چیست؟
+			i = 0
+			while i &lt; 3:
+			print(i, end=' ')
+			i += 1
+		</description>
+		<options>
+			<option id="1">0 1 2 3</option>
+			<option id="2">0 1 2</option>
+			<option id="3">0 1 2</option>
+			<option id="4">i,0,1,2</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="24">
+		<description>متدهای یک کلاس که دسترسی به اعضای خصوصی را فراهم می‌کنند چه نام دارند؟</description>
+		<options>
+			<option id="1">getters / setters</option>
+			<option id="2">repr / str</option>
+			<option id="3">user defined functions</option>
+			<option id="4">init / del</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="25">
+		<description>کدام گزینه تعریف درست‌تری از ارث‌بری ارائه می‌دهد؟</description>
+		<options>
+			<option id="1">توانایی یک کلاس برای مشتق گرفتن اعضای کلاس دیگر به عنوان بخشی از تعریف خود</option>
+			<option id="2">ساخت متد و متغیر instance برای محدود کردن دسترسی</option>
+			<option id="3">تمرکز بر متغیرها و پاس دادن آن‌ها به توابع</option>
+			<option id="4">اجازه اجرای نرم‌افزار elegant و قابل تغییر</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="26">
+		<description>کدام گزینه درباره کار با داده‌های XML نادرست است؟</description>
+		<options>
+			<option id="1">کاربر می‌تواند از فضای نام برای ساخت و اشتراک ساختارهای استاندارد استفاده کند</option>
+			<option id="2">برای خواندن XML از ماژول داخلی پایتون با زیرماژول ElementTree استفاده می‌شود</option>
+			<option id="3">کار با XML کمی با CSV و JSON متفاوت است و CSV/JSON به دلیل سادگی رایج‌ترند</option>
+			<option id="4">هنگامی که csv.reader اجرا شود، همه داده‌های XML در دسترس قرار می‌گیرند</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="27">
+		<description>
+			در کد زیر در فرم چه چیزی نمایش داده می‌شود؟
+			e = Entry(root, width=50, bg='blue', fg='red', borderwidth=5).pack()
+		</description>
+		<options>
+			<option id="1">کادر متن با طول ۵۰ و پس‌زمینه قرمز و متن آبی</option>
+			<option id="2">کادر متن با طول ۵ و پس‌زمینه قرمز و متن آبی</option>
+			<option id="3">کادر متن با طول ۵۰ و پس‌زمینه آبی و متن قرمز</option>
+			<option id="4">کادر متن با طول ۵ و پس‌زمینه آبی و متن قرمز</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="28">
+		<description>دستور resizable(false, false) چه کاری انجام می‌دهد؟</description>
+		<options>
+			<option id="1">ایجاد فرم جدید با اندازه غیرقابل تغییر</option>
+			<option id="2">ایجاد دکمه‌های بدون حاشیه</option>
+			<option id="3">غیرقابل تغییر کردن اندازه فرم</option>
+			<option id="4">ایجاد دو فرم مجزا و غیرقابل تغییر</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="29">
+		<description>در یک فرم چند شیء می‌توان ایجاد کرد؟</description>
+		<options>
+			<option id="1">۱۰ شیء</option>
+			<option id="2">فقط دو شیء</option>
+			<option id="3">به میزان دلخواه</option>
+			<option id="4">۲۳۰۰ شیء</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="30">
+		<description>
+			برنامه زیر چه چیزی را نمایش می‌دهد؟
+			from tkinter import *
+			root = Tk()
+			btn = Button(root, text='click')
+			root.mainloop()
+		</description>
+		<options>
+			<option id="1">یک فرم با یک دکمه</option>
+			<option id="2">یک فرم با یک دکمه با متن click</option>
+			<option id="3">یک فرم با یک دکمه با متن click در وسط فرم</option>
+			<option id="4">یک فرم خالی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="31">
+		<description>کدام گزینه نادرست است؟</description>
+		<options>
+			<option id="1">برنامه‌های گرافیکی پایتون با پسوند pyg ذخیره می‌شوند</option>
+			<option id="2">برنامه‌های گرافیکی قابل تبدیل به exe هستند</option>
+			<option id="3">برنامه‌های گرافیکی با پسوند py ذخیره می‌شوند</option>
+			<option id="4">Entry برای ایجاد text box استفاده می‌شود</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="32">
+		<description>خصوصیت command در دکمه برای چه استفاده می‌شود؟</description>
+		<options>
+			<option id="1">ترکیب دو دکمه</option>
+			<option id="2">اجرای برنامه</option>
+			<option id="3">اجرای تابع تعیین‌شده برای دکمه</option>
+			<option id="4">اجرای تمام توابع برنامه به‌صورت همزمان</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="33">
+		<description>کدام متد برای بازگرداندن محتوای یک جعبه متن استفاده می‌شود؟</description>
+		<options>
+			<option id="1">text</option>
+			<option id="2">character</option>
+			<option id="3">get</option>
+			<option id="4">give</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="34">
+		<description>برای پاک کردن محتوای یک جعبه متن از کدام گزینه استفاده می‌شود؟</description>
+		<options>
+			<option id="1">delete(0, END)</option>
+			<option id="2">delete</option>
+			<option id="3">clear(0, END)</option>
+			<option id="4">none</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="35">
+		<description>نام بانک اطلاعاتی که همراه پایتون توزیع می‌شود چیست؟</description>
+		<options>
+			<option id="1">MySQL</option>
+			<option id="2">PySQL</option>
+			<option id="3">SQLite</option>
+			<option id="4">PostgreSQL</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="36">
+		<description>کدام گزینه دستور صحیح برای ایجاد جدول people در SQL است؟</description>
+		<options>
+			<option id="1">people MAKE</option>
+			<option id="2">people CREATE</option>
+			<option id="3">people TABLE MAKE</option>
+			<option id="4">people TABLE CREATE</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="37">
+		<description>
+			نوع داده متغیر results در کد زیر چیست؟
+			import sqlite3
+			connection = sqlite3.connect("people.db")
+			cursor = connection.cursor()
+			cursor.execute("SELECT * FROM People")
+			results = cursor.fetchall()
+		</description>
+		<options>
+			<option id="1">tuple</option>
+			<option id="2">list</option>
+			<option id="3">dict</option>
+			<option id="4">str</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="38">
+		<description>کدام قطعه کد برای ایجاد و ارتباط با یک بانک اطلاعاتی SQLite صحیح است؟</description>
+		<options>
+			<option id="1">
+				import sqlite3
+				connection = sqlite3.create("test_database.db")
+			</option>
+			<option id="2">
+				from sqlite3 import Connection
+				connection = Connection("test_database.db")
+			</option>
+			<option id="3">
+				import sql
+				connection = sql.connect("test_database.db")
+			</option>
+			<option id="4">
+				import sqlite3
+				connection = sqlite3.connect("test_database.db")
+			</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="39">
+		<description>
+			برای ایجاد یک شیء از کلاس زیر کدام روش صحیح است؟
+			class Dog:
+			def __init__(self, name, age):
+			self.name = name
+			self.age = age
+		</description>
+		<options>
+			<option id="1">Dog("Rufus", 3)</option>
+			<option id="2">Dog init("Rufus", 3)</option>
+			<option id="3">Dog.create("Rufus", 3)</option>
+			<option id="4">Dog()</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="40">
+		<description>
+			قرار دادن کاراکتر r قبل از مسیر فایل در دستور
+			f = open(r"d:\color\flower.txt")
+			چه معنایی دارد؟
+		</description>
+		<options>
+			<option id="1">فایل برای خواندن باز می‌شود</option>
+			<option id="2">فایل فقط خواندنی است</option>
+			<option id="3">رشته داخل کوتیشن یک رشته خام است و کاراکترهای خاص پردازش نمی‌شوند</option>
+			<option id="4">مسیر اشاره به فایل باینری دارد</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="41">
+		<description>برای اطمینان از اینکه فایل بعد از استفاده بسته شود، کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">استفاده از دستور with</option>
+			<option id="2">استفاده از بلاک try/finally</option>
+			<option id="3">استفاده از بلاک try/except</option>
+			<option id="4">استفاده از دستور break در انتهای کار با فایل</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="42">
+		<description>کدام گزینه از ویجت‌های tkinter نیست؟</description>
+		<options>
+			<option id="1">Button</option>
+			<option id="2">Label</option>
+			<option id="3">GridView</option>
+			<option id="4">Entry</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="43">
+		<description>کدام دستور SQL برای بازگردانی همه رکوردهای جدول users استفاده می‌شود؟</description>
+		<options>
+			<option id="1">SELECT * FROM users</option>
+			<option id="2">SELECT ALL FROM users</option>
+			<option id="3">RETRIEVE ALL FROM users</option>
+			<option id="4">RETRIEVE FROM users</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="44">
+		<description>کدام دستور SQL برای وارد کردن سطر جدید در جدول استفاده می‌شود؟</description>
+		<options>
+			<option id="1">ADD ROW</option>
+			<option id="2">INSERT ROW</option>
+			<option id="3">INSERT INTO</option>
+			<option id="4">INSERT AFTER</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="45">
+		<description>
+			خروجی قطعه کد زیر چیست؟
+			class X:
+			def printLine(self, line='Python'):
+			print(line)
+			o1 = X()
+		</description>
+		<options>
+			<option id="1">Python</option>
+			<option id="2">Java</option>
+			<option id="3">Line</option>
+			<option id="4">Java, Python</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="46">
+		<description>کدام گزینه delimiter پیش‌فرض فایل‌های CSV در پایتون است؟</description>
+		<options>
+			<option id="1">:</option>
+			<option id="2">,</option>
+			<option id="3">-</option>
+			<option id="4">|</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="47">
+		<description>کدام گزینه از متدهای ماژول CSV در پایتون نیست؟</description>
+		<options>
+			<option id="1">read</option>
+			<option id="2">reader</option>
+			<option id="3">writer</option>
+			<option id="4">writerow</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="48">
+		<description>کدام گزینه برای باز کردن فایل mydata.csv با delimiter برابر '\t' صحیح است؟</description>
+		<options>
+			<option id="1">csv_reader = csv.reader(my_data, tab_delimited=True)</option>
+			<option id="2">csv_reader = csv.reader(my_data, delimiter='\\t')</option>
+			<option id="3">csv_reader = csv.reader(my_data)</option>
+			<option id="4">csv_reader = csv.tab_reader(my_data)</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="49">
+		<description>برای ایجاد توابع ناشناس (anonymous) از چه کلیدواژه‌ای استفاده می‌شود؟</description>
+		<options>
+			<option id="1">lambda</option>
+			<option id="2">return</option>
+			<option id="3">local</option>
+			<option id="4">def</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="50">
+		<description>
+			خروجی دستور زیر چیست؟
+			print(type([]) is list)
+		</description>
+		<options>
+			<option id="1">Listlist</option>
+			<option id="2">False</option>
+			<option id="3">True</option>
+			<option id="4">List is list</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+</Quiz>

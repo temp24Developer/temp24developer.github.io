@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SkillsData>
+	<skill id="1" title="C#" value="75"></skill>
+	<skill id="2" title="Python" value="50"></skill>
+	<skill id="3" title="Js" value="40"></skill>
+	<skill id="4" title="HTML CSS" value="60"></skill>
+	<skill id="5" title="ASP.NetCore" value="80"></skill>
+	<skill id="6" title="Unity" value="50"></skill>
+</SkillsData>

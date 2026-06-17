@@ -22,11 +22,27 @@ body {
 .aspect-1-1 {
     aspect-ratio: 1/1;
 }
+.aspect-4-3 {
+    aspect-ratio: 4/3;
+}
+ .aspect-3-4 {
+    aspect-ratio: 3/4;
+}
 
+.fs-100 {
+    font-size: 100pt;
+}
 .fs-120 {
     font-size: 120pt;
 }
-
+.fs-75 {
+    font-size: 75pt;
+}
+.fs-60 {
+    font-size: 60pt;
+}.fs-50 {
+    font-size: 50pt;
+}
 .white-shadow {
     box-shadow: 0 0 4px rgb(255 255 255 / 0.25)
 }
@@ -280,5 +296,13 @@ body {
 
     100% {
         content: 'a personal game studio';
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .title-bar{
+        aspect-ratio:unset;
+        background-color:red;
     }
 }

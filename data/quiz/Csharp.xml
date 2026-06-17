@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quiz title="C#">
+
+	<question id="1">
+		<description>دسترسی به Toolbox از کدام منو ممکن است؟</description>
+		<options>
+			<option id="1">Project</option>
+			<option id="2">View</option>
+			<option id="3">Window</option>
+			<option id="4">Tools</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="2">
+		<description>کدام نوع داده در C# بیشترین حجم حافظه را اشغال می‌کند؟</description>
+		<options>
+			<option id="1">bool</option>
+			<option id="2">double</option>
+			<option id="3">long</option>
+			<option id="4">decimal</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="3">
+		<description>روش‌هایی که به وسیله آن می‌توان به یک شیء گفت وظیفه‌ای را انجام دهد چیست؟</description>
+		<options>
+			<option id="1">متدها</option>
+			<option id="2">خواص</option>
+			<option id="3">رویدادها</option>
+			<option id="4">کلاس‌ها</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="4">
+		<description>قسمتی از برنامه که دستورات در آن به ترتیب اجرا می‌شوند چیست؟</description>
+		<options>
+			<option id="1">class</option>
+			<option id="2">namespace</option>
+			<option id="3">main</option>
+			<option id="4">void</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="5">
+		<description>خروجی حلقه زیر چیست؟</description>
+		<options>
+			<option id="1">چاپ اعداد ۲۰ تا ۱</option>
+			<option id="2">چاپ اعداد ۱ تا ۲۰</option>
+			<option id="3">چاپ اعداد ۲۰ تا ۶</option>
+			<option id="4">چاپ اعداد ۲۰ تا ۵</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="6">
+		<description>خطای ; expected به چه معناست؟</description>
+		<options>
+			<option id="1">Path اشتباه است</option>
+			<option id="2">متد main نوشته نشده</option>
+			<option id="3">پارامتر تابع اشتباه مقداردهی شده</option>
+			<option id="4">علامت ; فراموش شده</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="7">
+		<description>استفاده از کدام متد در C# اجباری است؟</description>
+		<options>
+			<option id="1">main</option>
+			<option id="2">WriteLine</option>
+			<option id="3">ReadKey</option>
+			<option id="4">Clear</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="8">
+		<description>برای ذخیره اعداد اعشاری با دقت ۱۵ رقم از چه نوع داده‌ای استفاده می‌شود؟</description>
+		<options>
+			<option id="1">double</option>
+			<option id="2">float</option>
+			<option id="3">object</option>
+			<option id="4">long</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="9">
+		<description>برای نوشتن توضیحات چندخطی از چه علامتی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">/* */</option>
+			<option id="2">[]</option>
+			<option id="3">{ }</option>
+			<option id="4">//</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="10">
+		<description>زبان C# یک زبان ... است.</description>
+		<options>
+			<option id="1">سطح بالا</option>
+			<option id="2">سطح پایین</option>
+			<option id="3">سطح میانی</option>
+			<option id="4">رویه‌ای</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="11">
+		<description>برای مجبور کردن کامپیوتر به انجام تقسیم اعشاری چه باید کرد؟</description>
+		<options>
+			<option id="1">یکی از اعداد را اعشاری بنویسیم</option>
+			<option id="2">فقط صورت اعشاری باشد</option>
+			<option id="3">از علامت \ استفاده کنیم</option>
+			<option id="4">فقط مخرج اعشاری باشد</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="12">
+		<description>کدام متد یک آرایه کاراکتری برمی‌گرداند؟</description>
+		<options>
+			<option id="1">ToCharArray</option>
+			<option id="2">Split</option>
+			<option id="3">CharAt</option>
+			<option id="4">ToChar</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="13">
+		<description>کدام گزینه یک کلاس آماده در C# است؟</description>
+		<options>
+			<option id="1">Console</option>
+			<option id="2">Main</option>
+			<option id="3">void</option>
+			<option id="4">static</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="14">
+		<description>برای اضافه کردن کنترل به فرم از کدام پنجره استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Solution</option>
+			<option id="2">ToolBox</option>
+			<option id="3">Properties</option>
+			<option id="4">ToolBar</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="15">
+		<description>زبان‌های برنامه‌نویسی به چند سطح تقسیم می‌شوند؟</description>
+		<options>
+			<option id="1">دو سطح: کاربردی و سیستمی</option>
+			<option id="2">سه سطح: پایین، بالا و میانی</option>
+			<option id="3">دو سطح: بالا و پایین</option>
+			<option id="4">سه سطح: اسمبلی، سی‌شارپ، سی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="16">
+		<description>در یک برنامه می‌توان از چندین بلاک ... استفاده کرد.</description>
+		<options>
+			<option id="1">try</option>
+			<option id="2">exception</option>
+			<option id="3">catch</option>
+			<option id="4">throw</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="17">
+		<description>برای جمع اعداد زوج در آرایه با طول نامشخص از چه ساختاری استفاده می‌شود؟</description>
+		<options>
+			<option id="1">for</option>
+			<option id="2">foreach</option>
+			<option id="3">while</option>
+			<option id="4">switch</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="18">
+		<description>برای خواندنی کردن یک خاصیت از چه کلمه کلیدی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">get</option>
+			<option id="2">set</option>
+			<option id="3">read</option>
+			<option id="4">write</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="19">
+		<description>کدام رویداد مربوط به ListBox است؟</description>
+		<options>
+			<option id="1">change</option>
+			<option id="2">SelectedIndexChanged</option>
+			<option id="3">itemSelect</option>
+			<option id="4">itemChange</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="20">
+		<description>خروجی دستور Total = (firstNumber + secondNumber) با ورودی ۵ و ۷ چیست؟</description>
+		<options>
+			<option id="1">57</option>
+			<option id="2">75</option>
+			<option id="3">12</option>
+			<option id="4">21</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="21">
+		<description>به محیطی که در آن می‌توان تمام مراحل برنامه‌نویسی، ترجمه، اشکال‌زدایی و اجرا را انجام داد چه می‌گویند؟</description>
+		<options>
+			<option id="1">Visual</option>
+			<option id="2">IDE</option>
+			<option id="3">Framework</option>
+			<option id="4">Class</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="22">
+		<description>برای ارتباط با یک شیء از چه چیزی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">متدها</option>
+			<option id="2">خواص</option>
+			<option id="3">متدها و خواص</option>
+			<option id="4">رویدادها</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="23">
+		<description>دقت اعداد float و double چند رقم است؟</description>
+		<options>
+			<option id="1">هر دو ۷ رقم</option>
+			<option id="2">float هفت رقم و double پانزده رقم</option>
+			<option id="3">float پانزده رقم و double هفت رقم</option>
+			<option id="4">هر دو ۱۵ رقم</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="24">
+		<description>کدام گزینه از ویژگی‌های زبان C# است؟</description>
+		<options>
+			<option id="1">شی‌گرا و سطح بالا</option>
+			<option id="2">شی‌گرا و سطح پایین</option>
+			<option id="3">سطح پایین و همه‌منظوره</option>
+			<option id="4">سطح میانی و همه‌منظوره</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="25">
+		<description>پنجره Solution Explorer چه کاربردی دارد؟</description>
+		<options>
+			<option id="1">نمایش خطاها</option>
+			<option id="2">نمایش ساختار پروژه و فایل‌ها</option>
+			<option id="3">نمایش متن برنامه</option>
+			<option id="4">نمایش ابزارها و متدها</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="26">
+		<description>کدام گزینه از ویژگی‌های زبان C# نیست؟</description>
+		<options>
+			<option id="1">شباهت زیاد به C و Java</option>
+			<option id="2">شی‌گرا است</option>
+			<option id="3">سطح بالا است</option>
+			<option id="4">متن‌باز است</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="27">
+		<description>کدام گزینه یک متد نیست؟</description>
+		<options>
+			<option id="1">length</option>
+			<option id="2">charAt</option>
+			<option id="3">toString</option>
+			<option id="4">indexOf</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="28">
+		<description>خروجی Console.WriteLine(25/40) چیست؟</description>
+		<options>
+			<option id="1">1.6</option>
+			<option id="2">1</option>
+			<option id="3">0</option>
+			<option id="4">15</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="29">
+		<description>کدام دستور باعث خروج از حلقه می‌شود؟</description>
+		<options>
+			<option id="1">break</option>
+			<option id="2">goto</option>
+			<option id="3">continue</option>
+			<option id="4">default</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="30">
+		<description>در دستور x *= 3 مقدار x چه تغییری می‌کند؟</description>
+		<options>
+			<option id="1">برابر ۳ می‌شود</option>
+			<option id="2">با ۳ جمع می‌شود</option>
+			<option id="3">سه برابر می‌شود</option>
+			<option id="4">سه واحد کم می‌شود</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="31">
+		<description>کدام نوع داده مقدار true و false را می‌پذیرد؟</description>
+		<options>
+			<option id="1">char</option>
+			<option id="2">bool</option>
+			<option id="3">object</option>
+			<option id="4">string</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="32">
+		<description>کدام گزینه مجموعه‌ای از دستورات برای انجام یک کار است؟</description>
+		<options>
+			<option id="1">متغیر</option>
+			<option id="2">کلاس</option>
+			<option id="3">متد</option>
+			<option id="4">شناسه</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="33">
+		<description>برای انتخاب تنها یک گزینه از چند گزینه از چه استفاده می‌شود؟</description>
+		<options>
+			<option id="1">ListBox</option>
+			<option id="2">CheckBox</option>
+			<option id="3">RadioButton</option>
+			<option id="4">Button</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="34">
+		<description>کدام متد یک آرایه رشته‌ای برمی‌گرداند؟</description>
+		<options>
+			<option id="1">ToCharArray</option>
+			<option id="2">Split</option>
+			<option id="3">Substring</option>
+			<option id="4">ToString</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="35">
+		<description>کدام نوع کلاس نمی‌تواند به عنوان کلاس پایه استفاده شود؟</description>
+		<options>
+			<option id="1">abstract</option>
+			<option id="2">sealed</option>
+			<option id="3">interface</option>
+			<option id="4">class</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="36">
+		<description>یک قرارداد در رفتار یک کلاس چه نام دارد؟</description>
+		<options>
+			<option id="1">interface</option>
+			<option id="2">sealed</option>
+			<option id="3">abstract</option>
+			<option id="4">object</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="37">
+		<description>محدوده نوع داده sbyte چیست؟</description>
+		<options>
+			<option id="1">۰ تا ۲۵۵</option>
+			<option id="2">۰ تا ۲۵۶</option>
+			<option id="3">۱۲۷+ تا ۱۲۷-</option>
+			<option id="4">۱۲۸+ تا ۱۲۸-</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="38">
+		<description>برای استفاده از چند فرم در یک برنامه، کدام خاصیت فرم اصلی باید true شود؟</description>
+		<options>
+			<option id="1">IsMdiContainer</option>
+			<option id="2">Container</option>
+			<option id="3">MdiContainer</option>
+			<option id="4">IsParentForm</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="39">
+		<description>کدام گزینه نادرست است؟</description>
+		<options>
+			<option id="1">در هر کلاس فقط یک سازنده باید باشد</option>
+			<option id="2">یک کلاس می‌تواند چند سازنده داشته باشد</option>
+			<option id="3">در سازنده فقط مقداردهی اولیه انجام می‌شود</option>
+			<option id="4">سازنده فقط برای ایجاد شیء است</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="40">
+		<description>کدام گزینه درباره نام‌گذاری کلاس صحیح است؟</description>
+		<options>
+			<option id="1">نام کلاس توسط برنامه‌نویس تعیین نمی‌شود</option>
+			<option id="2">نام کلاس باید با حرف بزرگ شروع شود</option>
+			<option id="3">اگر نام چندکلمه‌ای باشد، اول هر کلمه بزرگ نوشته شود</option>
+			<option id="4">بین کلمات فاصله نباید باشد</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="41">
+		<description>برای تعریف یک کلاس در زبان برنامه‌نویسی C# از کدام کلمه کلیدی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">void</option>
+			<option id="2">module</option>
+			<option id="3">class</option>
+			<option id="4">main</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="42">
+		<description>کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">{20, 13.5, 11, 14} = int[] grades</option>
+			<option id="2">string names = string[4]</option>
+			<option id="3">int[] grades = new int[4]</option>
+			<option id="4">string names = {"ali", "reza", "amir"}</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="43">
+		<description>برای اضافه کردن یک آیتم به پشته با نام stack کدام دستور صحیح است؟</description>
+		<options>
+			<option id="1">stack.add(x)</option>
+			<option id="2">stack.pop(x)</option>
+			<option id="3">stack.push(x)</option>
+			<option id="4">stack.insert(x)</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="44">
+		<description>کدام گزینه زیرمجموعه فضای نام Collections نیست؟</description>
+		<options>
+			<option id="1">ArrayList</option>
+			<option id="2">Stack</option>
+			<option id="3">List</option>
+			<option id="4">Queue</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="45">
+		<description>برای حذف یک عنصر از پشته با نام stack کدام دستور صحیح است؟</description>
+		<options>
+			<option id="1">stack.cls()</option>
+			<option id="2">stack.Clear()</option>
+			<option id="3">stack.Remove()</option>
+			<option id="4">stack.pop()</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="46">
+		<description>برای مخفی کردن فرم از کدام خاصیت استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Caption</option>
+			<option id="2">Enabled</option>
+			<option id="3">Visible</option>
+			<option id="4">Appearance</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="47">
+		<description>کدام رویداد مربوط به دکمه (Button) است؟</description>
+		<options>
+			<option id="1">Move</option>
+			<option id="2">Scroll</option>
+			<option id="3">Click</option>
+			<option id="4">Change</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="48">
+		<description>کدام گزینه درباره XML صحیح نیست؟</description>
+		<options>
+			<option id="1">XML برای توصیف، ذخیره و ارسال داده است اما HTML برای نمایش داده</option>
+			<option id="2">XML یک زبان مستقل و توسعه‌پذیر است</option>
+			<option id="3">تگ‌های XML از پیش تعریف شده‌اند</option>
+			<option id="4">XML برای مبادله داده استفاده می‌شود</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="49">
+		<description>برای کار با LINQ to XML کدام فضای نام باید اضافه شود؟</description>
+		<options>
+			<option id="1">System.Linq</option>
+			<option id="2">System.Xml.Linq</option>
+			<option id="3">System.Collections</option>
+			<option id="4">System.Text</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="50">
+		<description>برای ایجاد اعلان XML در کدنویسی C# از کدام شیء استفاده می‌شود؟</description>
+		<options>
+			<option id="1">XDocument</option>
+			<option id="2">XDeclaration</option>
+			<option id="3">XElement</option>
+			<option id="4">XAttribute</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="51">
+		<description>برای اعمال شرط روی یک پرس‌وجو در LINQ از چه استفاده می‌شود؟</description>
+		<options>
+			<option id="1">if</option>
+			<option id="2">switch</option>
+			<option id="3">where</option>
+			<option id="4">query</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="52">
+		<description>کدام گزینه یک نام معتبر در XML است؟</description>
+		<options>
+			<option id="1">&lt;&lt;xml Book</option>
+			<option id="2">&lt;&lt;book7</option>
+			<option id="3">book title&gt;&gt;</option>
+			<option id="4">Book&gt;$&gt;</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="53">
+		<description>LINQ مخفف چیست؟</description>
+		<options>
+			<option id="1">Language Integrated Query</option>
+			<option id="2">Language in .NET Query</option>
+			<option id="3">Language of Integrated Query</option>
+			<option id="4">Language Internet Query</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="54">
+		<description>مجموعه سازمان‌دهی‌شده از اطلاعات مرتبط به هم چیست؟</description>
+		<options>
+			<option id="1">Table</option>
+			<option id="2">Record</option>
+			<option id="3">Database</option>
+			<option id="4">Field</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="55">
+		<description>کدام گزینه شامل اطلاعات مربوط به دلیل رخ دادن یک استثنا است؟</description>
+		<options>
+			<option id="1">Message</option>
+			<option id="2">HelpLink</option>
+			<option id="3">Catch</option>
+			<option id="4">ArithmeticException</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="56">
+		<description>کدام نوع رابطه در پایگاه‌های داده رابطه‌ای مناسب نیست؟</description>
+		<options>
+			<option id="1">یک به چند</option>
+			<option id="2">یک به یک</option>
+			<option id="3">چند به چند</option>
+			<option id="4">چند به یک</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="57">
+		<description>اگر چند catch در برنامه وجود داشته باشد، هنگام رخ دادن استثنا کدام catch اجرا می‌شود؟</description>
+		<options>
+			<option id="1">اولین catch بعد از try</option>
+			<option id="2">اولین catch مطابق با نوع استثنا</option>
+			<option id="3">آخرین catch</option>
+			<option id="4">امکان تعریف چند catch وجود ندارد</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="58">
+		<description>اگر کاربر به جای عدد یک حرف وارد کند، برنامه با چه نوع استثنایی مواجه می‌شود؟</description>
+		<options>
+			<option id="1">FormatException</option>
+			<option id="2">NumberFormatException</option>
+			<option id="3">ArithmeticException</option>
+			<option id="4">Exception</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="59">
+		<description>برای اینکه یک متد در زیرکلاس‌ها قابل استفاده باشد از چه کلمه کلیدی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">private</option>
+			<option id="2">public</option>
+			<option id="3">local</option>
+			<option id="4">static</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="60">
+		<description>در متدهایی که مقداری برنمی‌گردانند از چه کلمه‌ای استفاده می‌شود؟</description>
+		<options>
+			<option id="1">none</option>
+			<option id="2">void</option>
+			<option id="3">null</option>
+			<option id="4">virtual</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="61">
+		<description>کدام گزینه از مزایای استفاده از متدها نیست؟</description>
+		<options>
+			<option id="1">استفاده مجدد از کد</option>
+			<option id="2">سهولت در فهم برنامه</option>
+			<option id="3">عدم نیاز به خطازُدایی</option>
+			<option id="4">سهولت در ایجاد تغییرات</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="62">
+		<description>در دستور switch کدام نوع داده نمی‌تواند در پرانتز قرار گیرد؟</description>
+		<options>
+			<option id="1">اعشاری</option>
+			<option id="2">حرفی</option>
+			<option id="3">رشته‌ای</option>
+			<option id="4">صحیح</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="63">
+		<description>اگر هیچ case با مقدار عبارت برابر نباشد، کدام بخش اجرا می‌شود؟</description>
+		<options>
+			<option id="1">break</option>
+			<option id="2">default</option>
+			<option id="3">else</option>
+			<option id="4">case else</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="64">
+		<description>کدام نوع داده برای تعریف متغیر صحیح استفاده می‌شود؟</description>
+		<options>
+			<option id="1">float</option>
+			<option id="2">double</option>
+			<option id="3">single</option>
+			<option id="4">int</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="65">
+		<description>از کدام نوع کلاس نمی‌توان ارث‌بری کرد؟</description>
+		<options>
+			<option id="1">main</option>
+			<option id="2">interface</option>
+			<option id="3">sealed</option>
+			<option id="4">object</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="66">
+		<description>مکانی از حافظه RAM که برای نگهداری موقت داده استفاده می‌شود چه نام دارد؟</description>
+		<options>
+			<option id="1">constant</option>
+			<option id="2">variable</option>
+			<option id="3">static</option>
+			<option id="4">class</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="67">
+		<description>کدام گزینه روش صحیح تعریف متغیر در C# است؟</description>
+		<options>
+			<option id="1">int a</option>
+			<option id="2">a as int</option>
+			<option id="3">var a as integer</option>
+			<option id="4">var int as a</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="68">
+		<description>کدام زبان‌ها به زبان پردازنده نزدیک‌تر هستند؟</description>
+		<options>
+			<option id="1">سطح پایین</option>
+			<option id="2">سطح میانی</option>
+			<option id="3">سطح بالا</option>
+			<option id="4">محاوره‌ای</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="69">
+		<description>کدام زبان‌ها به زبان محاوره‌ای نزدیک‌ترند؟</description>
+		<options>
+			<option id="1">جاوا و سی‌شارپ</option>
+			<option id="2">اسمبلی و سی‌شارپ</option>
+			<option id="3">سی و اسمبلی</option>
+			<option id="4">اسمبلی و جاوا</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="70">
+		<description>وظیفه کامپایلر چیست؟</description>
+		<options>
+			<option id="1">تبدیل الگوریتم به فلوچارت</option>
+			<option id="2">ترجمه برنامه به زبان ماشین</option>
+			<option id="3">تبدیل الگوریتم به برنامه</option>
+			<option id="4">اجرای برنامه</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="71">
+		<description>محدوده نوع داده ushort چیست؟</description>
+		<options>
+			<option id="1">۱۲۸- تا ۱۲۷+</option>
+			<option id="2">۳۲٬۷۶۸- تا ۳۲٬۷۶۷+</option>
+			<option id="3">۰ تا ۲۵۵</option>
+			<option id="4">۰ تا ۶۵٬۵۳۵</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="72">
+		<description>کدام نوع کلاس امکان ساخت نمونه (Instance) ندارد؟</description>
+		<options>
+			<option id="1">sealed</option>
+			<option id="2">abstract</option>
+			<option id="3">interface</option>
+			<option id="4">object</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="73">
+		<description>برای حذف عنصر ابتدای صف (Queue) کدام دستور صحیح است؟</description>
+		<options>
+			<option id="1">queue.dequeue()</option>
+			<option id="2">queue.enqueue()</option>
+			<option id="3">queue.remove()</option>
+			<option id="4">queue.peek()</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="74">
+		<description>برای خواندن عنصر ابتدای صف (Queue) کدام دستور صحیح است؟</description>
+		<options>
+			<option id="1">queue.read()</option>
+			<option id="2">queue.enqueue()</option>
+			<option id="3">queue.get()</option>
+			<option id="4">queue.peek()</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="75">
+		<description>برای اضافه کردن یک عنصر به انتهای صف (Queue) کدام دستور صحیح است؟</description>
+		<options>
+			<option id="1">queue.cls()</option>
+			<option id="2">queue.enqueue()</option>
+			<option id="3">queue.dequeue()</option>
+			<option id="4">queue.peek()</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="76">
+		<description>برای حذف یک عنصر از لیست (List) کدام دستور صحیح است؟</description>
+		<options>
+			<option id="1">list.remove()</option>
+			<option id="2">list.delete()</option>
+			<option id="3">list.pop()</option>
+			<option id="4">list.clear()</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="77">
+		<description>برای اضافه کردن یک عنصر به لیست (List) کدام دستور صحیح است؟</description>
+		<options>
+			<option id="1">list.push()</option>
+			<option id="2">list.insert()</option>
+			<option id="3">list.add()</option>
+			<option id="4">list.put()</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+</Quiz>
