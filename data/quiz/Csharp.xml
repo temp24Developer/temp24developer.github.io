@@ -46,7 +46,13 @@
 	</question>
 
 	<question id="5">
-		<description>خروجی حلقه زیر چیست؟</description>
+		<description>
+			خروجی حلقه زیر چیست؟
+			for(i=20 ; i>=1 ; i--){
+			if(i==5) break;
+			Console.WriteLine(i);
+			}
+		</description>
 		<options>
 			<option id="1">چاپ اعداد ۲۰ تا ۱</option>
 			<option id="2">چاپ اعداد ۱ تا ۲۰</option>
@@ -211,7 +217,10 @@
 	</question>
 
 	<question id="20">
-		<description>خروجی دستور Total = (firstNumber + secondNumber) با ورودی ۵ و ۷ چیست؟</description>
+		<description>
+			از نوع رشته ای  secondNumber و  firstNumber خروجی قطعه کد زیر با فرض اینکه دو متغیر باشد، چیست  7 و برای عدد دوم   5 عدد اول
+			Console.WriteLine(“Total = “ + (fisrtNumber+secondNumber ));
+		</description>
 		<options>
 			<option id="1">57</option>
 			<option id="2">75</option>
