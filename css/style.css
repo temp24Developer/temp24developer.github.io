@@ -28,6 +28,9 @@ body {
  .aspect-3-4 {
     aspect-ratio: 3/4;
 }
+ .aspect-9-16 {
+    aspect-ratio: 9/16;
+}
 
 .fs-100 {
     font-size: 100pt;
