@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "temp24DeveloperWASM",
   "resources": {
-    "hash": "sha256-AhjnCbi457X3eTGDdGT7k5WL02EjoEMkLHI/lbdIDyI=",
+    "hash": "sha256-SvtX+vAXyctrAo8hMtQYvOJITYFeAW5zWvVWciEt4ZM=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -45,14 +45,14 @@
       "System.Linq.Expressions.wasm": "sha256-Pg1xxqVzaFekf8nbpJkFoponrM34LAyHy++Zk4LIjZQ=",
       "System.Linq.wasm": "sha256-G+cc/K9NLVDD1G3ejQy3yMzdTBw/m++Nhx6w5kdFOnk=",
       "System.Memory.wasm": "sha256-4ICt/4iI2AtT7Ow+U224DfxEGNrsvStVAH62DJQHm1U=",
-      "System.Net.Http.wasm": "sha256-6+9Q/29clQHi+B7gKxyPVU/KOHEXxOsBaRZ2SZi31A4=",
+      "System.Net.Http.wasm": "sha256-slQaUGtW0FDoV66rD+jeWzTcjGUvAXwfw//h3PM5ZBU=",
       "System.Net.Primitives.wasm": "sha256-prKUHTePCqhXEUquQ8NKHWGaUB0j62pIXbC4xG7Qixg=",
       "System.ObjectModel.wasm": "sha256-/QxUVKqYzpiu/6j++e7q70AMkPUymiJWU5dBe1tB7hw=",
       "System.Private.CoreLib.wasm": "sha256-7cDCmhwN3u3wX0C+BF2DujuCywTCijgZbepOgyrT6vU=",
       "System.Private.Uri.wasm": "sha256-YTI2lhmJHVxk5FeB0SZFUZt8o6t8Rv243ydFkzYSIc8=",
       "System.Private.Xml.wasm": "sha256-q7pugwcZCV8nsw5140BQ31S8ujlbsUa8/1tLgutb5/0=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-InFudsAtlRQGFrnsGqG6HJXeRaN3n05BJ2ZzPgUsW5c=",
-      "System.Runtime.wasm": "sha256-u2fbqmDeX+/eNVC9yxiTN+NzmJyrWa0aJ+o0h4+dV7A=",
+      "System.Runtime.wasm": "sha256-J/XUDzX49uQ1WQK8+JEC4OPaoSae9mBmQ+1OlwHQvaA=",
       "System.Security.Cryptography.wasm": "sha256-fsNCp2RvP/1qnr6yFCAteJR34SpJTDLmiL+WsL/usKE=",
       "System.Text.Encodings.Web.wasm": "sha256-+qUQLIlqnoKOicmJwBcZSxCh1oeyZn/sEUe/QwUocSY=",
       "System.Text.Json.wasm": "sha256-uNdP1lQMrltVsxG+X7ivyZQ+4ou6oE7Q6c2VpcWC4NY=",
@@ -61,7 +61,7 @@
       "System.wasm": "sha256-rJDiJLn9vFaPuc+koNsD2sHOPKsWg6PhywVlVUHLN/A=",
       "System.Xml.ReaderWriter.wasm": "sha256-BEF+4BT5aurLMDGj+XHCp+QF35jPDSRIHhOJ+2yJvFw=",
       "System.Xml.XmlSerializer.wasm": "sha256-IDOjtFjcBx7G6UJ54KtFxzOV6jDMIUwCXJVHXwSqGmQ=",
-      "temp24DeveloperWASM.wasm": "sha256-aR5jZv9xmHqNLk10Xf12b5jErLI1iNGKOcc+iEdFOoc="
+      "temp24DeveloperWASM.wasm": "sha256-8Za6S9PXG6Cm5fIrNa8xRc7JzSewJF1I1PWJ7k3K4p0="
     }
   },
   "cacheBootResources": true,

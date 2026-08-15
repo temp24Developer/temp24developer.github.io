@@ -4,12 +4,12 @@
 			<link title="GitHub" url="https://github.com/h-abdizadeh/CSharpPractice"></link>
 	</file>
 	<file id="2" titleEn="Python" titleFa="پایتون" desEn="base practice + tkinter" desFa="نمونه کدهای تمرینی + واسط گرافیکی">
-			<link title="GitHub" url="https://github.com/h-abdizadeh/CSharpPractice"></link>
+			<link title="GitHub" url="https://github.com/h-abdizadeh/PythonPractice"></link>
 	</file>
 	<file id="3" titleEn="HTML CSS" titleFa="فرانت" desEn="base practice + Js" desFa="نمونه کدهای تمرینی + جاوا اسکریپت">
 			<link title="GitHub" url="https://github.com/h-abdizadeh/FrontPractice"></link>
 	</file>
-	<file id="4" titleEn="Unity" titleFa="بازی سازی با یونیتی" desEn="practice Assets" desFa="منابع و کدهای پروژه آموزشی">
+	<file id="4" titleEn="Unity" titleFa="بازی سازی با یونیتی" desEn="practice Assets" desFa="منابع + کدهای پروژه آموزشی">
 			<link title="GitHub" url="https://github.com/h-abdizadeh/UnityPractice"></link>
 	</file>
 	<file id="5" titleEn=".netCore Mvc" titleFa="پیاده سازی سایت با دات نت" desEn="projects" desFa="نمونه پروژه های کامل آموزشی">

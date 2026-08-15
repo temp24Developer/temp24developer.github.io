@@ -2,7 +2,7 @@
 <GamesData>
 	<game id="1" titleEn="Blocks" titleFa="بلاکز" icon="blocks.png">
 		<GameLinks>
-			<link id="1" title="کافه بازار" url="https://cafebazaar.ir/app/com.temp24DEVELOPER.blocks" platform="android"></link>
+			<link id="1" title="کافه بازار" url="https://cafebazaar.ir/app/com.temp24Developer.blocks" platform="android"></link>
 			<link id="2" title="itch.io" url="https://temp24developer.itch.io/blocks-web" platform="web"></link>
 		</GameLinks>
 		<cover>blocks.png</cover>
@@ -10,7 +10,7 @@
 	</game>
 	<game id="2" titleEn="Hit The Road" titleFa="بزن به جاده" icon="hitTheRoad.png" >
 		<GameLinks>
-			<link id="1" title="کافه بازار" url="https://cafebazaar.ir/app/com.temp24DEVELOPER.HitTheRoad" platform="android"></link>
+			<link id="1" title="کافه بازار" url="https://cafebazaar.ir/app/com.temp24Developer.HitTheRoad" platform="android"></link>
 		</GameLinks>
 		<cover>hitTheRoad.png</cover>
 		<video>hitTheRoad.mp4</video>
