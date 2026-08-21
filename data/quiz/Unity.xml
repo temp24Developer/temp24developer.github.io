@@ -1,0 +1,1134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quiz title="Unity">
+
+	<question id="1">
+		<description>کدام یک از کامپوننت‌های زیر برای اعمال جاذبه روی اشیاء در صحنه بازی اعمال می‌شود؟</description>
+		<options>
+			<option id="1">Rigid Body</option>
+			<option id="2">Box Collider</option>
+			<option id="3">Constant Force</option>
+			<option id="4">Area Effector</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="2">
+		<description>از کامپوننت Rigid Body به چه منظوری استفاده می‌شود؟</description>
+		<options>
+			<option id="1">اعمال جاذبه</option>
+			<option id="2">اعمال سرعت</option>
+			<option id="3">تشخیص برخورد</option>
+			<option id="4">اعمال اصطکاک</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="3">
+		<description>کدام یک از موارد زیر مربوط به تنظیمات Rigid Body 2D می‌باشد؟</description>
+		<options>
+			<option id="1">Dynamic</option>
+			<option id="2">Kinematic</option>
+			<option id="3">Static</option>
+			<option id="4">همه موارد</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="4">
+		<description>کدام یک از موارد زیر در کامپوننت اعمال جاذبه از سقوط جسم جلوگیری و آن را غیر قابل جابجایی می‌نماید؟</description>
+		<options>
+			<option id="1">Kinematic</option>
+			<option id="2">Static</option>
+			<option id="3">الف و ب</option>
+			<option id="4">هیچکدام</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="5">
+		<description>کدام یک از موارد زیر در کامپوننت اعمال جاذبه از سقوط جسم جلوگیری می‌نماید؟</description>
+		<options>
+			<option id="1">Kinematic</option>
+			<option id="2">Static</option>
+			<option id="3">الف و ب</option>
+			<option id="4">هیچکدام</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="6">
+		<description>کدام یک از موارد زیر در کامپوننت اعمال جاذبه از سقوط جسم جلوگیری اما محدودیتی برای جابجایی آن ایجاد نمی‌کند؟</description>
+		<options>
+			<option id="1">Kinematic</option>
+			<option id="2">Static</option>
+			<option id="3">الف و ب</option>
+			<option id="4">هیچکدام</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="7">
+		<description>حالت پیش‌فرض در کامپوننت اعمال جاذبه کدام است؟</description>
+		<options>
+			<option id="1">Kinematic</option>
+			<option id="2">Static</option>
+			<option id="3">Dynamic</option>
+			<option id="4">هیچکدام</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="8">
+		<description>مقدار Gravity Scale در کدام حالت قابل تنظیم است و مقدار صفر چه نتیجه‌ای دارد؟</description>
+		<options>
+			<option id="1">Dynamic – سقوط جسم</option>
+			<option id="2">Kinematic – عدم سقوط جسم</option>
+			<option id="3">Dynamic – عدم سقوط جسم</option>
+			<option id="4">Static – سقوط جسم</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="9">
+		<description>به منظور تشخیص برخوردها در صحنه بازی از کدام کامپوننت استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Box Collider</option>
+			<option id="2">Area Effector</option>
+			<option id="3">Circle Collider</option>
+			<option id="4">الف و ج</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="10">
+		<description>تعیین مرز یک جسم جهت تشخیص برخورد در صحنه بازی توسط کدام گزینه انجام می‌شود؟</description>
+		<options>
+			<option id="1">Size</option>
+			<option id="2">Offset</option>
+			<option id="3">Collider Editor</option>
+			<option id="4">الف و ج</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="11">
+		<description>کدام خط جسم را تنها به سمت بالا جابجا می‌کند؟</description>
+		<options>
+			<option id="1">Vector(5 , rb.velocity.y)</option>
+			<option id="2">Vector(rb.velocity.x , 5)</option>
+			<option id="3">Vector(rb.velocity.x , -5)</option>
+			<option id="4">Vector(rb.velocity.x , rb.velocity.y)</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="12">
+		<description>کاربرد دستور if چیست؟</description>
+		<options>
+			<option id="1">بررسی شرط‌ها</option>
+			<option id="2">دریافت ورودی از کاربر</option>
+			<option id="3">اجرای مرحله به مرحله کدها</option>
+			<option id="4">تعریف متغیرها</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="13">
+		<description>کدام مورد درباره تابع Start() صحیح است؟</description>
+		<options>
+			<option id="1">برای تعریف متغیرهای مورد استفاده در اسکریپت نوشته می‌شود</option>
+			<option id="2">در هر بار اجرای کد، فقط یک بار اجرا می‌شود</option>
+			<option id="3">مقادیر اولیه متغیرها در این قسمت تعیین می‌شوند</option>
+			<option id="4">ب و ج</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="14">
+		<description>کدام مورد درباره تابع Start() صحیح نیست؟</description>
+		<options>
+			<option id="1">مقادیر تعریف شده در آن در هر فریم بروزرسانی می‌شوند</option>
+			<option id="2">در هر بار اجرای کد تنها یک بار بررسی می‌شود</option>
+			<option id="3">محلی برای تعریف و مقداردهی متغیرهاست</option>
+			<option id="4">الف و ج</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="15">
+		<description>کدام مورد درباره تابع Update() صحیح است؟</description>
+		<options>
+			<option id="1">درون این تابع اجازه مقداردهی به متغیرها را نداریم</option>
+			<option id="2">دستورات آن در هر فریم بررسی می‌شوند</option>
+			<option id="3">شامل دستورات مربوط به ورودی‌های کاربر نمی‌شود</option>
+			<option id="4">تنها در صورت تغییر مقدار متغیرها بررسی می‌شود</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="16">
+		<description>کدام مورد درباره تابع Update() صحیح نمی‌باشد؟</description>
+		<options>
+			<option id="1">در هر فریم یک بار اجرا می‌شود</option>
+			<option id="2">دستورات تعامل با کاربر را می‌توان در آن نوشت</option>
+			<option id="3">می‌تواند خالی باشد</option>
+			<option id="4">هیچکدام</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="17">
+		<description>کدام مورد نوع داده برای تعریف متغیر است؟</description>
+		<options>
+			<option id="1">int</option>
+			<option id="2">bool</option>
+			<option id="3">private</option>
+			<option id="4">الف و ب</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="18">
+		<description>کدام نوع داده عددی نیست؟</description>
+		<options>
+			<option id="1">float</option>
+			<option id="2">int</option>
+			<option id="3">bool</option>
+			<option id="4">decimal</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="19">
+		<description>متغیرهای منطقی شامل چه مقادیری می‌شوند؟</description>
+		<options>
+			<option id="1">true یا false</option>
+			<option id="2">0 یا 1</option>
+			<option id="3">درست یا غلط</option>
+			<option id="4">به‌تنهایی مقدار ندارند</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="20">
+		<description>کدام مورد درباره نوع داده float صحیح نمی‌باشد؟</description>
+		<options>
+			<option id="1">شامل اعداد اعشاری است</option>
+			<option id="2">اعداد صحیح را نیز شامل می‌شود</option>
+			<option id="3">اعداد صحیح را شامل نمی‌شود</option>
+			<option id="4">محدوده بیشتری نسبت به int دارد</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+		<question id="21">
+			<description>منابع پروژه در کدام بخش قابل دسترسی هستند؟</description>
+			<options>
+				<option id="1">Project</option>
+				<option id="2">Hierarchy</option>
+				<option id="3">Inspector</option>
+				<option id="4">Scene</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="22">
+			<description>اشیاء موجود در صحنه بازی در کدام بخش قابل دسترسی هستند؟</description>
+			<options>
+				<option id="1">Scene</option>
+				<option id="2">Inspector</option>
+				<option id="3">Hierarchy</option>
+				<option id="4">الف و ج</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="23">
+			<description>اعمال تغییرات برای اشیاء انتخاب شده در صحنه بازی از کدام بخش انجام می‌گیرد؟</description>
+			<options>
+				<option id="1">Project</option>
+				<option id="2">Inspector</option>
+				<option id="3">Hierarchy</option>
+				<option id="4">Console</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="24">
+			<description>اعمال تغییرات برای اشیاء انتخاب شده در صحنه بازی از کدام بخش انجام می‌گیرد؟</description>
+			<options>
+				<option id="1">Project</option>
+				<option id="2">Console</option>
+				<option id="3">Scene</option>
+				<option id="4">Assets</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="25">
+			<description>اعمال تغییرات برای اشیاء انتخاب شده در صحنه بازی از کدام بخش انجام می‌گیرد؟</description>
+			<options>
+				<option id="1">Project</option>
+				<option id="2">Inspector</option>
+				<option id="3">Scene</option>
+				<option id="4">ب و ج</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="26">
+			<description>اعمال تغییرات برای منابع انتخاب شده بازی از کدام بخش انجام می‌گیرد؟</description>
+			<options>
+				<option id="1">Project</option>
+				<option id="2">Inspector</option>
+				<option id="3">Hierarchy</option>
+				<option id="4">Console</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="27">
+			<description>اجرای خروجی برنامه در کدام پنجره نمایش داده خواهد شد؟</description>
+			<options>
+				<option id="1">Scene</option>
+				<option id="2">Game</option>
+				<option id="3">Console</option>
+				<option id="4">هیچکدام</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="28">
+			<description>متحرک‌سازی برای اشیاء انتخاب شده در صحنه بازی در کدام پنجره انجام می‌شود؟</description>
+			<options>
+				<option id="1">Animator</option>
+				<option id="2">Game</option>
+				<option id="3">Animation</option>
+				<option id="4">الف و ج</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="29">
+			<description>ایجاد ارتباطات منطقی برای ترتیب اجرای انیمیشن‌ها در کدام پنجره انجام می‌شود؟</description>
+			<options>
+				<option id="1">Animator</option>
+				<option id="2">Game</option>
+				<option id="3">Animation</option>
+				<option id="4">الف و ج</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="30">
+			<description>خطاها و تذکرات مربوط به عملکرد بازی در کدام قسمت نمایش داده می‌شود؟</description>
+			<options>
+				<option id="1">Inspector</option>
+				<option id="2">Project</option>
+				<option id="3">Console</option>
+				<option id="4">Game</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="31">
+			<description>کدام یک از موارد از مشخصات اولیه یک آبجکت نیست؟</description>
+			<options>
+				<option id="1">Scale</option>
+				<option id="2">Flip</option>
+				<option id="3">Rotation</option>
+				<option id="4">Position</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="32">
+			<description>کدام گزینه آبجکت موجود در صحنه را نسبت به محور مختصات قرینه می‌کند؟</description>
+			<options>
+				<option id="1">Rotate</option>
+				<option id="2">Flip</option>
+				<option id="3">Scale</option>
+				<option id="4">Freeze</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="33">
+			<description>کدام گزینه از چرخش آبجکت در برخورد با سایر آبجکت‌های صحنه جلوگیری می‌کند؟</description>
+			<options>
+				<option id="1">Freeze X</option>
+				<option id="2">Freeze Y</option>
+				<option id="3">Freeze Z</option>
+				<option id="4">الف و ب</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="34">
+			<description>گزینه Freeze Z مربوط به کدام کامپوننت است؟</description>
+			<options>
+				<option id="1">Sprite Renderer</option>
+				<option id="2">Rigid Body 2D</option>
+				<option id="3">Box Collider 2D</option>
+				<option id="4">Transform</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="35">
+			<description>کدام گزینه در فضای ۲ بعدی مربوط به تنظیمات Freeze Position نمی‌شود؟</description>
+			<options>
+				<option id="1">X</option>
+				<option id="2">Y</option>
+				<option id="3">Z</option>
+				<option id="4">Freeze All</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="36">
+			<description>کدام نوع تعریف متغیر در اسکریپت‌ها اجازه دسترسی از طریق محیط یونیتی را خواهد داد؟</description>
+			<options>
+				<option id="1">Private</option>
+				<option id="2">Public</option>
+				<option id="3">Var</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="37">
+			<description>
+				در چه حالتی مجاز خواهیم بود خط کد زیر قبل از تابع Start() بنویسیم؟
+				private coin score;
+			</description>
+			<options>
+				<option id="1">در هر صورت صحیح است</option>
+				<option id="2">اگر اسکریپتی با نام coin داشته باشیم</option>
+				<option id="3">اگر متغیر score موجود باشد</option>
+				<option id="4">چنین کدی امکان‌پذیر نیست</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="38">
+			<description>
+				خطای قطعی کد زیر چیست؟
+				if(a &lt; 12){ a++; else{ a = 0; }}
+			</description>
+			<options>
+				<option id="1">a متغیر عددی نباشد</option>
+				<option id="2">محدوده if و else درست تعیین نشده</option>
+				<option id="3">a++</option>
+				<option id="4">الف و ب</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="39">
+			<description>
+				خطای احتمالی کد زیر چه می‌تواند باشد؟
+				if(a &lt; 12){ a++; else{ a = 0; }}
+			</description>
+			<options>
+				<option id="1">a متغیر عددی نباشد</option>
+				<option id="2">محدوده if و else درست تعیین نشده</option>
+				<option id="3">a++</option>
+				<option id="4">الف و ب</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="40">
+			<description>کدام مورد درباره دستور || صحیح است؟</description>
+			<options>
+				<option id="1">به منظور استفاده از چند شرط در یک شرط استفاده می‌شود</option>
+				<option id="2">زمانی صحیح است که هر دو طرف رابطه صحیح باشند</option>
+				<option id="3">زمانی صحیح است که حداقل یکی از دو طرف صحیح باشد</option>
+				<option id="4">الف و ج</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="41">
+			<description>کدام مورد درباره دستور || صحیح نیست؟</description>
+			<options>
+				<option id="1">رابطه منطقی با مفهوم OR</option>
+				<option id="2">زمانی صحیح است که هر دو طرف رابطه صحیح باشند</option>
+				<option id="3">زمانی صحیح است که حداقل یکی از دو طرف صحیح باشد</option>
+				<option id="4">بخش اختیاری در دستور if می‌باشد</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="42">
+			<description>کدام مورد درباره دستور || صحیح است؟</description>
+			<options>
+				<option id="1">رابطه منطقی با مفهوم AND</option>
+				<option id="2">زمانی صحیح است که هر دو طرف رابطه صحیح باشند</option>
+				<option id="3">زمانی صحیح است که حداقل یکی از دو طرف صحیح باشد</option>
+				<option id="4">بخش ثابت در دستور if می‌باشد</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="43">
+			<description>کدام مورد درباره دستور &amp;&amp; صحیح است؟</description>
+			<options>
+				<option id="1">به منظور استفاده از چند شرط در یک شرط استفاده می‌شود</option>
+				<option id="2">زمانی صحیح است که هر دو طرف رابطه صحیح باشند</option>
+				<option id="3">زمانی صحیح است که حداقل یکی از دو طرف صحیح باشد</option>
+				<option id="4">الف و ب</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="44">
+			<description>کدام مورد درباره دستور &amp;&amp; صحیح نیست؟</description>
+			<options>
+				<option id="1">رابطه منطقی با مفهوم AND</option>
+				<option id="2">زمانی صحیح است که هر دو طرف رابطه صحیح باشند</option>
+				<option id="3">زمانی صحیح است که حداقل یکی از دو طرف صحیح باشد</option>
+				<option id="4">بخش اختیاری در دستور if می‌باشد</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="45">
+			<description>کدام مورد درباره دستور &amp;&amp; صحیح است؟</description>
+			<options>
+				<option id="1">رابطه منطقی با مفهوم OR</option>
+				<option id="2">زمانی صحیح است که هر دو طرف رابطه صحیح باشند</option>
+				<option id="3">زمانی صحیح است که حداقل یکی از دو طرف صحیح باشند</option>
+				<option id="4">بخش ثابت در دستور if می‌باشد</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="46">
+			<description>کدام علامت به معنای انتهای اغلب دستورات سی‌شارپ است؟</description>
+			<options>
+				<option id="1">{</option>
+				<option id="2">;</option>
+				<option id="3">//</option>
+				<option id="4">}</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="47">
+			<description>کاربرد // چیست؟</description>
+			<options>
+				<option id="1">غیرفعال کردن کدها</option>
+				<option id="2">توضیحات برنامه</option>
+				<option id="3">متن غیر اجرایی</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="48">
+			<description>متغیر friction در ایجاد متریال‌های دوبعدی به چه مفهومی است؟</description>
+			<options>
+				<option id="1">اصطکاک</option>
+				<option id="2">شتاب</option>
+				<option id="3">نیروی بازگشتی از سطح</option>
+				<option id="4">سرعت</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="49">
+			<description>متغیر bounciness در ایجاد متریال‌های دوبعدی به چه مفهومی است؟</description>
+			<options>
+				<option id="1">اصطکاک</option>
+				<option id="2">شتاب</option>
+				<option id="3">نیروی بازگشتی از سطح</option>
+				<option id="4">سرعت</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="50">
+			<description>اعمال یک متریال فیزیکی روی آبجکت در کدام بخش Inspector قابل انجام است؟</description>
+			<options>
+				<option id="1">Transform</option>
+				<option id="2">Rigid Body 2D</option>
+				<option id="3">Box Collider</option>
+				<option id="4">هیچکدام</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="51">
+			<description>کدام مورد درباره تفاوت توابع Update() و FixedUpdate() صحیح است؟</description>
+			<options>
+				<option id="1">Update در صورت بروز هر تغییری اجرا می‌شود</option>
+				<option id="2">FixedUpdate فقط یک بار اجرا می‌شود</option>
+				<option id="3">Update تغییرات را در هر لحظه بررسی می‌کند</option>
+				<option id="4">FixedUpdate تغییرات را در هر لحظه بررسی می‌کند</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="52">
+			<description>کدام مورد درباره تفاوت توابع Update() و FixedUpdate() صحیح است؟</description>
+			<options>
+				<option id="1">Update در هر فریم چند بار اجرا می‌شود</option>
+				<option id="2">FixedUpdate فقط یک بار اجرا می‌شود</option>
+				<option id="3">Update تغییرات را در هر لحظه بررسی می‌کند</option>
+				<option id="4">FixedUpdate تغییرات را در هر لحظه بررسی می‌کند</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="53">
+			<description>برای تعریف یک layer جدید از کدام بخش استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Hierarchy</option>
+				<option id="2">Inspector</option>
+				<option id="3">Scene</option>
+				<option id="4">Assets</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="54">
+			<description>برای تعریف tag برای آبجکت‌ها از کدام بخش استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Hierarchy</option>
+				<option id="2">Inspector</option>
+				<option id="3">Scene</option>
+				<option id="4">Assets</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="55">
+			<description>برای ایجاد یک اسکریپت جدید از کدام منو استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Edit</option>
+				<option id="2">Assets</option>
+				<option id="3">Game Object</option>
+				<option id="4">File</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="56">
+			<description>برای ایجاد یک صحنه جدید از کدام منو استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Edit</option>
+				<option id="2">Assets</option>
+				<option id="3">Game Object</option>
+				<option id="4">File</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="57">
+			<description>برای ایجاد یک text در صحنه بازی از کدام منو استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Edit</option>
+				<option id="2">Assets</option>
+				<option id="3">Game Object</option>
+				<option id="4">File</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="58">
+			<description>گزینه‌های اجرا و توقف بازی در کدام منو قرار دارد؟</description>
+			<options>
+				<option id="1">Edit</option>
+				<option id="2">Assets</option>
+				<option id="3">Game Object</option>
+				<option id="4">File</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="59">
+			<description>برای درج یک منبع صوتی از کدام منو استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Edit</option>
+				<option id="2">Assets</option>
+				<option id="3">Game Object</option>
+				<option id="4">File</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="60">
+			<description>دستور Destroy(gameObject) چه خروجی خواهد داشت؟</description>
+			<options>
+				<option id="1">gameObject را ناپدید می‌کند</option>
+				<option id="2">gameObject را نابود می‌کند</option>
+				<option id="3">gameObject را به ابتدای بازی می‌برد</option>
+				<option id="4">الف و ب</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="61">
+			<description>دستور GetComponent&lt;Renderer&gt;().enabled = false چه خروجی خواهد داشت؟</description>
+			<options>
+				<option id="1">gameObject را ناپدید می‌کند</option>
+				<option id="2">gameObject را نابود می‌کند</option>
+				<option id="3">gameObject را به ابتدای بازی خواهد برد</option>
+				<option id="4">الف و ب</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="62">
+			<description>برای تعریف کلیدهای لمسی به کدام گزینه نیاز است؟</description>
+			<options>
+				<option id="1">Scene جدید</option>
+				<option id="2">Canvas</option>
+				<option id="3">Button</option>
+				<option id="4">ب و ج</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="63">
+			<description>کدام گزینه برای اتصال یک کامپوننت به آبجکت‌ها قابل استفاده است؟</description>
+			<options>
+				<option id="1">Inspector → Add Component</option>
+				<option id="2">GameObject → Component</option>
+				<option id="3">Component → Add…</option>
+				<option id="4">الف و ج</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="64">
+			<description>در چه صورتی دوربین در طول بازی gameObject را دنبال خواهد کرد؟</description>
+			<options>
+				<option id="1">دوربین زیرمجموعه gameObject باشد</option>
+				<option id="2">gameObject زیرمجموعه دوربین باشد</option>
+				<option id="3">نیاز به تنظیم ندارد</option>
+				<option id="4">الف و ب</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="65">
+			<description>برای استفاده از حالت tile در گزینه draw mode کدام گزینه باید تنظیم شود؟</description>
+			<options>
+				<option id="1">Sprite Mode = Multiple</option>
+				<option id="2">Mesh Type = Full Rect</option>
+				<option id="3">Tile Mode = Continues</option>
+				<option id="4">Pivot = Custom</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="66">
+			<description>برای شبیه‌سازی محیط مایع از چه کامپوننتی استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Area Effector</option>
+				<option id="2">Platform Effector</option>
+				<option id="3">Buoyancy Effector</option>
+				<option id="4">Point Effector</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="67">
+			<description>دستور player.transform.parent = gameObject.transform چه خروجی خواهد داشت؟</description>
+			<options>
+				<option id="1">player را زیرمجموعه gameObject می‌کند</option>
+				<option id="2">gameObject را زیرمجموعه player می‌کند</option>
+				<option id="3">موقعیت player را به gameObject اعمال می‌کند</option>
+				<option id="4">موقعیت gameObject را به player اعمال می‌کند</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="68">
+			<description>دستور player.transform.parent = null چه خروجی خواهد داشت؟</description>
+			<options>
+				<option id="1">player مستقل از دیگر آبجکت‌ها خواهد شد</option>
+				<option id="2">player را از بین خواهد برد</option>
+				<option id="3">player را ناپدید خواهد کرد</option>
+				<option id="4">خطا رخ خواهد داد</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="69">
+			<description>کدام گزینه صحیح است؟</description>
+			<options>
+				<option id="1">در ساختار if-else، else شامل شرط نمی‌باشد</option>
+				<option id="2">در ساختار if-else if، می‌توان از چندین if و else if استفاده کرد</option>
+				<option id="3">ساختار if-else تنها یک شرط و چندین else دارد</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="70">
+			<description>کدام گزینه صحیح نیست؟</description>
+			<options>
+				<option id="1">در ساختار if-else، else شامل شرط می‌باشد</option>
+				<option id="2">در ساختار if-else if، می‌توان از چندین if و else if استفاده کرد</option>
+				<option id="3">ساختار if-else تنها یک شرط و چندین else دارد</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="71">
+			<description>در فضای ۲بعدی، تغییر پارامتر Z در بخش position چه تأثیری دارد؟</description>
+			<options>
+				<option id="1">تأثیری ندارد</option>
+				<option id="2">تغییر ارتفاع آبجکت</option>
+				<option id="3">پشت یا جلوی آبجکت دیگر</option>
+				<option id="4">ب و ج</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="72">
+			<description>برای چرخش آبجکت در فضای دوبعدی بدون تغییر ظاهری کدام پارامتر را تغییر می‌دهید؟</description>
+			<options>
+				<option id="1">X</option>
+				<option id="2">Y</option>
+				<option id="3">Z</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="73">
+			<description>برای اتصال آبجکت‌ها به هم از کدام کامپوننت استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Hinge Joint</option>
+				<option id="2">Distant Joint</option>
+				<option id="3">Target Joint</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="74">
+			<description>برای آویزان کردن آبجکت از نقطه‌ای خاص از کدام کامپوننت استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Hinge Joint</option>
+				<option id="2">Distant Joint</option>
+				<option id="3">Target Joint</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="75">
+			<description>علامت برقراری هر دو طرف رابطه منطقی شرط if کدام گزینه است؟</description>
+			<options>
+				<option id="1">OR</option>
+				<option id="2">||</option>
+				<option id="3">AND</option>
+				<option id="4">&amp;&amp;</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="76">
+			<description>علامت برقراری یکی از دو طرف رابطه منطقی شرط if کدام گزینه است؟</description>
+			<options>
+				<option id="1">OR</option>
+				<option id="2">||</option>
+				<option id="3">AND</option>
+				<option id="4">&amp;&amp;</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="77">
+			<description>
+				اگر a=5 و b=12 باشد، کدام دستور اجرا خواهد شد؟
+				if(a&lt;b &amp;&amp; b&lt;5) دستور 1
+				else if(a&gt;5) دستور 2
+				else دستور 3
+			</description>
+			<options>
+				<option id="1">دستور 1</option>
+				<option id="2">دستور 2</option>
+				<option id="3">دستور 3</option>
+				<option id="4">خطا رخ خواهد داد</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="78">
+			<description>برای ایجاد یک آهنربا از کدام کامپوننت می‌توان استفاده کرد؟</description>
+			<options>
+				<option id="1">Area Effector</option>
+				<option id="2">Point Effector</option>
+				<option id="3">Platform Effector</option>
+				<option id="4">Constant Force</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="79">
+			<description>کدام گزینه درباره public class Player : MonoBehaviour صحیح است؟</description>
+			<options>
+				<option id="1">این کلاس مربوط به بازیکن است</option>
+				<option id="2">نام اسکریپت Player است</option>
+				<option id="3">کلاس کد با نام MonoBehaviour است</option>
+				<option id="4">الف و ب</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="80">
+			<description>
+				در کد زیر بجای &lt;…&gt; چه چیزی باید نوشته شود؟
+				public Rigidbody2D rb;
+				void Start() { rb = GetComponent&lt;...&gt;(); }
+			</description>
+			<options>
+				<option id="1">player</option>
+				<option id="2">Rigidbody</option>
+				<option id="3">Rigidbody2D</option>
+				<option id="4">rb</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="81">
+			<description>در دستور rb.velocity = new Vector2(1, …) به جای … چه چیزی می‌توان نوشت؟</description>
+			<options>
+				<option id="1">1</option>
+				<option id="2">rb.velocity.y</option>
+				<option id="3">rb.velocity.x</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="82">
+			<description>
+				طبق کد زیر بجای &lt;…&gt; چه چیزی باید نوشته شود؟
+				private Code player;
+				void Start() { player = FindObjectOfType&lt;…&gt;(); }
+			</description>
+			<options>
+				<option id="1">player</option>
+				<option id="2">Code</option>
+				<option id="3">Rigidbody2D</option>
+				<option id="4">Player</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="83">
+			<description>خروجی احتمالی خط coin.text = "point: " + player.coins چیست؟</description>
+			<options>
+				<option id="1">point: player.coins</option>
+				<option id="2">point:</option>
+				<option id="3">point: 0</option>
+				<option id="4">point: 0 coins</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="84">
+			<description>gameObject.transform.position شامل چه مقداری است؟</description>
+			<options>
+				<option id="1">X,Y</option>
+				<option id="2">X,Y,Z</option>
+				<option id="3">X</option>
+				<option id="4">Y</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="85">
+			<description>در خط start = gameObject.transform.position.x مقدار start چیست؟</description>
+			<options>
+				<option id="1">موقعیت مکانی gameObject</option>
+				<option id="2">موقعیت Z</option>
+				<option id="3">موقعیت X</option>
+				<option id="4">موقعیت Y</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="86">
+			<description>کدام نرم‌افزار برای بازی‌سازی استفاده می‌شود؟</description>
+			<options>
+				<option id="1">یونیتی</option>
+				<option id="2">ویژوال استودیو</option>
+				<option id="3">آنریل</option>
+				<option id="4">الف و ج</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="87">
+			<description>کدام نرم‌افزار محیط کدنویسی برای ساخت بازی است؟</description>
+			<options>
+				<option id="1">ویژوال استودیو</option>
+				<option id="2">یونیتی</option>
+				<option id="3">آنریل</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="88">
+			<description>کدام زبان برنامه‌نویسی در ساخت بازی استفاده می‌شود؟</description>
+			<options>
+				<option id="1">جاوااسکریپت</option>
+				<option id="2">سی‌پلاس‌پلاس</option>
+				<option id="3">سی‌شارپ</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="89">
+			<description>موتور بازی‌سازی یونیتی از چه زبان‌هایی پشتیبانی می‌کند؟</description>
+			<options>
+				<option id="1">جاوا</option>
+				<option id="2">سی‌شارپ</option>
+				<option id="3">سی‌پلاس‌پلاس</option>
+				<option id="4">ب و ج</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="90">
+			<description>زبان برنامه‌نویسی سی‌شارپ در کدام موتور بازی‌سازی استفاده می‌شود؟</description>
+			<options>
+				<option id="1">آنریل</option>
+				<option id="2">یونیتی</option>
+				<option id="3">الف و ب</option>
+				<option id="4">هیچ‌کدام</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="91">
+			<description>زبان برنامه‌نویسی سی‌پلاس‌پلاس در کدام موتور بازی‌سازی پشتیبانی می‌شود؟</description>
+			<options>
+				<option id="1">آنریل</option>
+				<option id="2">یونیتی</option>
+				<option id="3">الف و ب</option>
+				<option id="4">هیچ‌کدام</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="92">
+			<description>کدام گزینه صحیح است؟</description>
+			<options>
+				<option id="1">در ساختار if-else، else شامل شرط نمی‌باشد</option>
+				<option id="2">در ساختار if-else if، می‌توان از چندین if و else if استفاده کرد</option>
+				<option id="3">ساختار if-else تنها یک شرط و چندین else دارد</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="93">
+			<description>کدام گزینه صحیح است؟</description>
+			<options>
+				<option id="1">در ساختار if-else، else شامل شرط می‌باشد</option>
+				<option id="2">در ساختار if-else if، می‌توان از چندین if و else if استفاده کرد</option>
+				<option id="3">ساختار if-else تنها یک شرط و چندین else دارد</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="94">
+			<description>در فضای ۲بعدی، تغییر پارامتر Z در بخش position چه تأثیری دارد؟</description>
+			<options>
+				<option id="1">تأثیری ندارد</option>
+				<option id="2">تغییر ارتفاع آبجکت</option>
+				<option id="3">پشت یا جلوی آبجکت دیگر</option>
+				<option id="4">ب و ج</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="95">
+			<description>برای چرخش آبجکت در فضای دوبعدی بدون تغییر ظاهری کدام پارامتر را تغییر می‌دهید؟</description>
+			<options>
+				<option id="1">X</option>
+				<option id="2">Y</option>
+				<option id="3">Z</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="96">
+			<description>برای اتصال آبجکت‌ها به هم از کدام کامپوننت استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Hinge Joint</option>
+				<option id="2">Distant Joint</option>
+				<option id="3">Target Joint</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="97">
+			<description>برای آویزان کردن آبجکت از نقطه‌ای خاص از کدام کامپوننت استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Hinge Joint</option>
+				<option id="2">Distant Joint</option>
+				<option id="3">Target Joint</option>
+				<option id="4">همه موارد</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="98">
+			<description>علامت برقراری هر دو طرف رابطه منطقی شرط if کدام گزینه است؟</description>
+			<options>
+				<option id="1">OR</option>
+				<option id="2">||</option>
+				<option id="3">AND</option>
+				<option id="4">&amp;&amp;</option>
+			</options>
+			<answer>4</answer>
+		</question>
+
+		<question id="99">
+			<description>علامت برقراری یکی از دو طرف رابطه منطقی شرط if کدام گزینه است؟</description>
+			<options>
+				<option id="1">OR</option>
+				<option id="2">||</option>
+				<option id="3">AND</option>
+				<option id="4">&amp;&amp;</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="100">
+			<description>
+				اگر a=5 و b=12 باشد، کدام دستور اجرا خواهد شد؟
+				if(a&lt;b &amp;&amp; b&lt;5) دستور 1
+				else if(a&gt;5) دستور 2
+				else دستور 3
+			</description>
+			<options>
+				<option id="1">دستور 1</option>
+				<option id="2">دستور 2</option>
+				<option id="3">دستور 3</option>
+				<option id="4">خطا رخ خواهد داد</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+	</Quiz>
+
+
+
