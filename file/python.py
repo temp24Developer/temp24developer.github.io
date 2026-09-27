@@ -428,7 +428,7 @@
     
 # print('excellent!')
 
-#50 
+#50
 # prices=[150,200,350,100,400,50,250]
 # ts=int(input('please enter number:'))
 # filterPrice=filter(lambda n: n<ts, prices)
