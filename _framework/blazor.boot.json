@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "temp24DeveloperWASM",
   "resources": {
-    "hash": "sha256-bD/2vqhYJSci9rhzcv/QPd8ReN2lQ1gERysaZKLmXdY=",
+    "hash": "sha256-STvQIefLeKK0fx5yhIxARic9tWGmrB/5VZSMpSo2SjQ=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -61,7 +61,7 @@
       "System.wasm": "sha256-rJDiJLn9vFaPuc+koNsD2sHOPKsWg6PhywVlVUHLN/A=",
       "System.Xml.ReaderWriter.wasm": "sha256-BEF+4BT5aurLMDGj+XHCp+QF35jPDSRIHhOJ+2yJvFw=",
       "System.Xml.XmlSerializer.wasm": "sha256-IDOjtFjcBx7G6UJ54KtFxzOV6jDMIUwCXJVHXwSqGmQ=",
-      "temp24DeveloperWASM.wasm": "sha256-IkEjYxtxumGA+EzKBfkZwKMsPGehaleUZ+KOn+9IceI="
+      "temp24DeveloperWASM.wasm": "sha256-VyyNY5ssnnDnXrKpbuOhmPPzEW9UesFqwbKww4Vw7Y0="
     }
   },
   "cacheBootResources": true,
