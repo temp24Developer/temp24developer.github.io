@@ -1,0 +1,1135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- < : &lt; -->
+<!--&& : &amp;&amp;-->
+<!--<![CDATA[]]>-->
+<!-- non-breaking space: &#160;-->
+<CodeFile>
+	<Subject key="start">
+		<Title>start | شروع</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#python نصب
+			</Description>
+			<Example>
+				#download link
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#vs code نصب نرم افزار
+			</Description>
+			<Example>
+				#download link
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#python نصب اکستنشن
+			</Description>
+			<Example>
+				#vs code -> extension -> python
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#ایجاد پروژه جدید
+			</Description>
+			<Example>
+				#vs code -> file -> new file -> [file name].py
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#اولین کد
+			</Description>
+			<Example>
+				#print("Hello World, Python");
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#اولین اجرا
+			</Description>
+			<Example>
+				#روش 1
+				#F5 -> python debuger
+
+				#روش 2 -> New Terminal
+				#Ctrl + Shift + `
+				#python [file name].py
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Data-Types">
+		<Title>Data Types | انواع داده ها</Title>
+		<Content>
+			<Video>
+				videos/vid/teach/csharp_base_vid_1_part_1.mp4
+			</Video>
+			<Description>
+				#متن        : str (string)   -> "hello", 'python', '5'
+				#عدد صحیح   : int (integer)  -> 5, -3
+				#عدد اعشاری : float          -> 2.5, -0.5, 3.0
+				#منطقی      : bool (boolean) -> true, false, 5>3
+			</Description>
+			<Example>
+				print('hello python')
+				print(5)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				# عملگرهای ریاضی
+				# +  : جمع,
+				# -  : تفریق,
+				# *  : ضرب,
+				# /  : تقسیم,
+				# // : تقسیم صحیح_بدون اعشار
+				# %  : باقیمانده
+				# ** : توان
+			</Description>
+			<Example>
+				print(5+3)
+				print(5-3)
+				print(5*3)
+				print(5/3)
+				print(5//3)
+				print(5%3)
+				print(5**3)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				/*عملگرهای مقایسه ای
+				>     : بزرگ تر
+				>=    : بزرگ تر یا مساوی
+				&lt;  : کوچک تر
+				&lt;= : کوچک تر یا مساوی
+				==    : مساوی (is : ==)
+				!=    : نامساوی (is not : !=)
+				*/
+			</Description>
+			<Example>
+				print(5>3)
+				print(3&lt;=3)
+				print('amir'>'sara')
+				print('amir'>'ava')
+				print('a'=='A')
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#هر چیزی داخل "" یا '' -> متن
+				#حتی اعداد -> "5" یا '5' عدد نیست
+			</Description>
+			<Example>
+				print(4 + 5);
+				print('5+3')
+				print('5'+'3')
+				# print('4' - '5');#error
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>type() | دستور تشخیص نوع</Description>
+			<Example>
+				print(type('python'))
+				print(type('5'))
+				print(type(7))
+				print(type(7.0))
+				print(type(5>3))
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Variable">
+		<Title>Variable | تعریف متغیر</Title>
+		<Content>
+			<Video>
+			</Video>
+			<Description>
+				#تعریف متغیر :
+				#variableName = value;
+				#تعریف متغیر در پایتون داینامیک (مقدار لحظه ای) است
+			</Description>
+			<Example>
+				age=17
+				print('age')
+				print(age)
+				age=12
+				print(age)
+				print(age+10)
+				print(age)
+				age='بیست و پنج'
+				print(age)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#تعریف متغیر با یادآوری (راهنمای) نوع:
+				#variableName: dataType = value;
+
+				#مانعی برای ساختار داینامیک متغیر های پایتون نیست
+				#صرفا جهت تاکید خوانایی کد استفاده میشود
+			</Description>
+			<Example>
+				x:int=5
+				print(x)
+				x=x+5
+				print(x)
+				x='hello'
+				print(x)
+				print(type(x))
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Data-Type-Convert">
+		<Title>Data Type Convert | تبدیل انواع داده</Title>
+		<Content>
+			<Video>
+			</Video>
+			<Description>
+				#dataType(value)
+			</Description>
+			<Example>
+				age=int(input('age : ')) #input -> دریافت ورودی از کاربر در محیط ترمینال
+				print(age)
+				print(age*12)
+				print(age*365*24*60)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				m=int(input('minute : '))
+				print(m//60,m%60)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				a=float(input('number 1 : '))
+				b=float(input('number 2 : '))
+				print(a+b)
+				print(a-b)
+				print(a*b)
+				print(a/b)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+			</Description>
+			<Example>
+				name='sara'
+				age=18
+				phone='0912'
+				print('name : '+ name+' age : '+str(age)+' phone : '+phone)
+				print('name : ',name,' age : ',age,' phone : ',phone)
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Format-Output">
+		<Title>Format Output | قالب بندی خروجی</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#f"staticText \n{variable}"
+			</Description>
+			<Example>
+				name='sara'
+				age=18
+				phone='0912'
+				print('name : '+ name+' age : '+str(age)+' phone : '+phone)
+				print('name : ',name,' age : ',age,' phone : ',phone)
+				print(f'name : {name} age : {age} phone : {phone}')
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				number = int(input('number : ))
+				print(f"hours : {number / 60} minutes : {number % 60}");
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#چاپ کاراکترهای غیر چاپی : ", ', \
+			</Description>
+			<Example>
+				print("\"");
+				print("\'");
+				print("\\");
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="if-else">
+		<Title>if else | ساختار شرطی</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#if ? :
+				#&#160;&#160;&#160; A
+				#else :
+				#&#160;&#160;&#160; B
+				# درباره (:) و مفهوم تورفتگی
+				# هرجا (:) بود خط بعد با 'فاصله از ابتدای سطر' شروع خواهد شد
+				# هرتعداد خط کد با تورفتگی یکسان یک بلوک کد را تشکیل میدهند
+			</Description>
+			<Example>
+				password='abc123'
+				userpass=input('password >> ')
+
+				if password==userpass:
+				&#160;&#160; print('OK')
+				else:
+				&#160;&#160; print('WRONG')
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				n=int(input('number : '))
+
+				if n%2==0:
+				&#160;&#160; print('even')
+				else:
+				&#160;&#160; print('odd')
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#if تودرتو
+			</Description>
+			<Example>
+				n=float(input('number : '))
+
+				if n>=12:
+				&#160;&#160; print('accept')
+				else:
+				&#160;&#160; n=n+2
+				&#160;&#160; if n>=12:
+				&#160;&#160;&#160;&#160; print('accept')
+				else:
+				&#160;&#160;&#160;&#160; print('reject')
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				username='admin'
+				password='ad1234'
+
+				username1=input('enter your user: ')
+				password1=input('enter your pass: ')
+
+				if username == username1:
+				&#160;&#160; if password == password1:
+				&#160;&#160;&#160;&#160; print('ok')
+				&#160;&#160; else:
+				&#160;&#160;&#160;&#160; print('Error')
+				else:
+				&#160;&#160;&#160; print('Error')
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="AND">
+		<Title>and | ترکیب شرط ها</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#همه شرط ها -> true
+				#(شرط A) and (شرط B) and (شرط C) and ...
+			</Description>
+			<Example>
+				a=int(input('number : '))
+				b=int(input('number : '))
+
+				if a>=10 and b>=12:
+				&#160;&#160;&#160; print('yes')
+				else:
+				&#160;&#160;&#160; print('no')
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="OR">
+		<Title>or | ترکیب شرط ها</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#حداقل یکی از چند شرط -> true
+				#(شرط A) or (شرط B) or (شرط C) or ...
+			</Description>
+			<Example>
+				a=int(input('number : '))
+				b=int(input('number : '))
+
+				if a>=10 or b>=12:
+				&#160;&#160;&#160; print('yes')
+				else:
+				&#160;&#160;&#160; print('no')
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="if-elif">
+		<Title>if elif | ساختار شرطی</Title>
+		<Content>
+			<Video>
+				videos/vid/teach/csharp_base_vid_2_part_3.mp4
+			</Video>
+			<Description>
+				#if ? :
+				#&#160;&#160;&#160; A
+				#elif ? :
+				#&#160;&#160;&#160; B
+				#elif ? :
+				#&#160;&#160;&#160; C
+				#...
+				#else :
+				#&#160;&#160;&#160; Z
+			</Description>
+			<Example>
+				n = int(input('number : ));
+
+				if n > 0:
+				&#160;&#160;&#160; print('+');
+				elif n &lt; 0:
+				&#160;&#160;&#160; print('-');
+				else:
+				&#160;&#160;&#160; print('0');
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				color = input('color : ').lower();# lower() -> تمام کاراکترهای یک عبارت را به حروف کوچک تبدیل میکند;
+
+				if color is 'red': #is : ==
+				&#160;&#160;&#160; print('STOP');
+				elif color is 'green':
+				&#160;&#160;&#160; print('GO');
+				elif color is 'yellow':
+				&#160;&#160;&#160; print('SLOW');
+				else:
+				&#160;&#160;&#160; print('ALARM');
+				&#160;&#160;&#160; from winsound import Beep
+				&#160;&#160;&#160; Beep(500, 1000);
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="match">
+		<Title>match | ساختار شرطی</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#تمامی شرط ها روی یک متغیر
+				#تمامی شرط ها مقایسه برابری : ==
+
+				#match variable:
+				#&#160;&#160;&#160; case value1 : { A }
+				#&#160;&#160;&#160; case value2 : { B }
+				#&#160;&#160;&#160; case value3 : { C }
+				...
+				#&#160;&#160;&#160; case _ : { Z }
+			</Description>
+			<Example>
+				color=input('light : ')
+
+				match color:
+				&#160;&#160;&#160; case 'red':
+				&#160;&#160;&#160; &#160;&#160;&#160; print('stop')
+				&#160;&#160;&#160; case 'green':
+				&#160;&#160;&#160; &#160;&#160;&#160; print('go')
+				&#160;&#160;&#160; case 'yello':
+				&#160;&#160;&#160; &#160;&#160;&#160; print('slow')
+				&#160;&#160;&#160; case _:
+				&#160;&#160;&#160; &#160;&#160;&#160; print('alarm')
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="List">
+		<Title>List : [] | ذخیره سازی چندتایی : لیست</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#listName = [value1, value2, value3, ..., valueN]
+
+				#مهم ترین نکته : شماره گذاری عناصر لیست از 0 شمارش می شود
+				#{value1, value2, value3, value4}
+				#{index0, index1, index2, index3}
+
+				#دسترسی به مقادیر لیست
+				#listName[index]
+			</Description>
+			<Example>
+				mylist=[12,-3,5,-1,8,2]
+				print(mylist)
+				print(*mylist) # * -> فقط نمایش اعضای
+				print(mylist[3])
+				print(mylist[-1])
+				print(len(mylist)) #len() -> تعداد اعضای (عناصر) لیست
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#دستورات اختصاصی روی لیست های عددی
+			</Description>
+			<Example>
+				mylist=[12,-3,5,-1,8,2]
+
+				# print(max(mylist)) #بزرگ ترین عدد
+				# print(min(mylist)) #کوچک ترین عدد
+				# print(sum(mylist)) #مجموع اعداد
+				# print(sum(mylist)/len(mylist))
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#سایر دستورات عمومی لیست ها
+			</Description>
+			<Example>
+				names=['atanaz','mahak','yeganeh','mahdis','amir','ermia']
+				print(*names)
+				print(sorted(names)) #فقط نمایش مرتب اعضای لیست
+				# print(sorted(names,reverse=True)) #نمایش مرتب نزولی
+				# print(*reversed(names)) #فقط نمایش معکوس اعضای لیست
+
+				# print(names.sort()) #مرتب سازی با جابجایی اعضای لیست
+				# print(names.sort(reverse=True)) #مرتب سازی نزولی
+				# names.reverse() #معکوس کردن اعضای لیست
+				print(*names)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#slice : برش لیست
+				#listName[startIndex, endIndex] # startIndex -> endIndex-1
+			</Description>
+			<Example>
+				mylist=[12,-3,4,8,-2,11,5]
+				print(*mylist)
+				print(mylist[2:5])#2 -> 4
+				print(mylist[2:])#2 -> end
+				print(mylist[:5])#start -> 4
+				print(mylist[:])#start -> end
+				print(*mylist[:])
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#کپی متصل
+				#کپی مجزا
+			</Description>
+			<Example>
+				A=[1,2,3,4,5]
+				B=[1,2,3,4,5]
+				copyA=A #کپی متصل
+				copyB=B[:] #کپی مجزا
+				copyA[0]=-1
+				copyB[0]=-1
+				print(A,copyA)
+				print(B,copyB)
+				#متوجه شدی چی شد؟
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#اضافه کردن عنصر جدید به لیست
+				#...append(item)
+				#...Insert(index, item)
+			</Description>
+			<Example>
+				names=[]
+				print(*names)
+				names.append('sara')
+				names.append('arad')
+				names.insert(0,'narges')
+				names.insert(2,'reza')
+				names.insert(len(names),'amir')
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#حذف عنصر از لیست
+				#del mylist[index]
+				#...Remove(item)
+				#...pop()
+				#...pop(index)
+			</Description>
+			<Example>
+				names=['atanaz','mahak','yeganeh','mahdis','amir','ermia','yeganeh']
+				print(*names)
+				del names[3]
+				# names.remove('yeganeh')
+				# names.pop()
+				# names.pop(2)
+				# n=names.pop(2) #عضو حذف شده امکان ذخیره سازی (بازیابی) دارد
+				# print(n)
+
+				print(*names)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#in دستور شرطی
+			</Description>
+			<Example>
+				print('a' in 'sara')
+				print('n' in 'amir')
+				print(5 in [3,8,5])
+				print('ab' in ['aa','ab','ac'])
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				names=['sara','amir','ava']
+				name=input('first name : ')
+
+				if name in names:
+				&#160;&#160;&#160; names.remove(name)
+				else:
+				&#160;&#160;&#160; names.append(name)
+
+				print(names)
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Tuple">
+		<Title>Tuple : () | ذخیره سازی چندتایی : تاپل</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#tupleName = (value1, value2, value3, ..., valueN)
+
+				#مهم ترین نکته : تاپل ها قابل ویرایش نیستند
+				#مثل یک بسته اطلاعاتی مُهر و موم شده
+
+				#دسترسی به مقادیر تاپل
+				#tupleName[index]
+			</Description>
+			<Example>
+				myTuple=(12,-3,5,-1,8,2)
+				print(myTuple)
+				print(*myTuple)
+				print(myTuple[3])
+				print(myTuple[-1])
+				print(len(myTuple))
+				#myTuple[3]=9 #error
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Dict">
+		<Title>Dict | ذخیره سازی چندتایی : دیکشنری</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#کلیدها به جای اندیس ها
+				#{ 'key' : value }
+				#{ 'مقدار : 'کلید }
+				#dictName = {'key1': value1,'key2': value2,..., 'keyN': valueN}
+
+				#دسترسی به مقادیر دیکشنری
+				#dictName['key']
+			</Description>
+			<Example>
+				myDict={'name':'amir','family':'asadi','age':25}
+				print(myDict)
+				# print(*myDict)
+				print(myDict['age'])
+				print(*myDict.keys())
+				print(*myDict.values())
+				# print(*myDict.items())
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#اضافه کردن عنصر جدید به دیکشنری
+				#مقداردهی به کلیدی که وجود ندارد
+			</Description>
+			<Example>
+				myDict={'name':'amir','family':'asadi','age':25}
+				print(myDict)
+				myDict['phone']='0911'
+				# # myDict=myDict.fromkeys(['a','b','c'],'')
+				print(myDict)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#حذف عنصر از دیکشنری
+				#...popitem()
+				#...pop('key')
+			</Description>
+			<Example>
+				myDict={'name':'amir','family':'asadi','age':25}
+				print(myDict)
+				myDict.pop('age')
+				print(myDict.popitem())
+				print(myDict)
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Range">
+		<Title>range | محدوده یا بازه عددی</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#range(start, end, step)
+				#range(فاصله, پایان محددوه, شروع از)
+				# خروجی : start to end-1
+			</Description>
+			<Example>
+				print(range(10))
+				print(*range(10))# 0 -> 9
+				print(*range(3,10))# 3 -> 9
+				print(*range(3,10,2))# 3 5 7 9
+				print(*range(10,1))
+				print(*range(10,1,-1))
+				print(*range(-9,10))
+				print(*range(10,100,2))
+				numbers=list(range(1,10,2))# تبدیل محدوده تعریف شده به لیست
+				print(numbers)
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="filter">
+		<Title>filter + lambda | فیلتر کردن لیست ها + لامبدا</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#filter(lambda, list)
+				#چیست؟ lambda
+				#lambda [شرط وابسطه به متغیر لامبدا] : [متغیرلامبدا]
+				#فیلتر، شرط لامبدا را روی اعضای لیست بررسی و موارد متناسب را جدا میکند
+				#مثال : نمرات 'بالای 15' از لیست نمرات دانش آموزان
+			</Description>
+			<Example>
+				nums = [ 8, 12.5, 15, 14, 18.5, 2, 3, 7.25, 12 ]
+
+				result = filter(lambda n : n >= 15, nums);
+				#result = filter(lambda n : n >= 10 &amp;&amp; n &lt;= 15, nums);
+				#result = filter(lambda n : n % 2 == 0, nums);
+				#print(result);
+				print(*result);
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>#این کد چه کاری انجام میده؟</Description>
+			<Example>
+				names=['amirAli','yazdan','maryam','fatemeh','sorena','mahshid']
+				result=list(filter(lambda n: 'd' in n,names))
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>و این یکی؟</Description>
+			<Example>
+				names=['amirAli','yazdan','maryam','fatemeh','sorena','mahshid']
+				result=filter(lambda n: len(n)>=6, names)
+				print(list(result))
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Random">
+		<Title>random | مقادیر تصادفی</Title>
+		<Content>
+			<Video>
+				videos/vid/teach/csharp_base_vid_3_part_2.mp4
+			</Video>
+			<Description>
+				#import random
+				#دستورات تولید عدد تصادفی
+				#...randrange(range(...)) عدد تصادفی از محدوده تعریف شده
+				#...randint(start, end) عدد تصادفی صحیح
+				#...random() عدد تصادفی اعشاری
+				#...uniform(start, end) عدد تصادفی اعشاری
+			</Description>
+			<Example>
+				import random
+				print(random.randrange(1000,10000,2))
+				print(random.randint(10,20))#10 to 20
+				print(random.random())
+				print(random.uniform(2.5,5.5))
+			</Example>
+		</Content>
+		<Content>
+			<Video>
+				videos/vid/teach/csharp_base_vid_3_part_2.mp4
+			</Video>
+			<Description>
+				#import random
+				#دستورات انتخاب تصادفی
+				#...choice(range/list) انتخاب یک مورد از محدوده یا لیست
+				#...sample(range/list, count) انتخاب بیش از یک مورد بدون تکراری
+				#...choices(range/list, k=count) انتخاب بیش از یک مورد با امکان تکراری
+			</Description>
+			<Example>
+				import random
+				print(random.choice(range(1,10)))
+				print(random.sample(range(1,10),9))
+				print(random.choices(range(1,10),k=9))
+			</Example>
+		</Content>
+		<Content>
+			<Video>
+				videos/vid/teach/csharp_base_vid_3_part_2.mp4
+			</Video>
+			<Description></Description>
+			<Example>
+				import random
+				random.shuffle(['a','b','c','d'])
+				print(mylist)
+				#متوجه عملکردش شدی؟
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Loops">
+		<Title>Loops | حلقه ها : ساختارهای تکرار_مقدمه</Title>
+		<Content>
+			<Video>
+				videos/vid/teach/csharp_base_vid_3_part_3.mp4
+			</Video>
+			<Description>
+				#for : حلقه با ساختار تعداد تکرار مشخص (ازقبل تعیین شده) است
+				#while : حلقه با ساختار تعداد تکرار نامشخص (وابسته به شرایط زمان اجرا) است
+			</Description>
+			<Example></Example>
+		</Content>
+	</Subject>
+	<Subject key="for">
+		<Title>for | حلقه ها : تعداد تکرار مشخص</Title>
+		<Content>
+			<Video>
+				videos/vid/teach/csharp_base_vid_3_part_4.mp4
+			</Video>
+			<Description>
+				#for [variable] in [range/list/str]
+				#for [متغیر حلقه] in [محدوده یا لیست یا متن]
+				#اجرای حلقه بر مبنای تعداد تکرار مشخص
+				#تعداد دورهای تکرار حلقه پیش از اجرا تعیین شده
+			</Description>
+			<Example>
+				for i in range(10):
+				&#160;&#160; print(i,end='\t') # \t: tab فاصله افقی معادل
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				names=['ali','amir','sara','ava']
+				for n in names:
+				&#160;&#160; print(n,end='\t')
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				for n in 'hello world, python':
+				&#160;&#160; print(n)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				from random imprt randint
+				for i in range(101):
+				&#160;&#160; print(randint(1000,9999),end='\t')
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				for n in 'hello world, python':
+				&#160;&#160; if n=='o':
+				&#160;&#160;&#160;&#160; print('*',end='')
+				&#160;&#160; else:
+				&#160;&#160;&#160;&#160; print(n,end='')
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="while">
+		<Title>while | حلقه ها : تعداد تکرار نامشخص</Title>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				names = [ 'sara', 'amir', 'ava', 'arad' ]
+				while len(names) > 0)
+				&#160;&#160; names.pop(); #بدون اندیس ورودی چطور عمل می کرد؟ ،pop()
+			</Example>
+		</Content>
+		<Content>
+			<Video>
+				videos/vid/teach/csharp_base_vid_3_part_6.mp4
+			</Video>
+			<Description>
+				#بازی حدس عدد تاوقتی که به جواب درست برسیم
+			</Description>
+			<Example>
+				import random
+				target=random.randint(1,100)
+				guess=0
+				while guess != target:
+				&#160;&#160; guess=int(input('guess a number between 1 to 100: '))
+				&#160;&#160; if guess &lt; randnum:
+				&#160;&#160;&#160;&#160; print('more!')
+				&#160;&#160; elif guess>randnum:
+				&#160;&#160;&#160;&#160; print('less!')
+
+				print('excellent!')
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#حلقه بی نهایت یا بی پایان
+			</Description>
+			<Example>
+				from random imprt randint
+				while True:
+				&#160;&#160; print(randint(1000,9999),end='\t')
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Nested-Loop">
+		<Title>Nested Loop | حلقه های تو در تو</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				/*for(int i =...
+				{
+				for(inj j =...
+				}*/
+
+				/*while(...
+				{
+				while(...
+				}*/
+
+				/*for(int i=...
+				{
+				while(...
+				}*/
+			</Description>
+			<Example>
+				row=10 #int(input('row : '))
+				column=10 #int(input('column : '))
+
+				for i in range(1,row+1):
+				&#160;&#160; for j in range(1,column+1):
+				&#160;&#160;&#160;&#160; print(i*j,end='\t')
+				&#160;&#160; print() # خط بعد
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Jump">
+		<Title>break, continue, return, pass | jump دستورات</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#break : خروج کامل از حلقه یا بلوک کد
+				#continue : لغو دور فعلی حلقه و پرش به دور بعد
+				#pass : !هیچ کاری انجام نمیده!
+			</Description>
+			<Example>
+				for i in range(1,10):
+				&#160;&#160; if i%3==0:
+				&#160;&#160;&#160;&#160; break
+				&#160;&#160;&#160;&#160; # continue
+				&#160;&#160;&#160;&#160; # pass
+				&#160;&#160;&#160;&#160; print(i)
+
+				# print('end')
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Math">
+		<Title>math | توابع ریاضی</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				# math کلاس
+				# import math
+			</Description>
+			<Example>
+				import math
+				print(math.pow(2,3))
+				print(math.sqrt(64))
+				print(math.e)
+				print(math.pi)
+				print(math.sin(90))
+				print(math.cos(90))
+				print(math.tan(90))
+				print(math.log2(256))
+				print(math.log10(10000))
+				print(math.modf(7/3))
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="String">
+		<Title>str | توابع رشته ای یا متنی</Title>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				mystr='     hello world, PYTHON     '
+				print(mystr)
+				print(len(mystr))
+				print(mystr.strip())
+				print(len(mystr.strip()))
+				print(mystr.strip().upper())
+				print(mystr.lower())
+				print(mystr.title())
+				print(mystr.swapcase())
+				print(mystr.replace('o','*'))
+				# print(mystr.replace('hello','hi'))
+				print(mystr.index('o'))
+				# print(mystr.index('z'))
+				print(mystr.find('o'))
+				print(mystr.find('z'))
+				print(mystr.count('l'))
+				print(mystr.strip().split(' '))
+				# print(mystr.strip().split(','))
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Practice">
+		<Title>تمرین های جمع بندی | سوالات</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				/*در این مرحله هدف صرفا نوشتن کد نیست
+				حتی اگر موفق به نوشتن کد نشدید
+				باید توان درک و تحلیل پاسخ ها رو داشته باشید*/
+			</Description>
+			<Example>
+				#بازی حدس عدد را با محدود کردن تعداد حدس ها (مثلا 5 فرصت) بنویسید
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				#کد مرتب سازی عناصر یک لیست را بدون استفاده از دستور مرتب سازی بنویسید
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				#برای لیست قیمت ها یک رقم ورودی دریافت و به قیمت های پایین تر از رقم ورودی تخفیف %10 اعمال کنید
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				#موقعیت های یک کلمه خاص را در یک عبارت متنی طولانی را با رنگ هایلایت کنید
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				#ورودی کاربر را به 11 کاراکتر عددی محدود کنید
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="Answer">
+		<Title>تمرین های جمع بندی | پاسخ ها</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				#بازی حدس عدد را با محدود کردن تعداد حدس ها (مثلا 5 فرصت) بنویسید
+			</Description>
+			<Example>
+				import random
+				target=random.randint(1,100)
+				for i in range(5):
+				&#160;&#160; guess=int(input('guess a number: '))
+				&#160;&#160; if guess==target:
+				&#160;&#160;&#160;&#160; print('you won the game')
+				&#160;&#160;&#160;&#160; break
+				&#160;&#160; elif guess &lt; target:
+				&#160;&#160;&#160;&#160; print('higher')
+				&#160;&#160;&#160;&#160;print('higher')
+				&#160;&#160; elif guess>target:
+				&#160;&#160;&#160;&#160; print('lower')
+				# else:
+				# &#160;&#160; print('game over, the random number: ', target)
+
+				if guess!=target:
+				&#160;&#160; print('game over, the random number: ',randnum)
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#کد مرتب سازی عناصر یک لیست را بدون استفاده از دستور مرتب سازی بنویسید
+			</Description>
+			<Example>
+				numbers = [ 7, 3, 11, -2, 8, 9, 5]
+
+				for i in range(len(numbers)):
+				&#160;&#160; for j in range(i+1, len(numbers)):
+				&#160;&#160;&#160;&#160; if numbers[i] > numbers[j]:
+				&#160;&#160;&#160;&#160;&#160;&#160; # int temp = numbers[i]
+				&#160;&#160;&#160;&#160;&#160;&#160; # numbers[i] = numbers[j]
+				&#160;&#160;&#160;&#160;&#160;&#160; # numbers[j] = temp
+				&#160;&#160;&#160;&#160;&#160;&#160; numbers[i], numbers[j] = numbers[j],numbers[i]
+
+				print(numbers);
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				#جستجوی دودویی را بر روی یک لیست تعریف شده پیاده سازی کنید
+				#لیست باید مرتب باشد
+			</Description>
+			<Example>
+				prices=[150,200,350,100,400,50,250]
+				ts=int(input('please enter number:'))
+				filterPrice=filter(lambda n: n&lt;ts, prices)
+				# result=[p*0.9 for p in filterPrice]
+				# print(result)
+
+				for p in filterPrice:
+				&#160;&#160; print(p, p*0.9)
+			</Example>
+		</Content>
+	</Subject>
+</CodeFile>

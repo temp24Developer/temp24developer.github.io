@@ -1,0 +1,2557 @@
+﻿<Quiz title="Basic Concepts">
+
+	<question id="1">
+		<description>کدام یک از موارد زیر تعریف کامپیوتر می‌باشد؟</description>
+		<options>
+			<option id="1">کامپیوتر یک ماشین حساب قابل برنامه‌ریزی است...</option>
+			<option id="2">وسیله‌ای است که داده‌ها را دریافت و پردازش می‌کند...</option>
+			<option id="3">دستگاهی الکترونیکی که همه کارهای انسان را انجام می‌دهد</option>
+			<option id="4">وسیله‌ای هوشمند خالق و قابل اطمینان</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="2">
+		<description>کدامیک از موارد زیر یک سیستم عامل محسوب می‌شوند؟</description>
+		<options>
+			<option id="1">Netscape</option>
+			<option id="2">Windows 10</option>
+			<option id="3">Photoshop</option>
+			<option id="4">PowerPoint</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="3">
+		<description>از کدام مورد برای اتصال به اینترنت استفاده می‌شود؟</description>
+		<options>
+			<option id="1">کارت گرافیک</option>
+			<option id="2">مودم</option>
+			<option id="3">کارت صدا</option>
+			<option id="4">شبکه LAN</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="4">
+		<description>برای استفاده از صوت و موزیک در کامپیوتر کدام گزینه ضروری است؟</description>
+		<options>
+			<option id="1">بلندگو</option>
+			<option id="2">فایل صوتی</option>
+			<option id="3">مودم</option>
+			<option id="4">کارت صدا</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="5">
+		<description>به ورودی‌های خام سیستم چه می‌گویند؟</description>
+		<options>
+			<option id="1">داده</option>
+			<option id="2">پردازش</option>
+			<option id="3">اطلاعات</option>
+			<option id="4">سیستم</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="6">
+		<description>قانون copyright یعنی چه؟</description>
+		<options>
+			<option id="1">کسی حق ندارد از اطلاعات شخصی دیگران استفاده کند</option>
+			<option id="2">قطعات سخت‌افزاری نباید بدون اجازه خرید و فروش شوند</option>
+			<option id="3">اسامی ثبت‌شده شرکت‌ها نباید استفاده شود</option>
+			<option id="4">تولیدکننده نرم‌افزار مالک آن است و کپی بدون اجازه ممنوع است</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="7">
+		<description>سرعت پردازش و ظرفیت ذخیره‌سازی اطلاعات در کدام نوع کامپیوتر بیشتر است؟</description>
+		<options>
+			<option id="1">Mainframe</option>
+			<option id="2">Mini Computer</option>
+			<option id="3">Micro Computer</option>
+			<option id="4">Super Computer</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="8">
+		<description>کدام ابزار زیر جزء دستگاه‌های خروجی است؟</description>
+		<options>
+			<option id="1">Scanner</option>
+			<option id="2">Keyboard</option>
+			<option id="3">Mouse</option>
+			<option id="4">Speaker</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="9">
+		<description>در موارد زیر چند دستگاه ورودی است؟ صفحه نمایش، صفحه کلید، ماوس، پلاتر، چاپگر، اسکنر، نوری</description>
+		<options>
+			<option id="1">1</option>
+			<option id="2">5</option>
+			<option id="3">4</option>
+			<option id="4">9</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="10">
+		<description>کدام گزینه جزء وسایل کنترل‌کننده اشاره‌گر محسوب نمی‌شود؟</description>
+		<options>
+			<option id="1">اسکنر</option>
+			<option id="2">دسته بازی</option>
+			<option id="3">صفحه لمسی</option>
+			<option id="4">ماوس</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="11">
+		<description>کدام حافظه فقط خواندنی است؟</description>
+		<options>
+			<option id="1">RAM</option>
+			<option id="2">ROM</option>
+			<option id="3">Hard Disk</option>
+			<option id="4">Diskette</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="12">
+		<description>شبکه داخلی یک اداره از چه نوعی است؟</description>
+		<options>
+			<option id="1">WAN</option>
+			<option id="2">Internet</option>
+			<option id="3">MAN</option>
+			<option id="4">LAN</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="13">
+		<description>برنامه‌ها جهت اجرا در کدام واحد قرار می‌گیرند؟</description>
+		<options>
+			<option id="1">واحد خروجی</option>
+			<option id="2">حافظه کمکی</option>
+			<option id="3">منبع تغذیه</option>
+			<option id="4">حافظه اصلی</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="14">
+		<description>در مورد حافظه ثانویه کدام مورد غلط است؟</description>
+		<options>
+			<option id="1">برای ذخیره موقت باید در حافظه ثانویه ذخیره کرد</option>
+			<option id="2">برای ذخیره دائمی باید در حافظه ثانویه ذخیره کرد</option>
+			<option id="3">حجم حافظه ثانویه تقریباً نامحدود است</option>
+			<option id="4">با قطع برق اطلاعات از بین نمی‌رود</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="15">
+		<description>به ترکیب سخت‌افزار و نرم‌افزار چه می‌گویند؟</description>
+		<options>
+			<option id="1">نرم‌افزار</option>
+			<option id="2">میان‌افزار</option>
+			<option id="3">ترانزیستور</option>
+			<option id="4">تراشه (IC)</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="16">
+		<description>سیستم عامل چیست؟</description>
+		<options>
+			<option id="1">مدیریت منابع سخت‌افزاری و نرم‌افزاری</option>
+			<option id="2">نرم‌افزار اینترنت</option>
+			<option id="3">نرم‌افزار اداری</option>
+			<option id="4">نرم‌افزار ساخت نرم‌افزار</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="17">
+		<description>کدامیک جزء واحدهای CPU نیست؟</description>
+		<options>
+			<option id="1">Memory Secondary</option>
+			<option id="2">Register</option>
+			<option id="3">CU</option>
+			<option id="4">ALU</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="18">
+		<description>کدام بخش CPU واحد کنترل است؟</description>
+		<options>
+			<option id="1">Cache</option>
+			<option id="2">Register</option>
+			<option id="3">CU</option>
+			<option id="4">ALU</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="19">
+		<description>E-Learning چیست؟</description>
+		<options>
+			<option id="1">بانکداری الکترونیکی</option>
+			<option id="2">آموزش الکترونیکی</option>
+			<option id="3">تجارت الکترونیکی</option>
+			<option id="4">پست الکترونیکی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="20">
+		<description>کدام گزینه به معنای تجارت الکترونیکی است؟</description>
+		<options>
+			<option id="1">E-Library</option>
+			<option id="2">E-Government</option>
+			<option id="3">E-Learning</option>
+			<option id="4">E-Commerce</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="21">
+		<description>کدام یک از عبارت‌های زیر به امور سلامتی هنگام کار با کامپیوتر مربوط نیست؟</description>
+		<options>
+			<option id="1">گاهی نگاه کردن به یک نقطه دور</option>
+			<option id="2">ذخیره کردن مرتب کار</option>
+			<option id="3">اطمینان از مناسب بودن نور اتاق</option>
+			<option id="4">اطمینان از تنظیم بودن ارتفاع صندلی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="22">
+		<description>کوچک‌ترین واحد حافظه چیست؟</description>
+		<options>
+			<option id="1">Byte</option>
+			<option id="2">Bit</option>
+			<option id="3">KB</option>
+			<option id="4">Word</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="23">
+		<description>کدامیک از موارد زیر باعث کاهش آلودگی‌های زیست‌محیطی می‌شود؟</description>
+		<options>
+			<option id="1">عدم گرفتن برق زیاد از یک پریز</option>
+			<option id="2">جلسات حضوری</option>
+			<option id="3">استفاده از اسناد الکترونیکی و بازیافت کاغذ</option>
+			<option id="4">استفاده از اسناد کاغذی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="24">
+		<description>مزیت انسان نسبت به کامپیوتر چیست؟</description>
+		<options>
+			<option id="1">قابلیت اطمینان</option>
+			<option id="2">خلاقیت و ابتکار</option>
+			<option id="3">سرعت بالا</option>
+			<option id="4">دقت بالا</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="25">
+		<description>از کدام دستگاه برای چاپ نتایج عملیات روی کاغذ استفاده می‌شود؟</description>
+		<options>
+			<option id="1">قلم نوری</option>
+			<option id="2">مانیتور</option>
+			<option id="3">اسکنر</option>
+			<option id="4">پرینتر</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="26">
+		<description>کلید میانبر فرمان Paste چیست؟</description>
+		<options>
+			<option id="1">Ctrl+X</option>
+			<option id="2">Ctrl+V</option>
+			<option id="3">Ctrl+P</option>
+			<option id="4">Ctrl+C</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="27">
+		<description>چگونه می‌توان چند فایل پراکنده یک پوشه را انتخاب کرد؟</description>
+		<options>
+			<option id="1">با نگه داشتن SHIFT</option>
+			<option id="2">با نگه داشتن CTRL</option>
+			<option id="3">با فشار دادن اولین حرف نام فایل</option>
+			<option id="4">با کلیک روی فایل‌ها</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="28">
+		<description>کدام گزینه نرم‌افزار ضد ویروس است؟</description>
+		<options>
+			<option id="1">Calculator</option>
+			<option id="2">WordPad</option>
+			<option id="3">Nod32</option>
+			<option id="4">Paint</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="29">
+		<description>کدام گزینه در مورد فشرده‌سازی صحیح است؟</description>
+		<options>
+			<option id="1">فایل فشرده قابل انتقال نیست</option>
+			<option id="2">پوشه قابل فشرده‌سازی نیست</option>
+			<option id="3">به فایل آسیب می‌رساند</option>
+			<option id="4">روشی برای کاهش حجم فایل</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="30">
+		<description>کدام جمله نادرست است؟</description>
+		<options>
+			<option id="1">با Delete می‌توان فایل را پاک کرد</option>
+			<option id="2">می‌توان Recycle Bin را پر و خالی کرد</option>
+			<option id="3">فایل‌های حذف‌شده هرگز قابل بازیابی نیستند</option>
+			<option id="4">فایل حذف‌شده در Recycle Bin قرار می‌گیرد</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="31">
+		<description>هنگام فعال شدن Num Lock کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">کلیدهای جهتی ماشین حساب فعال می‌شود</option>
+			<option id="2">کلیدهای جهتی تایپ فعال می‌شود</option>
+			<option id="3">اعداد ماشین حساب فعال می‌شود</option>
+			<option id="4">اعداد تایپ فعال می‌شود</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="32">
+		<description>هنگام تایپ متن اشاره‌گر موس تبدیل به چه می‌شود؟</description>
+		<options>
+			<option id="1">تغییر نمی‌کند</option>
+			<option id="2">شکل دلخواه</option>
+			<option id="3">پنهان</option>
+			<option id="4">Cursor (I-beam)</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="33">
+		<description>عمل پیمایش (Scroll) چیست؟</description>
+		<options>
+			<option id="1">چرخاندن کلید وسط موس برای مشاهده محتوا</option>
+			<option id="2">کشیدن و رها کردن</option>
+			<option id="3">کپی متن</option>
+			<option id="4">جابجایی متن</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="34">
+		<description>کدام گزینه کلید تابعی نیست؟</description>
+		<options>
+			<option id="1">F12</option>
+			<option id="2">Alt</option>
+			<option id="3">F3</option>
+			<option id="4">F1</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="35">
+		<description>کدام گزینه شامل کلیدهای کنترلی می‌شود؟</description>
+		<options>
+			<option id="1">Arrow Keys</option>
+			<option id="2">NumLock - CapsLock - ScrollLock</option>
+			<option id="3">F1 تا F12</option>
+			<option id="4">Ctrl - Shift - Alt - Esc</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="36">
+		<description>برای کدام دلیل تهیه نسخه پشتیبان ضروری است؟</description>
+		<options>
+			<option id="1">نصب ویروس‌یاب</option>
+			<option id="2">کندی برنامه‌ها</option>
+			<option id="3">از دست رفتن اطلاعات</option>
+			<option id="4">مشکلات سخت‌افزاری</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="37">
+		<description>کدام نرم‌افزار برای فشرده‌سازی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">WinZip و WinRAR</option>
+			<option id="2">ACDSee</option>
+			<option id="3">Notepad</option>
+			<option id="4">WordPad</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="38">
+		<description>به عمل حرکت دادن موس در حالی که دکمه چپ آن فشرده است چه می‌گویند؟</description>
+		<options>
+			<option id="1">Double Click</option>
+			<option id="2">Drag</option>
+			<option id="3">Right Click</option>
+			<option id="4">Click</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="39">
+		<description>حافظه موقت مجازی برای اطلاعات کپی‌شده چه نام دارد؟</description>
+		<options>
+			<option id="1">Clipboard</option>
+			<option id="2">ROM</option>
+			<option id="3">Paste</option>
+			<option id="4">Copy</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="40">
+		<description>کلید معادل فرمان Copy چیست؟</description>
+		<options>
+			<option id="1">Ctrl+A</option>
+			<option id="2">Ctrl+X</option>
+			<option id="3">Ctrl+V</option>
+			<option id="4">Ctrl+C</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="41">
+		<description>پسوند (فرمت) فایل‌های صوتی و عکس عبارت است از:</description>
+		<options>
+			<option id="1">Bmp - Doc</option>
+			<option id="2">Wav - Bmp</option>
+			<option id="3">Doc - Bmp</option>
+			<option id="4">Wav - Mpb</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="42">
+		<description>پسوند فرمت فایل‌های متنی چیست؟</description>
+		<options>
+			<option id="1">txt</option>
+			<option id="2">wav</option>
+			<option id="3">docx</option>
+			<option id="4">txt &amp; docx</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="43">
+		<description>کلیپ‌بورد چیست؟</description>
+		<options>
+			<option id="1">حافظه جانبی</option>
+			<option id="2">حافظه موقت برای کپی‌ها</option>
+			<option id="3">حافظه دائمی</option>
+			<option id="4">همه گزینه‌ها</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="44">
+		<description>برای ایجاد سطر خالی بین دو سطر نوشته شده چه باید کرد؟</description>
+		<options>
+			<option id="1">انتهای خط اول ← Shift</option>
+			<option id="2">بلوک خط اول ← Enter</option>
+			<option id="3">انتهای خط اول ← Delete</option>
+			<option id="4">انتهای خط اول ← Enter</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="45">
+		<description>کلید معادل فرمان انتقال چیست؟</description>
+		<options>
+			<option id="1">Ctrl+X</option>
+			<option id="2">Ctrl+V</option>
+			<option id="3">Ctrl+C</option>
+			<option id="4">Ctrl+A</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="46">
+		<description>فرمان Cut چه عملی انجام می‌دهد؟</description>
+		<options>
+			<option id="1">کپی</option>
+			<option id="2">انتقال</option>
+			<option id="3">فراخوانی از حافظه</option>
+			<option id="4">پاک کردن</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="47">
+		<description>کلیدهای میانبر فرمان Copy و Paste کدام است؟</description>
+		<options>
+			<option id="1">Ctrl+Y &amp; Ctrl+A</option>
+			<option id="2">Ctrl+E &amp; Ctrl+Y</option>
+			<option id="3">Ctrl+C &amp; Ctrl+V</option>
+			<option id="4">Ctrl+V &amp; Ctrl+A</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="48">
+		<description>برنامه‌های کوچکی که تأثیرات نامطلوب روی سیستم می‌گذارند چه نام دارند؟</description>
+		<options>
+			<option id="1">برنامه‌های اجرایی</option>
+			<option id="2">ویروس‌ها</option>
+			<option id="3">فایل‌های bin</option>
+			<option id="4">فایل‌های com</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="49">
+		<description>یکی از راه‌های مؤثر جلوگیری از ورود ویروس به سیستم چیست؟</description>
+		<options>
+			<option id="1">حذف فایل مشکوک</option>
+			<option id="2">استفاده از ویروس‌یاب</option>
+			<option id="3">اجرای ضدویروس هر ساعت</option>
+			<option id="4">فرمت کردن درایو مشکوک</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="50">
+		<description>وضوح صفحه نمایش یا Screen Resolution چیست؟</description>
+		<options>
+			<option id="1">میزان حافظه کارت گرافیک</option>
+			<option id="2">میزان تراکم پیکسل‌ها</option>
+			<option id="3">اندازه مانیتور</option>
+			<option id="4">شفافیت صفحه نمایش</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="51">
+		<description>برای اتصال اینترنت، خط تلفن به کدام قسمت کامپیوتر وصل می‌شود؟</description>
+		<options>
+			<option id="1">مودم</option>
+			<option id="2">کارت شبکه</option>
+			<option id="3">کارت گرافیک</option>
+			<option id="4">کارت صدا</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="52">
+		<description>کدام دستگاه: کاغذ را اسکن کرده و از طریق خط تلفن ارسال می‌کند؟</description>
+		<options>
+			<option id="1">تلکس</option>
+			<option id="2">ISDN</option>
+			<option id="3">مودم</option>
+			<option id="4">فاکس</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="53">
+		<description>کدام دستگاه ترکیبی از مودم و اسکنر است؟</description>
+		<options>
+			<option id="1">تلکس</option>
+			<option id="2">ISDN</option>
+			<option id="3">مودم</option>
+			<option id="4">فاکس</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="54">
+		<description>برای حذف نامه‌ها از چه کلیدی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Ctrl+F1</option>
+			<option id="2">Delete</option>
+			<option id="3">Space</option>
+			<option id="4">Ctrl+Shift</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="55">
+		<description>برای عمل کپی از کدام کلید ترکیبی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Ctrl+C</option>
+			<option id="2">Shift+C</option>
+			<option id="3">Alt+Shift+C</option>
+			<option id="4">Ctrl+X</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="56">
+		<description>کوچک‌ترین عنصر صفحه نمایش چه نام دارد؟</description>
+		<options>
+			<option id="1">Pixel</option>
+			<option id="2">Byte</option>
+			<option id="3">Pin</option>
+			<option id="4">Dot</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="57">
+		<description>کدام گزینه از مزایای کامپیوتر نیست؟</description>
+		<options>
+			<option id="1">سرعت بالا</option>
+			<option id="2">ضریب اطمینان بالا</option>
+			<option id="3">قدرت ثبت اطلاعات گسترده</option>
+			<option id="4">ضریب خطای بالا</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="58">
+		<description>کدام گزینه یک کامپیوتر شخصی محسوب می‌شود؟</description>
+		<options>
+			<option id="1">Desktop - Laptop</option>
+			<option id="2">Mainframe</option>
+			<option id="3">Mini Computer</option>
+			<option id="4">Super Computer</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="59">
+		<description>کدام تعریف صحیح است؟</description>
+		<options>
+			<option id="1">Laptop قابل حمل است</option>
+			<option id="2">Desktop از اجزای کوچکتر ساخته شده</option>
+			<option id="3">Laptop قابل حمل نیست</option>
+			<option id="4">PC نوعی MiniComputer است</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="60">
+		<description>به نتیجه پردازش داده‌ها چه می‌گویند؟</description>
+		<options>
+			<option id="1">Information</option>
+			<option id="2">Data</option>
+			<option id="3">نرم‌افزار</option>
+			<option id="4">سیستم‌عامل</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="61">
+		<description>واژه PC مخفف چه کلماتی است؟</description>
+		<options>
+			<option id="1">Personal Computer</option>
+			<option id="2">Preset Computer</option>
+			<option id="3">Processing</option>
+			<option id="4">Primary Computer</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="62">
+		<description>کدام یک از تعاریف زیر مصداق Information است؟</description>
+		<options>
+			<option id="1">خروجی‌های پردازش داده‌ها</option>
+			<option id="2">داده‌های خام</option>
+			<option id="3">مطالب وارد شده با صفحه کلید</option>
+			<option id="4">همان فایل است</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="63">
+		<description>CPU مخفف چه کلماتی است؟</description>
+		<options>
+			<option id="1">Unit Control Processing</option>
+			<option id="2">CD Processing Unit</option>
+			<option id="3">Central Processing Unit</option>
+			<option id="4">Cache Processing Unit</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="64">
+		<description>هر مگابایت معادل چند بایت است؟</description>
+		<options>
+			<option id="1">1024 × 1024</option>
+			<option id="2">1024 × 1024 × 1024</option>
+			<option id="3">1000</option>
+			<option id="4">1024 × 1024 × 1024 × 1024</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="65">
+		<description>کدام تعریف صحیح است؟</description>
+		<options>
+			<option id="1">سرعت حافظه اصلی کمتر از حافظه جانبی است</option>
+			<option id="2">ظرفیت ذخیره در حافظه جانبی و اصلی یکسان است</option>
+			<option id="3">سرعت حافظه اصلی بیشتر ولی ظرفیت آن کمتر است</option>
+			<option id="4">ظرفیت حافظه جانبی کمتر از حافظه اصلی است</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="66">
+		<description>کدام گزینه در مورد حافظه ROM صحیح است؟</description>
+		<options>
+			<option id="1">فقط خواندنی و پایدار</option>
+			<option id="2">فقط خواندنی و ناپایدار</option>
+			<option id="3">فقط نوشتنی و ناپایدار</option>
+			<option id="4">فقط نوشتنی و پایدار</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="67">
+		<description>CPU از چه قسمت‌هایی تشکیل شده است؟</description>
+		<options>
+			<option id="1">حافظه اصلی - حافظه پنهان - ALU - واحد کنترل</option>
+			<option id="2">واحد کنترل - حافظه پنهان - حافظه اصلی - واحد خروجی</option>
+			<option id="3">ALU - واحد کنترل - ثبات‌ها - حافظه پنهان</option>
+			<option id="4">واحد ورودی - حافظه پنهان - واحد خروجی - حافظه اصلی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="68">
+		<description>هر کیلوبایت معادل چند بایت است؟</description>
+		<options>
+			<option id="1">128</option>
+			<option id="2">512</option>
+			<option id="3">1000</option>
+			<option id="4">1024</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="69">
+		<description>برای انتقال تصاویر به حافظه کامپیوتر از چه دستگاهی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Mouse</option>
+			<option id="2">Scanner</option>
+			<option id="3">Joystick</option>
+			<option id="4">Keyboard</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="70">
+		<description>کامپیوترهای شخصی از کدام نوع هستند؟</description>
+		<options>
+			<option id="1">Mini Computer</option>
+			<option id="2">Super Computer</option>
+			<option id="3">Mainframe</option>
+			<option id="4">Micro Computer</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="71">
+		<description>کدام گزینه در مورد DVD صحیح است؟</description>
+		<options>
+			<option id="1">نوار پشتیبان</option>
+			<option id="2">دیسک ویدیویی دیجیتال</option>
+			<option id="3">دیسک نرم</option>
+			<option id="4">دیسک سخت</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="72">
+		<description>در تقسیم‌بندی سطح دیسک، سیلندر چیست؟</description>
+		<options>
+			<option id="1">مجموعه‌ای از شیارها با شعاع یکسان</option>
+			<option id="2">مجموعه‌ای از قطاع‌های هم‌ شماره در دیسک چند صفحه‌ای</option>
+			<option id="3">شیارهایی با شعاع متفاوت</option>
+			<option id="4">دیسک‌های سخت استوانه‌ای</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="73">
+		<description>کدام شبکه معمولاً برای اتصال دفاتر یک سازمان در یک شهر استفاده می‌شود؟</description>
+		<options>
+			<option id="1">MAN</option>
+			<option id="2">LAN</option>
+			<option id="3">WAN</option>
+			<option id="4">Internet</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="74">
+		<description>کدام مورد برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می‌شود؟</description>
+		<options>
+			<option id="1">واحد کنترل</option>
+			<option id="2">واحد محاسبه و منطق</option>
+			<option id="3">واحد حافظه</option>
+			<option id="4">واحد پردازش مرکزی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="75">
+		<description>دسترسی به اطلاعات در حافظه RAM چگونه است؟</description>
+		<options>
+			<option id="1">ترتیبی</option>
+			<option id="2">تصادفی</option>
+			<option id="3">موازی</option>
+			<option id="4">سری</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="76">
+		<description>حافظه فلش یک دستگاه … است؟</description>
+		<options>
+			<option id="1">ورودی</option>
+			<option id="2">ورودی/خروجی</option>
+			<option id="3">خروجی</option>
+			<option id="4">حافظه</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="77">
+		<description>در سطح دیسک هر شیار به قسمت‌های مساوی به نام … تقسیم می‌شود.</description>
+		<options>
+			<option id="1">سیلندر</option>
+			<option id="2">VGA</option>
+			<option id="3">شکاف توسعه</option>
+			<option id="4">قطاع</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="78">
+		<description>صفحه کلید - بلندگو هر کدام جز دستگاه‌های … هستند.</description>
+		<options>
+			<option id="1">ورودی - خروجی</option>
+			<option id="2">ورودی - ورودی</option>
+			<option id="3">خروجی - خروجی</option>
+			<option id="4">خروجی - ورودی</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="79">
+		<description>رایانه‌ای که در شبکه به کامپیوترهای دیگر خدمات ارائه می‌دهد چیست؟</description>
+		<options>
+			<option id="1">ترمینال</option>
+			<option id="2">سرور</option>
+			<option id="3">Client</option>
+			<option id="4">Node</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="80">
+		<description>به شبکه‌های بی‌سیم چه گفته می‌شود؟</description>
+		<options>
+			<option id="1">SATELLITE</option>
+			<option id="2">WIRELESS</option>
+			<option id="3">NETWORK</option>
+			<option id="4">LNB</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="61">
+		<description>واژه PC مخفف چه کلماتی است؟</description>
+		<options>
+			<option id="1">Personal Computer</option>
+			<option id="2">Preset Computer</option>
+			<option id="3">Processing</option>
+			<option id="4">Primary Computer</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="62">
+		<description>کدام یک از تعاریف زیر مصداق Information است؟</description>
+		<options>
+			<option id="1">خروجی‌های پردازش داده‌ها</option>
+			<option id="2">داده‌های خام</option>
+			<option id="3">مطالب وارد شده با صفحه کلید</option>
+			<option id="4">همان فایل است</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="63">
+		<description>CPU مخفف چه کلماتی است؟</description>
+		<options>
+			<option id="1">Unit Control Processing</option>
+			<option id="2">CD Processing Unit</option>
+			<option id="3">Central Processing Unit</option>
+			<option id="4">Cache Processing Unit</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="64">
+		<description>هر مگابایت معادل چند بایت است؟</description>
+		<options>
+			<option id="1">1024 × 1024</option>
+			<option id="2">1024 × 1024 × 1024</option>
+			<option id="3">1000</option>
+			<option id="4">1024 × 1024 × 1024 × 1024</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="65">
+		<description>کدام تعریف صحیح است؟</description>
+		<options>
+			<option id="1">سرعت حافظه اصلی کمتر از حافظه جانبی است</option>
+			<option id="2">ظرفیت ذخیره در حافظه جانبی و اصلی یکسان است</option>
+			<option id="3">سرعت حافظه اصلی بیشتر ولی ظرفیت آن کمتر است</option>
+			<option id="4">ظرفیت حافظه جانبی کمتر از حافظه اصلی است</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="66">
+		<description>کدام گزینه در مورد حافظه ROM صحیح است؟</description>
+		<options>
+			<option id="1">فقط خواندنی و پایدار</option>
+			<option id="2">فقط خواندنی و ناپایدار</option>
+			<option id="3">فقط نوشتنی و ناپایدار</option>
+			<option id="4">فقط نوشتنی و پایدار</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="67">
+		<description>CPU از چه قسمت‌هایی تشکیل شده است؟</description>
+		<options>
+			<option id="1">حافظه اصلی - حافظه پنهان - ALU - واحد کنترل</option>
+			<option id="2">واحد کنترل - حافظه پنهان - حافظه اصلی - واحد خروجی</option>
+			<option id="3">ALU - واحد کنترل - ثبات‌ها - حافظه پنهان</option>
+			<option id="4">واحد ورودی - حافظه پنهان - واحد خروجی - حافظه اصلی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="68">
+		<description>هر کیلوبایت معادل چند بایت است؟</description>
+		<options>
+			<option id="1">128</option>
+			<option id="2">512</option>
+			<option id="3">1000</option>
+			<option id="4">1024</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="69">
+		<description>برای انتقال تصاویر به حافظه کامپیوتر از چه دستگاهی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Mouse</option>
+			<option id="2">Scanner</option>
+			<option id="3">Joystick</option>
+			<option id="4">Keyboard</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="70">
+		<description>کامپیوترهای شخصی از کدام نوع هستند؟</description>
+		<options>
+			<option id="1">Mini Computer</option>
+			<option id="2">Super Computer</option>
+			<option id="3">Mainframe</option>
+			<option id="4">Micro Computer</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="71">
+		<description>کدام گزینه در مورد DVD صحیح است؟</description>
+		<options>
+			<option id="1">نوار پشتیبان</option>
+			<option id="2">دیسک ویدیویی دیجیتال</option>
+			<option id="3">دیسک نرم</option>
+			<option id="4">دیسک سخت</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="72">
+		<description>در تقسیم‌بندی سطح دیسک، سیلندر چیست؟</description>
+		<options>
+			<option id="1">مجموعه‌ای از شیارها با شعاع یکسان</option>
+			<option id="2">مجموعه‌ای از قطاع‌های هم‌ شماره در دیسک چند صفحه‌ای</option>
+			<option id="3">شیارهایی با شعاع متفاوت</option>
+			<option id="4">دیسک‌های سخت استوانه‌ای</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="73">
+		<description>کدام شبکه معمولاً برای اتصال دفاتر یک سازمان در یک شهر استفاده می‌شود؟</description>
+		<options>
+			<option id="1">MAN</option>
+			<option id="2">LAN</option>
+			<option id="3">WAN</option>
+			<option id="4">Internet</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="74">
+		<description>کدام مورد برای نگهداری اطلاعات به صورت موقت یا دائم استفاده می‌شود؟</description>
+		<options>
+			<option id="1">واحد کنترل</option>
+			<option id="2">واحد محاسبه و منطق</option>
+			<option id="3">واحد حافظه</option>
+			<option id="4">واحد پردازش مرکزی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="75">
+		<description>دسترسی به اطلاعات در حافظه RAM چگونه است؟</description>
+		<options>
+			<option id="1">ترتیبی</option>
+			<option id="2">تصادفی</option>
+			<option id="3">موازی</option>
+			<option id="4">سری</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="76">
+		<description>حافظه فلش یک دستگاه … است؟</description>
+		<options>
+			<option id="1">ورودی</option>
+			<option id="2">ورودی/خروجی</option>
+			<option id="3">خروجی</option>
+			<option id="4">حافظه</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="77">
+		<description>در سطح دیسک هر شیار به قسمت‌های مساوی به نام … تقسیم می‌شود.</description>
+		<options>
+			<option id="1">سیلندر</option>
+			<option id="2">VGA</option>
+			<option id="3">شکاف توسعه</option>
+			<option id="4">قطاع</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="78">
+		<description>صفحه کلید - بلندگو هر کدام جز دستگاه‌های … هستند.</description>
+		<options>
+			<option id="1">ورودی - خروجی</option>
+			<option id="2">ورودی - ورودی</option>
+			<option id="3">خروجی - خروجی</option>
+			<option id="4">خروجی - ورودی</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="79">
+		<description>رایانه‌ای که در شبکه به کامپیوترهای دیگر خدمات ارائه می‌دهد چیست؟</description>
+		<options>
+			<option id="1">ترمینال</option>
+			<option id="2">سرور</option>
+			<option id="3">Client</option>
+			<option id="4">Node</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="80">
+		<description>به شبکه‌های بی‌سیم چه گفته می‌شود؟</description>
+		<options>
+			<option id="1">SATELLITE</option>
+			<option id="2">WIRELESS</option>
+			<option id="3">NETWORK</option>
+			<option id="4">LNB</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="81">
+		<description>کدامیک از گزینه‌های زیر به معنی شبکه می‌باشد؟</description>
+		<options>
+			<option id="1">LNB</option>
+			<option id="2">WIMAX</option>
+			<option id="3">Network</option>
+			<option id="4">Wireless</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="82">
+		<description>کدام یک از دستگاه‌های زیر جهت چاپ نقشه‌های فنی مهندسی به کار می‌رود؟</description>
+		<options>
+			<option id="1">اسکنر</option>
+			<option id="2">پلاتر</option>
+			<option id="3">پرینتر</option>
+			<option id="4">چاپگر</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="83">
+		<description>کوچک‌ترین عنصر صفحه نمایش چه نام دارد؟</description>
+		<options>
+			<option id="1">Pixel</option>
+			<option id="2">Pin</option>
+			<option id="3">Dots</option>
+			<option id="4">کاراکتر</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="84">
+		<description>کدام یک دلیل استفاده از حافظه ثانویه در کامپیوتر نیست؟</description>
+		<options>
+			<option id="1">انتقال اطلاعات از یک نقطه به نقطه دیگر</option>
+			<option id="2">غیر فرار بودن اطلاعات</option>
+			<option id="3">ظرفیت بالای حافظه ثانویه</option>
+			<option id="4">سرعت بالای حافظه‌های ثانویه</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="85">
+		<description>کدام یک از حافظه‌های زیر قابل برنامه‌ریزی و قابل پاک شدن با اشعه ماوراء بنفش است؟</description>
+		<options>
+			<option id="1">ROM</option>
+			<option id="2">PROM</option>
+			<option id="3">EPROM</option>
+			<option id="4">EEPROM</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="86">
+		<description>
+			در دستگاه‌های زیر چند دستگاه خروجی وجود دارد؟
+			(صفحه نمایش - کیبورد - ماوس - رسام - چاپگر - اسکنر - قلم نوری - بلندگو)
+		</description>
+		<options>
+			<option id="1">3</option>
+			<option id="2">4</option>
+			<option id="3">5</option>
+			<option id="4">2</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="87">
+		<description>هارد دیسک از نظر روش دستیابی به اطلاعات جزء کدام گروه است؟</description>
+		<options>
+			<option id="1">دستیابی مستقیم</option>
+			<option id="2">دستیابی تصادفی</option>
+			<option id="3">دستیابی ترتیبی</option>
+			<option id="4">دستیابی انتخابی</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="88">
+		<description>کدام یک از حافظه‌های زیر محل ذخیره موقت اطلاعات است؟</description>
+		<options>
+			<option id="1">ROM</option>
+			<option id="2">RAM</option>
+			<option id="3">PROM</option>
+			<option id="4">EPROM</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="89">
+		<description>کدام یک از گزینه‌های زیر جزء حافظه‌های جانبی نیست؟</description>
+		<options>
+			<option id="1">هارد دیسک مغناطیسی</option>
+			<option id="2">فلاپی</option>
+			<option id="3">ROM</option>
+			<option id="4">نوار مغناطیسی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="90">
+		<description>کدام یک جزء نرم‌افزارهای سیستم نیست؟</description>
+		<options>
+			<option id="1">سیستم عامل</option>
+			<option id="2">برنامه‌های کاربردی</option>
+			<option id="3">برنامه‌های سودمند</option>
+			<option id="4">مترجم‌ها</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="91">
+		<description>اصلی‌ترین نرم‌افزار در کامپیوتر چیست؟</description>
+		<options>
+			<option id="1">سیستم عامل</option>
+			<option id="2">برنامه‌های کاربردی</option>
+			<option id="3">مترجم‌ها</option>
+			<option id="4">زبان‌های برنامه‌نویسی</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="92">
+		<description>کامپیوتر هنگام بالا آمدن از چه حافظه‌ای استفاده می‌کند؟</description>
+		<options>
+			<option id="1">RAM</option>
+			<option id="2">PROM</option>
+			<option id="3">CMOS</option>
+			<option id="4">EPROM</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="93">
+		<description>دسترسی به اطلاعات از طریق کدام روش سریع‌تر است؟</description>
+		<options>
+			<option id="1">ترتیبی</option>
+			<option id="2">بستگی به نوع حافظه دارد</option>
+			<option id="3">مستقیم</option>
+			<option id="4">فرقی نمی‌کند</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="94">
+		<description>کدام یک جزء اجزای داخلی CPU نیست؟</description>
+		<options>
+			<option id="1">ثبات</option>
+			<option id="2">حافظه نهان</option>
+			<option id="3">RAM</option>
+			<option id="4">واحد کنترل</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="95">
+		<description>کنترل داده‌ها در CPU به عهده کدام قسمت است؟</description>
+		<options>
+			<option id="1">ALU</option>
+			<option id="2">CU</option>
+			<option id="3">Cache</option>
+			<option id="4">ثبات</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="96">
+		<description>اطلاعات چیست؟</description>
+		<options>
+			<option id="1">ورودی پردازش</option>
+			<option id="2">عملیات روی داده‌ها</option>
+			<option id="3">نتیجه پردازش داده‌ها</option>
+			<option id="4">داده‌های ورودی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="97">
+		<description>کامپیوترهای یک دفترکار از چه شبکه‌ای استفاده می‌کنند؟</description>
+		<options>
+			<option id="1">WAN</option>
+			<option id="2">LAN</option>
+			<option id="3">MAN</option>
+			<option id="4">Yahoo</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="98">
+		<description>کدام یک از سیستم‌عامل‌های زیر تک‌کاربره است؟</description>
+		<options>
+			<option id="1">Single User</option>
+			<option id="2">DOS</option>
+			<option id="3">Windows XP</option>
+			<option id="4">Windows</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="99">
+		<description>کدام گزینه تعریف سخت‌افزار است؟</description>
+		<options>
+			<option id="1">اجزای فیزیکی و قابل لمس</option>
+			<option id="2">اجزای اطلاعاتی</option>
+			<option id="3">برنامه‌ها</option>
+			<option id="4">هارد دیسک</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="100">
+		<description>حافظه RAM … و حافظه ROM … است.</description>
+		<options>
+			<option id="1">RAM و ROM</option>
+			<option id="2">ROM و Cache</option>
+			<option id="3">ROM و RAM</option>
+			<option id="4">DVD و VCD</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="101">
+		<description>کدام چاپگر کیفیت بالاتری دارد؟</description>
+		<options>
+			<option id="1">لیزری</option>
+			<option id="2">حروفی</option>
+			<option id="3">سوزنی</option>
+			<option id="4">جوهر افشان</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="102">
+		<description>سرعت کدام حافظه بیشتر است؟</description>
+		<options>
+			<option id="1">RAM</option>
+			<option id="2">Hard</option>
+			<option id="3">CD-ROM</option>
+			<option id="4">DVD</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="103">
+		<description>اطلاعات کدام حافظه با قطع برق از بین می‌رود؟</description>
+		<options>
+			<option id="1">ROM</option>
+			<option id="2">EEPROM</option>
+			<option id="3">CD</option>
+			<option id="4">RAM</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="104">
+		<description>در کدام مورد روش دسترسی ترتیبی است؟</description>
+		<options>
+			<option id="1">هارد دیسک</option>
+			<option id="2">فلاپی</option>
+			<option id="3">نوار مغناطیسی</option>
+			<option id="4">RAM</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="105">
+		<description>به ورودی‌ها داده و به خروجی‌ها اطلاعات گفته می‌شود.</description>
+		<options>
+			<option id="1">سخت‌افزار - نرم‌افزار</option>
+			<option id="2">داده - اطلاعات</option>
+			<option id="3">اطلاعات - داده</option>
+			<option id="4">سخت‌افزار - میان‌افزار</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="106">
+		<description>این تعریف مربوط به چیست؟ «برنامه‌ها و دستورالعمل‌هایی که باعث عملکرد سیستم می‌شود»</description>
+		<options>
+			<option id="1">سخت‌افزار</option>
+			<option id="2">نرم‌افزار</option>
+			<option id="3">پردازش</option>
+			<option id="4">ورودی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="107">
+		<description>برای ذخیره یک کاراکتر چند بیت لازم است؟</description>
+		<options>
+			<option id="1">1</option>
+			<option id="2">4</option>
+			<option id="3">8</option>
+			<option id="4">16</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="108">
+		<description>بهترین ملاک برای انتخاب چاپگر چیست؟</description>
+		<options>
+			<option id="1">سرعت و کیفیت چاپ</option>
+			<option id="2">مارک و کیفیت</option>
+			<option id="3">وزن و مارک</option>
+			<option id="4">مارک دستگاه</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="109">
+		<description>۱KB معادل چند بایت است؟</description>
+		<options>
+			<option id="1">1000</option>
+			<option id="2">8</option>
+			<option id="3">1024</option>
+			<option id="4">256</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="110">
+		<description>کدام دستگاه خروجی است؟</description>
+		<options>
+			<option id="1">صفحه کلید</option>
+			<option id="2">چاپگر</option>
+			<option id="3">اسکنر</option>
+			<option id="4">ماوس</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="111">
+		<description>کدام یک از حافظه‌های زیر ناپایدار است؟</description>
+		<options>
+			<option id="1">RAM</option>
+			<option id="2">ROM</option>
+			<option id="3">Hard</option>
+			<option id="4">CD-ROM</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="112">
+		<description>کدامیک از گزینه‌های زیر شبکه محلی است؟</description>
+		<options>
+			<option id="1">WAN</option>
+			<option id="2">MAN</option>
+			<option id="3">Internet</option>
+			<option id="4">LAN</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="113">
+		<description>CPU شامل چه قسمت‌هایی نمی‌باشد؟</description>
+		<options>
+			<option id="1">واحد کنترل</option>
+			<option id="2">واحد ورودی</option>
+			<option id="3">ثبات</option>
+			<option id="4">ALU</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="114">
+		<description>کدام مورد برای ذخیره‌سازی دائم اطلاعات مناسب است؟</description>
+		<options>
+			<option id="1">حافظه ثانویه</option>
+			<option id="2">حافظه اصلی</option>
+			<option id="3">واحد ورودی</option>
+			<option id="4">واحد خروجی</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="115">
+		<description>کدام کامپیوتر از نظر قدرت پردازش ضعیف‌تر است؟</description>
+		<options>
+			<option id="1">Mainframe</option>
+			<option id="2">Super Computer</option>
+			<option id="3">Micro Computer</option>
+			<option id="4">Mini Computer</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="116">
+		<description>رجیستر به چه معناست؟</description>
+		<options>
+			<option id="1">حافظه کوچک داخل CPU</option>
+			<option id="2">حافظه جانبی</option>
+			<option id="3">حافظه اصلی</option>
+			<option id="4">حافظه با ظرفیت بسیار بزرگ</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="117">
+		<description>اطلاعات در حافظه کامپیوتر به صورت … ذخیره می‌شوند.</description>
+		<options>
+			<option id="1">دسیمال</option>
+			<option id="2">هگزادسیمال</option>
+			<option id="3">اکتال</option>
+			<option id="4">باینری</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="118">
+		<description>یک Word از چند بایت تشکیل شده است؟</description>
+		<options>
+			<option id="1">1 بایت</option>
+			<option id="2">4 بایت</option>
+			<option id="3">3 بایت</option>
+			<option id="4">2 بایت</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="119">
+		<description>به چه دلیل از حافظه‌های جانبی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">پاک شدن حافظه‌های فرعی هنگام قطع برق</option>
+			<option id="2">ارزان بودن حافظه اصلی</option>
+			<option id="3">پاک شدن محتوای RAM هنگام قطع برق</option>
+			<option id="4">پاک شدن محتوای ROM هنگام قطع برق</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="120">
+		<description>در کدام نوع دیسک‌ها از پرتو لیزر استفاده می‌شود؟</description>
+		<options>
+			<option id="1">فلاپی</option>
+			<option id="2">CD</option>
+			<option id="3">DVD</option>
+			<option id="4">DVD و CD</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="121">
+		<description>برای تایپ علامت‌های بالای کلید، کدام کلید را باید نگه داشت؟</description>
+		<options>
+			<option id="1">Alt</option>
+			<option id="2">Shift</option>
+			<option id="3">Ctrl</option>
+			<option id="4">Backspace</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="122">
+		<description>کدام وسیله ورودی تصاویر را به صفر و یک تبدیل می‌کند؟</description>
+		<options>
+			<option id="1">پلاتر</option>
+			<option id="2">اسکنر</option>
+			<option id="3">پرینتر</option>
+			<option id="4">ماوس</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="123">
+		<description>کدام کارت مربوط به کیفیت تصویر است؟</description>
+		<options>
+			<option id="1">RAM</option>
+			<option id="2">Modem</option>
+			<option id="3">Sound</option>
+			<option id="4">VGA</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="124">
+		<description>کدام یک زبان برنامه‌نویسی است؟</description>
+		<options>
+			<option id="1">فتوشاپ</option>
+			<option id="2">C#</option>
+			<option id="3">اکسل</option>
+			<option id="4">پاورپوینت</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="125">
+		<description>مهم‌ترین نرم‌افزاری که امکان ارتباط کاربر با سخت‌افزار را فراهم می‌کند چیست؟</description>
+		<options>
+			<option id="1">سیستم عامل - نرم‌افزار سیستمی</option>
+			<option id="2">زبان برنامه‌نویسی - نرم‌افزار سیستمی</option>
+			<option id="3">کامپایلر - نرم‌افزار کاربردی</option>
+			<option id="4">مفسر - نرم‌افزار سودمند</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="126">
+		<description>Plotter جزء دستگاه‌های … و اسکنر واحد … است.</description>
+		<options>
+			<option id="1">ورودی - ورودی</option>
+			<option id="2">ورودی - خروجی</option>
+			<option id="3">خروجی - ورودی</option>
+			<option id="4">خروجی - خروجی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="127">
+		<description>منظور از توپولوژی شبکه چیست؟</description>
+		<options>
+			<option id="1">آرایش فیزیکی اتصال گره‌ها</option>
+			<option id="2">تعداد کامپیوترهای جانبی</option>
+			<option id="3">کابل‌های ارتباطی</option>
+			<option id="4">نوع گره‌ها و کابل‌ها</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="128">
+		<description>کدام عبارت صحیح است؟</description>
+		<options>
+			<option id="1">ROM برای خواندن و نوشتن است</option>
+			<option id="2">اطلاعات سخت‌افزار در RAM ذخیره می‌شود</option>
+			<option id="3">حافظه ثانویه قابلیت نگهداری دائمی دارد</option>
+			<option id="4">RAM حافظه دائمی است</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="129">
+		<description>ICT به چه معناست؟</description>
+		<options>
+			<option id="1">فناوری اطلاعات</option>
+			<option id="2">فناوری اطلاعات و ارتباطات</option>
+			<option id="3">تجارت الکترونیک</option>
+			<option id="4">آموزش الکترونیک</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="130">
+		<description>کدام گزینه درست است؟</description>
+		<options>
+			<option id="1">قدرت پردازش Mini از PC بیشتر است</option>
+			<option id="2">قدرت پردازش PC از Mini بیشتر است</option>
+			<option id="3">Mini مانند PC تک‌کاربره است</option>
+			<option id="4">قدرت پردازش یکسان ولی Mini کوچکتر است</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="131">
+		<description>کدامیک از موارد زیر از واحدهای ریزپردازنده نمی‌باشند؟</description>
+		<options>
+			<option id="1">ALU</option>
+			<option id="2">حافظه ثبات</option>
+			<option id="3">حافظه اصلی</option>
+			<option id="4">Cache</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="132">
+		<description>کدامیک از موارد زیر تعریف ریزپردازنده نمی‌باشد؟</description>
+		<options>
+			<option id="1">اساسی‌ترین جزء کامپیوتر نمی‌باشد</option>
+			<option id="2">تراشه‌ای از مدارات مجتمع</option>
+			<option id="3">نام دیگر آن CPU است</option>
+			<option id="4">روی سوکت نصب می‌شود</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="133">
+		<description>از لحاظ داشتن بیشترین سرعت کدام گزینه درست است؟</description>
+		<options>
+			<option id="1">CPU &gt; RAM &gt; Hard &gt; Floppy</option>
+			<option id="2">CPU &gt; Hard &gt; RAM &gt; Floppy</option>
+			<option id="3">RAM &gt; CPU &gt; Hard &gt; Floppy</option>
+			<option id="4">RAM &gt; CPU &gt; Floppy &gt; Hard</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="134">
+		<description>کدام گزینه درست می‌باشد؟</description>
+		<options>
+			<option id="1">1MB = 1024GB</option>
+			<option id="2">1Mb = 1024B</option>
+			<option id="3">1MB = 1024KB</option>
+			<option id="4">1Gb = 1024Kb</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="135">
+		<description>سرعت انتقال داده‌ها در CPU از RAM … است، به همین جهت از حافظه‌های … استفاده می‌شود.</description>
+		<options>
+			<option id="1">کمتر - ثبات</option>
+			<option id="2">بیشتر - ثبات</option>
+			<option id="3">بیشتر - Cache</option>
+			<option id="4">کمتر - Cache</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="136">
+		<description>کدام گزینه در مورد بایت درست می‌باشد؟</description>
+		<options>
+			<option id="1">کوچکترین واحد غیرقابل آدرس‌دهی</option>
+			<option id="2">کوچکترین واحد قابل آدرس‌دهی</option>
+			<option id="3">فقط 0 یا 1 ذخیره می‌کند</option>
+			<option id="4">هر 8 بایت یک بیت است</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="137">
+		<description>نرم‌افزارهایی که مصرف‌کننده برای مدت مشخصی رایگان استفاده می‌کند چه نام دارند؟</description>
+		<options>
+			<option id="1">نرم‌افزارهای رایگان</option>
+			<option id="2">نرم‌افزارهای اشتراکی</option>
+			<option id="3">نرم‌افزارهای متن‌باز</option>
+			<option id="4">نرم‌افزارهای نمایشی</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="138">
+		<description>کدام گزینه نادرست می‌باشد؟</description>
+		<options>
+			<option id="1">شیار: یک دایره روی دیسک</option>
+			<option id="2">قطاع: هر دایره چند قطاع دارد</option>
+			<option id="3">سیلندر: دایره‌های هم‌مرکز با شعاع برابر</option>
+			<option id="4">قطاع: دایره‌های هم‌مرکز با شعاع برابر</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="139">
+		<description>کدام گزینه درست نمی‌باشد؟</description>
+		<options>
+			<option id="1">سرعت حافظه اصلی بیشتر ولی ظرفیت کمتر</option>
+			<option id="2">ظرفیت و سرعت حافظه اصلی بیشتر از جانبی</option>
+			<option id="3">ظرفیت حافظه جانبی بیشتر از اصلی</option>
+			<option id="4">سرعت حافظه اصلی بیشتر از جانبی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="140">
+		<description>کدام مورد برای انتقال صوت به کار می‌رود؟</description>
+		<options>
+			<option id="1">RAM</option>
+			<option id="2">کارت صدا</option>
+			<option id="3">کارت گرافیک</option>
+			<option id="4">مودم</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="141">
+		<description>ID USER همان … و PASSWORD همان … است.</description>
+		<options>
+			<option id="1">نام و فامیل</option>
+			<option id="2">نام کاربری و حفاظت اطلاعات</option>
+			<option id="3">نام کاربری و کلمه عبور</option>
+			<option id="4">رمز و کلمه عبور</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="142">
+		<description>کدامیک از گزینه‌های زیر کلیدهای تابعی هستند؟</description>
+		<options>
+			<option id="1">CTRL</option>
+			<option id="2">ALT</option>
+			<option id="3">F1 تا F12</option>
+			<option id="4">Num Lock</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="143">
+		<description>کدام واحد ظرفیت حافظه را بیان نمی‌کند؟</description>
+		<options>
+			<option id="1">Db</option>
+			<option id="2">Kb</option>
+			<option id="3">Gb</option>
+			<option id="4">Mb</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="144">
+		<description>برد اصلی کامپیوتر را چه می‌گویند؟</description>
+		<options>
+			<option id="1">CPU</option>
+			<option id="2">RAM</option>
+			<option id="3">Hard</option>
+			<option id="4">Mainboard</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="145">
+		<description>دسترسی به اطلاعات دیسک‌های CD چگونه است؟</description>
+		<options>
+			<option id="1">ترتیبی</option>
+			<option id="2">موازی</option>
+			<option id="3">مستقیم یا تصادفی</option>
+			<option id="4">نوری</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="146">
+		<description>غلطک وسط موس برای چه منظوری است؟</description>
+		<options>
+			<option id="1">معادل کلیک راست</option>
+			<option id="2">معادل کلیک چپ</option>
+			<option id="3">کاربردی ندارد</option>
+			<option id="4">مرور محتویات پنجره‌ها</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="147">
+		<description>Boot شدن یعنی چه؟</description>
+		<options>
+			<option id="1">توقف عملیات سیستم</option>
+			<option id="2">خرابی Boot Record</option>
+			<option id="3">Load شدن فایل‌های سیستم توسط برنامه ROM</option>
+			<option id="4">پر شدن حافظه</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="148">
+		<description>مانیتورهای تخت را چه می‌گویند؟</description>
+		<options>
+			<option id="1">LCD</option>
+			<option id="2">CGS</option>
+			<option id="3">CGA</option>
+			<option id="4">VGA</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="149">
+		<description>وظیفه کنترل و هماهنگی عملیات درونی سیستم کامپیوتری بر عهده چیست؟</description>
+		<options>
+			<option id="1">برنامه‌های کاربردی</option>
+			<option id="2">برنامه‌های سیستمی</option>
+			<option id="3">سرویس‌دهنده‌های عمومی</option>
+			<option id="4">مترجم</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="150">
+		<description>اصطلاح IT مخفف چیست؟</description>
+		<options>
+			<option id="1">فناوری اینترنت</option>
+			<option id="2">فناوری شبکه</option>
+			<option id="3">فناوری ارتباطات</option>
+			<option id="4">فناوری اطلاعات</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="151">
+		<description>کدام یک از گزینه زیر تعریف کامپیوتر است؟</description>
+		<options>
+			<option id="1">دستگاهی دارای حافظه و قابل برنامه‌ریزی برای انجام عملیات ریاضی و منطقی</option>
+			<option id="2">دستگاهی که فقط عملیات ریاضی انجام می‌دهد</option>
+			<option id="3">دستگاهی برای تایپ و حروف‌چینی</option>
+			<option id="4">دستگاهی برای پخش فایل‌های مدیا</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="152">
+		<description>کدامیک از موارد زیر خصوصیت نرم‌افزار است؟</description>
+		<options>
+			<option id="1">فیزیکی و قابل لمس</option>
+			<option id="2">شامل مدارات الکترونیکی</option>
+			<option id="3">شامل دستورالعمل‌های استفاده از کامپیوتر</option>
+			<option id="4">وظیفه پردازش اطلاعات</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="153">
+		<description>اجزای اصلی کامپیوترهای شخصی کدام است؟</description>
+		<options>
+			<option id="1">CPU - Memory - Case - Monitor</option>
+			<option id="2">CPU - RAM - Hard - Case - Monitor - Keyboard</option>
+			<option id="3">CPU - Memory - Input Unit - Output Unit</option>
+			<option id="4">CPU - Memory - Keyboard - Case</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="154">
+		<description>کدام یک از گزینه‌های زیر صحیح نیست؟</description>
+		<options>
+			<option id="1">سیستم عامل رابطه بین سخت‌افزار و نرم‌افزار و کاربر است</option>
+			<option id="2">سیستم عامل ممکن است چندکاربره باشد</option>
+			<option id="3">سیستم عامل ممکن است چندوظیفه‌ای باشد</option>
+			<option id="4">سیستم عامل برای راه‌اندازی سخت‌افزارها نیست</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="155">
+		<description>نرم‌افزار چه کاری انجام می‌دهد؟</description>
+		<options>
+			<option id="1">رابط بین کاربر و سخت‌افزار</option>
+			<option id="2">برای نوشتن دستورات کامپیوتر</option>
+			<option id="3">برای انجام کارهای خاص</option>
+			<option id="4">مدیریت فایل‌ها</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="156">
+		<description>کدامیک از دستگاه‌های زیر عکس را به سیگنال دیجیتال تبدیل می‌کند؟</description>
+		<options>
+			<option id="1">Touchpad</option>
+			<option id="2">Trackball</option>
+			<option id="3">Scanner</option>
+			<option id="4">Light Pen</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="157">
+		<description>برای جابجایی یک فایل ۵۰۰ مگابایتی کدام گزینه مناسب است؟</description>
+		<options>
+			<option id="1">قلم نوری</option>
+			<option id="2">ROM</option>
+			<option id="3">CD</option>
+			<option id="4">Floppy</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="158">
+		<description>پسوند txt مربوط به فایل‌های … و پسوند wav مربوط به فایل‌های … است.</description>
+		<options>
+			<option id="1">اجرایی - صوتی</option>
+			<option id="2">متنی - تصویری</option>
+			<option id="3">متنی - صوتی</option>
+			<option id="4">اجرایی - تصویری</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="159">
+		<description>قلم نوری یک دستگاه … است.</description>
+		<options>
+			<option id="1">ورودی</option>
+			<option id="2">خروجی</option>
+			<option id="3">ورودی - خروجی</option>
+			<option id="4">دیسک مغناطیسی</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="160">
+		<description>کدام گزینه از مزایای تجارت الکترونیک است؟</description>
+		<options>
+			<option id="1">خدمات ۲۴ ساعته</option>
+			<option id="2">عدم اعتماد به وب‌سایت</option>
+			<option id="3">عدم مشاهده دقیق کالا</option>
+			<option id="4">کلاهبرداری کارت</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="161">
+		<description>مسیر عبور اطلاعات بین CPU و RAM چه نام دارد؟</description>
+		<options>
+			<option id="1">Port</option>
+			<option id="2">Slot</option>
+			<option id="3">Bus</option>
+			<option id="4">Socket</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="162">
+		<description>رایانه گیرنده اطلاعات … و رایانه فرستنده اطلاعات … است.</description>
+		<options>
+			<option id="1">Server - کانال انتقال</option>
+			<option id="2">کانال انتقال - Server</option>
+			<option id="3">Server - Clients</option>
+			<option id="4">Client - کانال انتقال</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="163">
+		<description>کدام چاپگر سرعت بیشتری دارد؟</description>
+		<options>
+			<option id="1">سوزنی</option>
+			<option id="2">لیزری</option>
+			<option id="3">ضربه‌ای</option>
+			<option id="4">جوهر افشان</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="164">
+		<description>کدام صفحه نمایش تشعشعات مضر ندارد؟</description>
+		<options>
+			<option id="1">CRT</option>
+			<option id="2">LCD و CRT</option>
+			<option id="3">Plasma و LCD</option>
+			<option id="4">CRT و Plasma</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="165">
+		<description>کدام کلید دوحالته نیست؟</description>
+		<options>
+			<option id="1">Caps Lock</option>
+			<option id="2">Num Lock</option>
+			<option id="3">Scroll Lock</option>
+			<option id="4">Shift</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="166">
+		<description>برای فعال کردن اعداد سمت راست صفحه کلید از چه کلیدی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Caps Lock</option>
+			<option id="2">Scroll Lock</option>
+			<option id="3">Num Lock</option>
+			<option id="4">Shift</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="167">
+		<description>برای تایپ حروف بزرگ لاتین باید کدام کلید را فعال کرد؟</description>
+		<options>
+			<option id="1">Caps Lock</option>
+			<option id="2">Scroll Lock</option>
+			<option id="3">Num Lock</option>
+			<option id="4">Ctrl</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="168">
+		<description>با استفاده از کدام کلید می‌توان از صفحه نمایش عکس گرفت؟</description>
+		<options>
+			<option id="1">Caps Lock</option>
+			<option id="2">Print Screen</option>
+			<option id="3">Num Lock</option>
+			<option id="4">Scroll Lock</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="169">
+		<description>منبع انرژی غیرقابل توقف چیست؟</description>
+		<options>
+			<option id="1">USB</option>
+			<option id="2">POWER</option>
+			<option id="3">UPS</option>
+			<option id="4">FLASH</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="170">
+		<description>PDA چیست؟</description>
+		<options>
+			<option id="1">کامپیوتر شخصی با سرعت بسیار بالا</option>
+			<option id="2">کامپیوتر شخصی با ابعاد بسیار بزرگ</option>
+			<option id="3">کامپیوتر کوچک برای کارهای حجیم</option>
+			<option id="4">کامپیوتر کوچک برای کارهای کم‌حجم</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="171">
+		<description>حافظه‌های اصلی کامپیوتر کدام‌اند؟</description>
+		<options>
+			<option id="1">CD-ROM و DVD-ROM</option>
+			<option id="2">ROM و RAM</option>
+			<option id="3">EPROM و Hard Disk</option>
+			<option id="4">Hard Disk و RAM</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="172">
+		<description>کدام مورد یک دستگاه خروجی است؟</description>
+		<options>
+			<option id="1">صفحه کلید</option>
+			<option id="2">ماوس</option>
+			<option id="3">اسکنر</option>
+			<option id="4">چاپگر</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="173">
+		<description>برای تبدیل دستورات غیر قابل فهم به زبان قابل درک کامپیوتر، کدام برنامه وظیفه این کار را بر عهده دارد؟</description>
+		<options>
+			<option id="1">سیستم عامل</option>
+			<option id="2">مترجم‌ها</option>
+			<option id="3">نرم‌افزارهای کاربردی</option>
+			<option id="4">نرم‌افزارهای کمکی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="174">
+		<description>برای نگهداری موقت داده‌های درحال پردازش از کدام مورد استفاده می‌شود؟</description>
+		<options>
+			<option id="1">CU</option>
+			<option id="2">ALU</option>
+			<option id="3">Register</option>
+			<option id="4">Cache</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="175">
+		<description>کدام یک از گزینه‌های زیر بیانگر اجزای فیزیکی یک سیستم کامپیوتری است؟</description>
+		<options>
+			<option id="1">سخت افزار</option>
+			<option id="2">نرم افزار رایگان</option>
+			<option id="3">نرم افزار</option>
+			<option id="4">ابزار آموزشی</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="176">
+		<description>کدام یک از عبارت‌های زیر صحیح است؟</description>
+		<options>
+			<option id="1">یک گیگابایت کمتر از یک مگابایت است</option>
+			<option id="2">یک کیلوبایت کمتر از یک مگابایت است</option>
+			<option id="3">یک بایت کمتر از یک بیت است</option>
+			<option id="4">یک ترابایت کمتر از یک گیگابایت است</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="177">
+		<description>کدام عبارت در مورد RAM صحیح است؟</description>
+		<options>
+			<option id="1">RAM هنگام خاموشی داده‌ها را حفظ می‌کند</option>
+			<option id="2">RAM حافظه خواندنی نوشتنی است</option>
+			<option id="3">RAM فقط نوشتنی است</option>
+			<option id="4">RAM قابل افزایش نیست</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="178">
+		<description>بزرگ‌ترین کامپیوتر از نظر ابعاد کدام است؟</description>
+		<options>
+			<option id="1">PC</option>
+			<option id="2">Mainframe</option>
+			<option id="3">Laptop</option>
+			<option id="4">Super Computer</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="179">
+		<description>یک برنامه به منظور اجرا در کجا قرار می‌گیرد؟</description>
+		<options>
+			<option id="1">RAM</option>
+			<option id="2">ROM</option>
+			<option id="3">Hard Disk</option>
+			<option id="4">Cache Memory</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="180">
+		<description>کدام یک از موارد زیر جزء انواع شبکه نمی‌باشد؟</description>
+		<options>
+			<option id="1">Gateways</option>
+			<option id="2">WAN</option>
+			<option id="3">MAN</option>
+			<option id="4">LAN</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="181">
+		<description>یک سیستم کامپیوتر از چه قسمت‌هایی تشکیل شده است؟</description>
+		<options>
+			<option id="1">سخت افزار و حافظه جانبی</option>
+			<option id="2">نرم افزار و میان‌افزار</option>
+			<option id="3">سخت افزار و میان‌افزار</option>
+			<option id="4">سخت افزار و نرم افزار و میان‌افزار</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="182">
+		<description>از کدام مورد برای چاپ نقشه‌ها و تصاویر بزرگ استفاده می‌شود؟</description>
+		<options>
+			<option id="1">پلاتر</option>
+			<option id="2">پرینتر</option>
+			<option id="3">فتوکپی</option>
+			<option id="4">ماشین تکثیر</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="183">
+		<description>کدام واحد از CPU به عنوان حافظه سریع نامیده می‌شود؟</description>
+		<options>
+			<option id="1">Cache</option>
+			<option id="2">Register</option>
+			<option id="3">CU</option>
+			<option id="4">ALU</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="184">
+		<description>کدام گزینه دستگاه ورودی نمی‌باشد؟</description>
+		<options>
+			<option id="1">Speaker</option>
+			<option id="2">Mouse</option>
+			<option id="3">Light Pen</option>
+			<option id="4">Scanner</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="185">
+		<description>برای استفاده از صوت و موزیک در کامپیوتر کدام گزینه ضروری نیست؟</description>
+		<options>
+			<option id="1">کارت صدا</option>
+			<option id="2">مودم</option>
+			<option id="3">فایل صوتی یا ویدئویی</option>
+			<option id="4">بلندگو</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="186">
+		<description>کامپیوتر مرکزی در شبکه کامپیوتری چه نام دارد؟</description>
+		<options>
+			<option id="1">Micro Computer</option>
+			<option id="2">Super Computer</option>
+			<option id="3">Mini Computer</option>
+			<option id="4">Server Computer</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="187">
+		<description>ویروس کامپیوتری چیست؟</description>
+		<options>
+			<option id="1">ویروس بیماری‌زا</option>
+			<option id="2">سخت‌افزار</option>
+			<option id="3">برنامه کامپیوتری مخرب</option>
+			<option id="4">نرم‌افزار معمولی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="188">
+		<description>به عمل حرکت دادن ماوس در حالی که دکمه چپ آن فشرده است چه می‌گویند؟</description>
+		<options>
+			<option id="1">Drag</option>
+			<option id="2">Click</option>
+			<option id="3">Double Click</option>
+			<option id="4">Drop</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="189">
+		<description>در کدام مورد برای خواندن و نوشتن اطلاعات از اشعه لیزر استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Tape</option>
+			<option id="2">Hard Disk</option>
+			<option id="3">Floppy Disk</option>
+			<option id="4">CD-ROM</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="190">
+		<description>کدام گزینه دستورالعمل‌هایی هستند که جهت بکارگیری سخت‌افزار استفاده می‌شوند؟</description>
+		<options>
+			<option id="1">سخت‌افزار</option>
+			<option id="2">میان‌افزار</option>
+			<option id="3">نرم‌افزار</option>
+			<option id="4">سیستم</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="191">
+		<description>کدام مورد درباره Hard Disk غلط است؟</description>
+		<options>
+			<option id="1">دیسک قالب‌بندی‌شده را می‌توان دوباره قالب‌بندی کرد</option>
+			<option id="2">با قالب‌بندی، تمام اطلاعات پاک می‌شود</option>
+			<option id="3">قبل از استفاده باید قالب‌بندی شود</option>
+			<option id="4">قالب‌بندی فقط مخصوص دیسک سخت داخلی است</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="192">
+		<description>کلید میانبر Help کدام است؟</description>
+		<options>
+			<option id="1">F2</option>
+			<option id="2">F1</option>
+			<option id="3">F7</option>
+			<option id="4">F3</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="193">
+		<description>کلید میانبر Undo چیست؟</description>
+		<options>
+			<option id="1">Ctrl+Z</option>
+			<option id="2">Ctrl+V</option>
+			<option id="3">Ctrl+P</option>
+			<option id="4">Ctrl+X</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="194">
+		<description>کدام ابزار جزء وسایل خروجی است؟</description>
+		<options>
+			<option id="1">Speaker</option>
+			<option id="2">Microphone</option>
+			<option id="3">Light Pen</option>
+			<option id="4">Scanner</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="195">
+		<description>برای وارد کردن تصاویر به کامپیوتر از چه سخت‌افزاری استفاده می‌شود؟</description>
+		<options>
+			<option id="1">چاپگر</option>
+			<option id="2">اسکنر</option>
+			<option id="3">پلاتر</option>
+			<option id="4">کارت گرافیک</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="196">
+		<description>کدام یک سیستم عامل محسوب نمی‌شود؟</description>
+		<options>
+			<option id="1">Linux</option>
+			<option id="2">Unix</option>
+			<option id="3">Word</option>
+			<option id="4">Windows</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="197">
+		<description>نرم‌افزارهایی که مدیریت سخت‌افزار را بر عهده دارند چه نام دارند؟</description>
+		<options>
+			<option id="1">سیستمی</option>
+			<option id="2">کاربردی</option>
+			<option id="3">ویروس‌یاب</option>
+			<option id="4">سودمند</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="198">
+		<description>کدام گزینه نرم‌افزار سیستمی است؟</description>
+		<options>
+			<option id="1">سیستم عامل</option>
+			<option id="2">اینترنت</option>
+			<option id="3">اکسل</option>
+			<option id="4">ورد</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="199">
+		<description>کدام یک جزء واحدهای اندازه‌گیری حافظه نیست؟</description>
+		<options>
+			<option id="1">بیت</option>
+			<option id="2">سلول</option>
+			<option id="3">بایت</option>
+			<option id="4">کلمه</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="200">
+		<description>مودم چگونه دستگاهی است؟</description>
+		<options>
+			<option id="1">خروجی</option>
+			<option id="2">ورودی/خروجی</option>
+			<option id="3">ورودی</option>
+			<option id="4">پردازشی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="201">
+		<description>هدف ارگونومیک چیست؟</description>
+		<options>
+			<option id="1">سالم ماندن لوازم کاری</option>
+			<option id="2">سلامت روحی</option>
+			<option id="3">سلامت انسان در محیط کار</option>
+			<option id="4">بهینه‌سازی روش کاری</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="202">
+		<description>کدام جمله نادرست است؟</description>
+		<options>
+			<option id="1">فایل بازیابی‌شده به محل اصلی منتقل می‌شود</option>
+			<option id="2">فایل حذف‌شده در سطل بازیافت قرار می‌گیرد</option>
+			<option id="3">ظرفیت سطل بازیافت قابل تغییر است</option>
+			<option id="4">فایل حذف‌شده هیچگاه بازیابی نمی‌شود</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="203">
+		<description>انواع نرم‌افزار کدام است؟</description>
+		<options>
+			<option id="1">سیستمی - مترجم</option>
+			<option id="2">کاربردی - سیستمی</option>
+			<option id="3">کاربردی - برنامه‌نویسی</option>
+			<option id="4">سطح بالا - سطح پایین</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="204">
+		<description>برنامه‌های کوچکی که به برنامه اجرایی حمله کرده و اجرای آن را مختل می‌کنند چه نام دارند؟</description>
+		<options>
+			<option id="1">Scam</option>
+			<option id="2">Virus</option>
+			<option id="3">Hacker</option>
+			<option id="4">ISDN</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="205">
+		<description>بهترین روش جلوگیری از ورود ویروس چیست؟</description>
+		<options>
+			<option id="1">حذف ایمیل‌های مشکوک</option>
+			<option id="2">استفاده از آنتی‌ویروس</option>
+			<option id="3">داشتن آنتی‌ویروس قابل به‌روزرسانی</option>
+			<option id="4">استفاده از حافظه جانبی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="206">
+		<description>ویروس همان … است.</description>
+		<options>
+			<option id="1">سخت‌افزار</option>
+			<option id="2">برنامه کاربردی</option>
+			<option id="3">برنامه مخرب</option>
+			<option id="4">بمب منطقی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="207">
+		<description>دستگاهی که هنگام قطع برق، برق رایانه را تأمین می‌کند چیست؟</description>
+		<options>
+			<option id="1">Modem</option>
+			<option id="2">UPS</option>
+			<option id="3">CPU</option>
+			<option id="4">Memory Card</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="208">
+		<description>علامت قرمز برنامه آنتی‌ویروس نشانه چیست؟</description>
+		<options>
+			<option id="1">خرابی آنتی‌ویروس</option>
+			<option id="2">به‌روز نبودن آنتی‌ویروس</option>
+			<option id="3">مدت زمان استفاده</option>
+			<option id="4">وجود ویروس</option>
+		</options>
+		<answer>4</answer>
+	</question>
+
+	<question id="209">
+		<description>به نرم‌افزارهایی که به مدت یک ماه استفاده از آنها رایگان است، چه گفته می‌شود؟</description>
+		<options>
+			<option id="1">Shareware</option>
+			<option id="2">Freeware</option>
+			<option id="3">کدباز</option>
+			<option id="4">Open Source</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="210">
+		<description>به ارتباط چند رایانه متصل به هم چه می‌گویند؟</description>
+		<options>
+			<option id="1">PC</option>
+			<option id="2">Network</option>
+			<option id="3">ISP</option>
+			<option id="4">IP</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="211">
+		<description>کدام یک از گزینه‌های زیر از ویژگی‌های حق انتشار نرم‌افزار است؟</description>
+		<options>
+			<option id="1">حقوق خریدار نرم‌افزار را به رسمیت می‌شناسد</option>
+			<option id="2">حقوق تولیدکننده نرم‌افزار را به رسمیت می‌شناسد</option>
+			<option id="3">سرقت نرم‌افزار را امکان‌پذیر می‌کند</option>
+			<option id="4">خریدار مالک نرم‌افزار است و حق تکثیر دارد</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="212">
+		<description>به عمل پشتیبان‌گیری چه می‌گویند؟</description>
+		<options>
+			<option id="1">Number</option>
+			<option id="2">Design</option>
+			<option id="3">Backup</option>
+			<option id="4">Table</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+</Quiz>
