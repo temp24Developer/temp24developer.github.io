@@ -27,7 +27,7 @@
 			<Description>
 				//ایجاد پروژه جدید
 			</Description>
-			<Example>	
+			<Example>
 				//روش 1
 				//vs code -> Shift + p -> New Project -> Console App -> [project name] -> [save directory] -> [sln version]
 				//روش 2
@@ -79,7 +79,7 @@
 		<Title>Data Types | انواع داده ها</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_1_part_1.mp4
+				videos/vid/teach/csharp/csharp_base_vid_1_part_1.mp4
 			</Video>
 			<Description>
 				/*
@@ -123,12 +123,12 @@
 			<Video></Video>
 			<Description>
 				/*عملگرهای مقایسه ای
-				>     : بزرگ تر 
-				>=    : بزرگ تر یا مساوی 
-				&lt;  : کوچک تر 
-				&lt;= : کوچک تر یا مساوی 
+				>     : بزرگ تر
+				>=    : بزرگ تر یا مساوی
+				&lt;  : کوچک تر
+				&lt;= : کوچک تر یا مساوی
 				==    : مساوی (is : ==)
-				!=    : نامساوی (is not : !=)		
+				!=    : نامساوی (is not : !=)
 				*/
 			</Description>
 			<Example>
@@ -182,7 +182,7 @@
 		<Title>Variable | تعریف متغیر</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_1_part_2.mp4
+				videos/vid/teach/csharp/csharp_base_vid_1_part_2.mp4
 			</Video>
 			<Description>
 				//'تعریف متغیر بر اساس 'نوع داده :
@@ -243,7 +243,7 @@
 		<Title>Data Type Convert | تبدیل انواع داده</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_1_part_4.mp4
+				videos/vid/teach/csharp/csharp_base_vid_1_part_4.mp4
 			</Video>
 			<Description>
 				//Parse : تبدیل متن! به هر نوعی -> به شرط امکان تبدیل
@@ -405,7 +405,7 @@
 		<Title>if else | ساختار شرطی</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_1_part_5.mp4
+				videos/vid/teach/csharp/csharp_base_vid_1_part_5.mp4
 			</Video>
 			<Description>
 				/*
@@ -539,7 +539,7 @@
 		<Title>if else if | ساختار شرطی</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_2_part_3.mp4
+				videos/vid/teach/csharp/csharp_base_vid_2_part_3.mp4
 			</Video>
 			<Description>
 				/*
@@ -712,11 +712,61 @@
 			</Example>
 		</Content>
 	</Subject>
+	<Subject key="Try">
+		<Title>try-catch | کنترل خطاهای زمان اجرا</Title>
+		<Content>
+			<Video>
+				videos/vid/teach/csharp/csharp_base_vid_2_part_5.mp4
+			</Video>
+			<Description>
+				//try کد اصلی برنامه در بلوک
+				//catch درصورت وقوع خطای زمان اجرا : انتقال به بلوک
+
+				/*
+				try {
+				&#160;&#160;&#160; //کد اصلی برنامه
+				}
+				catch (exception)
+				{
+				&#160;&#160;&#160; //مدیریت خطا زمان اجرا
+				}
+				*/
+			</Description>
+			<Example>
+				{
+				var n = int.Parse(ReadLine());
+				WriteLine(100 / n);
+				}
+				catch
+				{
+				//throw;
+				WriteLine("error");
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//Exception : محتوای کامل رخداد یا خطا
+			</Description>
+			<Example>
+				try
+				{
+				&#160;&#160;&#160;var n = int.Parse(ReadLine());
+				&#160;&#160;&#160;WriteLine(100 / n);
+				}
+				catch (Exception e)
+				{
+				&#160;&#160;&#160;WriteLine(e.Message);
+				}
+			</Example>
+		</Content>
+	</Subject>
 	<Subject key="Random">
 		<Title>Random | مقادیر تصادفی</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_2.mp4
+				videos/vid/teach/csharp/csharp_base_vid_3_part_2.mp4
 			</Video>
 			<Description>
 				//new Random().Next(start?,end?)
@@ -1024,7 +1074,7 @@
 		<Title>Loops | حلقه ها : ساختارهای تکرار_مقدمه</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_3.mp4
+				videos/vid/teach/csharp/csharp_base_vid_3_part_3.mp4
 			</Video>
 			<Description>
 				//for : حلقه با ساختار تعداد تکرار مشخص (ازقبل تعیین شده) است
@@ -1037,7 +1087,7 @@
 		<Title>for | حلقه ها : تعداد تکرار مشخص</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_4.mp4
+				videos/vid/teach/csharp/csharp_base_vid_3_part_4.mp4
 			</Video>
 			<Description>
 				//for(counter; end; step)
@@ -1108,7 +1158,7 @@
 		<Title>while | حلقه ها : تعداد تکرار نامشخص</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_5.mp4
+				videos/vid/teach/csharp/csharp_base_vid_3_part_5.mp4
 			</Video>
 			<Description>
 				//while(end)
@@ -1143,7 +1193,7 @@
 		</Content>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_6.mp4
+				videos/vid/teach/csharp/csharp_base_vid_3_part_6.mp4
 			</Video>
 			<Description>
 				//بازی حدس عدد تاوقتی که به جواب درست برسیم

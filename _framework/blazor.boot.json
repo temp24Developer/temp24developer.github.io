@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "temp24DeveloperWASM",
   "resources": {
-    "hash": "sha256-bD/2vqhYJSci9rhzcv/QPd8ReN2lQ1gERysaZKLmXdY=",
+    "hash": "sha256-OrnNEB8YtzsPxzHsWLinhe/4K+53g3ed82tjn3TYDeU=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -43,7 +43,7 @@
       "System.Diagnostics.DiagnosticSource.wasm": "sha256-v7ThaGvBQ46tV18QAR0YRE2a1QHdvwiCD24+ReH1Ew8=",
       "System.Diagnostics.TraceSource.wasm": "sha256-OJ/SJ0hU5u9g+WT77XCiVJt7gbYBzk0DIzLxGlS1Yso=",
       "System.Linq.Expressions.wasm": "sha256-Pg1xxqVzaFekf8nbpJkFoponrM34LAyHy++Zk4LIjZQ=",
-      "System.Linq.wasm": "sha256-sFExejEEMJnm6sT2Kg/mfqWeCUnJ5XRhlbEIm1z21tI=",
+      "System.Linq.wasm": "sha256-ODTzTFXVgQDmILXWuVkerLurfXWHuUcZ+/HyrSDLvpU=",
       "System.Memory.wasm": "sha256-4ICt/4iI2AtT7Ow+U224DfxEGNrsvStVAH62DJQHm1U=",
       "System.Net.Http.wasm": "sha256-6+9Q/29clQHi+B7gKxyPVU/KOHEXxOsBaRZ2SZi31A4=",
       "System.Net.Primitives.wasm": "sha256-prKUHTePCqhXEUquQ8NKHWGaUB0j62pIXbC4xG7Qixg=",
@@ -52,7 +52,7 @@
       "System.Private.Uri.wasm": "sha256-YTI2lhmJHVxk5FeB0SZFUZt8o6t8Rv243ydFkzYSIc8=",
       "System.Private.Xml.wasm": "sha256-q7pugwcZCV8nsw5140BQ31S8ujlbsUa8/1tLgutb5/0=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-InFudsAtlRQGFrnsGqG6HJXeRaN3n05BJ2ZzPgUsW5c=",
-      "System.Runtime.wasm": "sha256-J/XUDzX49uQ1WQK8+JEC4OPaoSae9mBmQ+1OlwHQvaA=",
+      "System.Runtime.wasm": "sha256-zybG2J1kulsOXumv5wldzlp3eKqA0UqIFDY9je64kDk=",
       "System.Security.Cryptography.wasm": "sha256-fsNCp2RvP/1qnr6yFCAteJR34SpJTDLmiL+WsL/usKE=",
       "System.Text.Encodings.Web.wasm": "sha256-+qUQLIlqnoKOicmJwBcZSxCh1oeyZn/sEUe/QwUocSY=",
       "System.Text.Json.wasm": "sha256-uNdP1lQMrltVsxG+X7ivyZQ+4ou6oE7Q6c2VpcWC4NY=",
@@ -61,7 +61,7 @@
       "System.wasm": "sha256-rJDiJLn9vFaPuc+koNsD2sHOPKsWg6PhywVlVUHLN/A=",
       "System.Xml.ReaderWriter.wasm": "sha256-BEF+4BT5aurLMDGj+XHCp+QF35jPDSRIHhOJ+2yJvFw=",
       "System.Xml.XmlSerializer.wasm": "sha256-IDOjtFjcBx7G6UJ54KtFxzOV6jDMIUwCXJVHXwSqGmQ=",
-      "temp24DeveloperWASM.wasm": "sha256-IkEjYxtxumGA+EzKBfkZwKMsPGehaleUZ+KOn+9IceI="
+      "temp24DeveloperWASM.wasm": "sha256-z3aPg4xhBvfsMTu8fRqA5Pp+ur/hEdBL7/5wtIH691k="
     }
   },
   "cacheBootResources": true,

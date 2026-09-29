@@ -43,7 +43,9 @@
 			</Example>
 		</Content>
 		<Content>
-			<Video></Video>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_1.mp4
+			</Video>
 			<Description>
 				#اولین کد
 			</Description>
@@ -70,7 +72,7 @@
 		<Title>Data Types | انواع داده ها</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_1_part_1.mp4
+				videos/vid/teach/python/python_base_vid_1_part_2.mp4
 			</Video>
 			<Description>
 				#متن        : str (string)   -> "hello", 'python', '5'
@@ -154,6 +156,7 @@
 		<Title>Variable | تعریف متغیر</Title>
 		<Content>
 			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_3.mp4
 			</Video>
 			<Description>
 				#تعریف متغیر :
@@ -196,6 +199,7 @@
 		<Title>Data Type Convert | تبدیل انواع داده</Title>
 		<Content>
 			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_1.mp4
 			</Video>
 			<Description>
 				#dataType(value)
@@ -243,7 +247,9 @@
 	<Subject key="Format-Output">
 		<Title>Format Output | قالب بندی خروجی</Title>
 		<Content>
-			<Video></Video>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_6.mp4
+			</Video>
 			<Description>
 				#f"staticText \n{variable}"
 			</Description>
@@ -279,7 +285,9 @@
 	<Subject key="if-else">
 		<Title>if else | ساختار شرطی</Title>
 		<Content>
-			<Video></Video>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_7.mp4
+			</Video>
 			<Description>
 				#if ? :
 				#&#160;&#160;&#160; A
@@ -349,49 +357,11 @@
 			</Example>
 		</Content>
 	</Subject>
-	<Subject key="AND">
-		<Title>and | ترکیب شرط ها</Title>
-		<Content>
-			<Video></Video>
-			<Description>
-				#همه شرط ها -> true
-				#(شرط A) and (شرط B) and (شرط C) and ...
-			</Description>
-			<Example>
-				a=int(input('number : '))
-				b=int(input('number : '))
-
-				if a>=10 and b>=12:
-				&#160;&#160;&#160; print('yes')
-				else:
-				&#160;&#160;&#160; print('no')
-			</Example>
-		</Content>
-	</Subject>
-	<Subject key="OR">
-		<Title>or | ترکیب شرط ها</Title>
-		<Content>
-			<Video></Video>
-			<Description>
-				#حداقل یکی از چند شرط -> true
-				#(شرط A) or (شرط B) or (شرط C) or ...
-			</Description>
-			<Example>
-				a=int(input('number : '))
-				b=int(input('number : '))
-
-				if a>=10 or b>=12:
-				&#160;&#160;&#160; print('yes')
-				else:
-				&#160;&#160;&#160; print('no')
-			</Example>
-		</Content>
-	</Subject>
 	<Subject key="if-elif">
 		<Title>if elif | ساختار شرطی</Title>
 		<Content>
 			<Video>
-				videos/vid/teach/csharp_base_vid_2_part_3.mp4
+				videos/vid/teach/python/python_base_vid_1_part_8.mp4
 			</Video>
 			<Description>
 				#if ? :
@@ -430,14 +400,58 @@
 				else:
 				&#160;&#160;&#160; print('ALARM');
 				&#160;&#160;&#160; from winsound import Beep
-				&#160;&#160;&#160; Beep(500, 1000);
+				&#160;&#160;&#160; Beep(500, 1000); # بوق : Beep(زمان ,فرکانس)
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="AND">
+		<Title>and | ترکیب شرط ها</Title>
+		<Content>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_11.mp4
+			</Video>
+			<Description>
+				#همه شرط ها -> true
+				#(شرط A) and (شرط B) and (شرط C) and ...
+			</Description>
+			<Example>
+				a=int(input('number : '))
+				b=int(input('number : '))
+
+				if a>=10 and b>=12:
+				&#160;&#160;&#160; print('yes')
+				else:
+				&#160;&#160;&#160; print('no')
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="OR">
+		<Title>or | ترکیب شرط ها</Title>
+		<Content>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_12.mp4
+			</Video>
+			<Description>
+				#حداقل یکی از چند شرط -> true
+				#(شرط A) or (شرط B) or (شرط C) or ...
+			</Description>
+			<Example>
+				a=int(input('number : '))
+				b=int(input('number : '))
+
+				if a>=10 or b>=12:
+				&#160;&#160;&#160; print('yes')
+				else:
+				&#160;&#160;&#160; print('no')
 			</Example>
 		</Content>
 	</Subject>
 	<Subject key="match">
 		<Title>match | ساختار شرطی</Title>
 		<Content>
-			<Video></Video>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_13.mp4
+			</Video>
 			<Description>
 				#تمامی شرط ها روی یک متغیر
 				#تمامی شرط ها مقایسه برابری : ==
@@ -467,7 +481,9 @@
 	<Subject key="List">
 		<Title>List : [] | ذخیره سازی چندتایی : لیست</Title>
 		<Content>
-			<Video></Video>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_14.mp4
+			</Video>
 			<Description>
 				#listName = [value1, value2, value3, ..., valueN]
 
@@ -488,7 +504,9 @@
 			</Example>
 		</Content>
 		<Content>
-			<Video></Video>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_15.mp4
+			</Video>
 			<Description>
 				#دستورات اختصاصی روی لیست های عددی
 			</Description>
@@ -502,7 +520,9 @@
 			</Example>
 		</Content>
 		<Content>
-			<Video></Video>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_16.mp4
+			</Video>
 			<Description>
 				#سایر دستورات عمومی لیست ها
 			</Description>
@@ -520,7 +540,9 @@
 			</Example>
 		</Content>
 		<Content>
-			<Video></Video>
+			<Video>
+				videos/vid/teach/python/python_base_vid_1_part_17.mp4
+			</Video>
 			<Description>
 				#slice : برش لیست
 				#listName[startIndex, endIndex] # startIndex -> endIndex-1
@@ -554,7 +576,9 @@
 			</Example>
 		</Content>
 		<Content>
-			<Video></Video>
+			<Video>
+			videos/vid/teach/python/python_base_vid_1_part_18.mp4
+			</Video>
 			<Description>
 				#اضافه کردن عنصر جدید به لیست
 				#...append(item)
@@ -571,7 +595,7 @@
 			</Example>
 		</Content>
 		<Content>
-			<Video></Video>
+			<Video>videos/vid/teach/python/python_base_vid_1_part_19.mp4</Video>
 			<Description>
 				#حذف عنصر از لیست
 				#del mylist[index]
@@ -762,9 +786,7 @@
 	<Subject key="Random">
 		<Title>random | مقادیر تصادفی</Title>
 		<Content>
-			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_2.mp4
-			</Video>
+			<Video></Video>
 			<Description>
 				#import random
 				#دستورات تولید عدد تصادفی
@@ -782,9 +804,7 @@
 			</Example>
 		</Content>
 		<Content>
-			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_2.mp4
-			</Video>
+			<Video></Video>
 			<Description>
 				#import random
 				#دستورات انتخاب تصادفی
@@ -800,9 +820,7 @@
 			</Example>
 		</Content>
 		<Content>
-			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_2.mp4
-			</Video>
+			<Video></Video>
 			<Description></Description>
 			<Example>
 				import random
@@ -815,9 +833,7 @@
 	<Subject key="Loops">
 		<Title>Loops | حلقه ها : ساختارهای تکرار_مقدمه</Title>
 		<Content>
-			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_3.mp4
-			</Video>
+			<Video></Video>
 			<Description>
 				#for : حلقه با ساختار تعداد تکرار مشخص (ازقبل تعیین شده) است
 				#while : حلقه با ساختار تعداد تکرار نامشخص (وابسته به شرایط زمان اجرا) است
@@ -828,9 +844,7 @@
 	<Subject key="for">
 		<Title>for | حلقه ها : تعداد تکرار مشخص</Title>
 		<Content>
-			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_4.mp4
-			</Video>
+			<Video></Video>
 			<Description>
 				#for [variable] in [range/list/str]
 				#for [متغیر حلقه] in [محدوده یا لیست یا متن]
@@ -892,9 +906,7 @@
 			</Example>
 		</Content>
 		<Content>
-			<Video>
-				videos/vid/teach/csharp_base_vid_3_part_6.mp4
-			</Video>
+			<Video></Video>
 			<Description>
 				#بازی حدس عدد تاوقتی که به جواب درست برسیم
 			</Description>
