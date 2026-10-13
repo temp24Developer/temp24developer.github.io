@@ -1,0 +1,991 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Quiz title="AspMVC">
+		<question id="1">
+			<description>MVC مخفف چیست؟</description>
+			<options>
+				<option id="1">Model View Controller</option>
+				<option id="2">Main View Class</option>
+				<option id="3">Module View Code</option>
+				<option id="4">Model Visual Component</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="2">
+			<description>هدف اصلی MVC چیست؟</description>
+			<options>
+				<option id="1">ساخت بازی</option>
+				<option id="2">جداسازی بخش‌های برنامه</option>
+				<option id="3">افزایش حجم پروژه</option>
+				<option id="4">حذف پایگاه داده</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="3">
+			<description>کدام پوشه مسئول کنترل درخواست‌ها است؟</description>
+			<options>
+				<option id="1">Views</option>
+				<option id="2">Models</option>
+				<option id="3">Controllers</option>
+				<option id="4">Scripts</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="4">
+			<description>فایل‌های رابط کاربری معمولاً در کدام پوشه قرار دارند؟</description>
+			<options>
+				<option id="1">Controllers</option>
+				<option id="2">Views</option>
+				<option id="3">Models</option>
+				<option id="4">Content</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="5">
+			<description>مدل‌ها در چه پوشه‌ای قرار می‌گیرند؟</description>
+			<options>
+				<option id="1">Data</option>
+				<option id="2">Models</option>
+				<option id="3">Scripts</option>
+				<option id="4">Shared</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="6">
+			<description>کدام پوشه محل فایل‌های JavaScript است؟</description>
+			<options>
+				<option id="1">Scripts</option>
+				<option id="2">Views</option>
+				<option id="3">Content</option>
+				<option id="4">Models</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="7">
+			<description>کدام پوشه برای فایل‌های CSS استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Models</option>
+				<option id="2">Controllers</option>
+				<option id="3">Content</option>
+				<option id="4">App_Data</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="8">
+			<description>View_Start برای چه منظوری استفاده می‌شود؟</description>
+			<options>
+				<option id="1">تنظیم Layout پیش فرض</option>
+				<option id="2">ایجاد جدول</option>
+				<option id="3">تعریف Controller</option>
+				<option id="4">مدیریت Session</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="9">
+			<description>HomeController به کدام بخش تعلق دارد؟</description>
+			<options>
+				<option id="1">View</option>
+				<option id="2">Model</option>
+				<option id="3">Controller</option>
+				<option id="4">Database</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="10">
+			<description>متد پیش فرض نمایش صفحه اصلی چیست؟</description>
+			<options>
+				<option id="1">Create</option>
+				<option id="2">Edit</option>
+				<option id="3">Index</option>
+				<option id="4">Delete</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="11">
+			<description>About معمولاً چه نوع متدی است؟</description>
+			<options>
+				<option id="1">Action Method</option>
+				<option id="2">Property</option>
+				<option id="3">Event</option>
+				<option id="4">Constructor</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="12">
+			<description>Razor برای چه کاری استفاده می‌شود؟</description>
+			<options>
+				<option id="1">ارتباط با SQL Server</option>
+				<option id="2">ترکیب C# و HTML</option>
+				<option id="3">طراحی دیتابیس</option>
+				<option id="4">مدیریت خطا</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="13">
+			<description>Html Helper در چه بخشی کاربرد دارد؟</description>
+			<options>
+				<option id="1">ایجاد عناصر HTML</option>
+				<option id="2">ساخت جدول دیتابیس</option>
+				<option id="3">رمزنگاری</option>
+				<option id="4">ایجاد Session</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="14">
+			<description>کدام مورد یک Html Helper است؟</description>
+			<options>
+				<option id="1">Html.TextBoxFor</option>
+				<option id="2">SqlConnection</option>
+				<option id="3">ActionResult</option>
+				<option id="4">ViewBag</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="15">
+			<description>App_Data معمولاً برای چه کاربردی است؟</description>
+			<options>
+				<option id="1">ذخیره داده‌ها</option>
+				<option id="2">ذخیره Viewها</option>
+				<option id="3">ذخیره Controllerها</option>
+				<option id="4">ذخیره CSS</option>
+			</options>
+			<answer>1</answer>
+		</question>
+	<question id="16">
+		<description>Shared در پوشه Views برای چیست؟</description>
+		<options>
+			<option id="1">Viewهای مشترک</option>
+			<option id="2">مدل‌ها</option>
+			<option id="3">JavaScript</option>
+			<option id="4">پایگاه داده</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="17">
+		<description>MVC در بستر کدام فناوری ارائه شده است؟</description>
+		<options>
+			<option id="1">Java</option>
+			<option id="2">PHP</option>
+			<option id="3">ASP.NET</option>
+			<option id="4">Python</option>
+		</options>
+		<answer>3</answer>
+	</question>
+
+	<question id="18">
+		<description>برای ایجاد پروژه MVC معمولاً از چه محیطی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Photoshop</option>
+			<option id="2">Visual Studio</option>
+			<option id="3">Word</option>
+			<option id="4">Paint</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="19">
+		<description>SQL Server یک چیست؟</description>
+		<options>
+			<option id="1">مرورگر</option>
+			<option id="2">پایگاه داده</option>
+			<option id="3">ویرایشگر متن</option>
+			<option id="4">سیستم عامل</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="20">
+		<description>View مسئول چیست؟</description>
+		<options>
+			<option id="1">نمایش اطلاعات</option>
+			<option id="2">ذخیره اطلاعات</option>
+			<option id="3">مدیریت درخواست</option>
+			<option id="4">مدیریت امنیت</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="21">
+		<description>وظیفه اصلی Controller چیست؟</description>
+		<options>
+			<option id="1">مدیریت درخواست کاربر و ارسال پاسخ</option>
+			<option id="2">ذخیره فایل</option>
+			<option id="3">طراحی رابط کاربری</option>
+			<option id="4">نصب نرم‌افزار</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="22">
+		<description>ارتباط Controller و View چگونه است؟</description>
+		<options>
+			<option id="1">Controller داده را به View ارسال می‌کند</option>
+			<option id="2">View داده را به Controller ارسال نمی‌کند</option>
+			<option id="3">مستقل هستند</option>
+			<option id="4">ارتباطی ندارند</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="23">
+		<description>کدام فایل Layout سراسری برنامه را تعیین می‌کند؟</description>
+		<options>
+			<option id="1">web.config</option>
+			<option id="2">_ViewStart.cshtml</option>
+			<option id="3">Index.cshtml</option>
+			<option id="4">Program.cs</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="24">
+		<description>مزیت استفاده از Layout چیست؟</description>
+		<options>
+			<option id="1">جلوگیری از تکرار کد رابط کاربری</option>
+			<option id="2">افزایش حجم صفحات</option>
+			<option id="3">حذف Razor</option>
+			<option id="4">حذف Controller</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="25">
+		<description>کدام بخش مسئول منطق تجاری است؟</description>
+		<options>
+			<option id="1">View</option>
+			<option id="2">Model</option>
+			<option id="3">Layout</option>
+			<option id="4">Script</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="26">
+		<description>رشته اتصال برای چیست؟</description>
+		<options>
+			<option id="1">ارتباط با پایگاه داده</option>
+			<option id="2">اتصال اینترنت</option>
+			<option id="3">اتصال چاپگر</option>
+			<option id="4">اتصال View</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="27">
+		<description>برای نمایش اطلاعات یک مدل در View معمولاً از چه روشی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Model Binding</option>
+			<option id="2">Encryption</option>
+			<option id="3">Reflection</option>
+			<option id="4">Serialization</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="28">
+		<description>Authorize Filter برای چیست؟</description>
+		<options>
+			<option id="1">محدود کردن دسترسی کاربران</option>
+			<option id="2">مدیریت CSS</option>
+			<option id="3">ذخیره فایل</option>
+			<option id="4">ارسال ایمیل</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="29">
+		<description>RegisterModel چه کاربردی دارد؟</description>
+		<options>
+			<option id="1">ثبت نام کاربر</option>
+			<option id="2">حذف کاربر</option>
+			<option id="3">افزودن جدول</option>
+			<option id="4">ایجاد View</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="30">
+		<description>LogOnModel برای چیست؟</description>
+		<options>
+			<option id="1">ورود کاربران</option>
+			<option id="2">خروج کاربران</option>
+			<option id="3">ایجاد پروژه</option>
+			<option id="4">ایجاد View</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="31">
+		<description>ChangePasswordModel برای چیست؟</description>
+		<options>
+			<option id="1">تغییر گذرواژه</option>
+			<option id="2">ثبت کاربر</option>
+			<option id="3">ساخت View</option>
+			<option id="4">ایجاد Session</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="32">
+		<description>Resource File در MVC برای چیست؟</description>
+		<options>
+			<option id="1">چندزبانه سازی</option>
+			<option id="2">پایگاه داده</option>
+			<option id="3">امنیت</option>
+			<option id="4">Ajax</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="33">
+		<description>کش کردن صفحات چه مزیتی دارد؟</description>
+		<options>
+			<option id="1">افزایش سرعت</option>
+			<option id="2">کاهش امنیت</option>
+			<option id="3">حذف Session</option>
+			<option id="4">حذف Model</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="34">
+		<description>Ajax باعث چه می‌شود؟</description>
+		<options>
+			<option id="1">بروزرسانی بدون Refresh کامل صفحه</option>
+			<option id="2">حذف پایگاه داده</option>
+			<option id="3">افزایش حجم پروژه</option>
+			<option id="4">حذف Controller</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="35">
+		<description>Ajax Helper در چه زمینه‌ای کاربرد دارد؟</description>
+		<options>
+			<option id="1">درخواست‌های Ajax</option>
+			<option id="2">پایگاه داده</option>
+			<option id="3">View Engine</option>
+			<option id="4">Migration</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="36">
+		<description>کتابخانه JQuery.Ajax برای چیست؟</description>
+		<options>
+			<option id="1">ارسال درخواست Ajax</option>
+			<option id="2">طراحی Layout</option>
+			<option id="3">ساخت Model</option>
+			<option id="4">مدیریت کاربران</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="37">
+		<description>Ajax.ActionLink چه کاری انجام می‌دهد؟</description>
+		<options>
+			<option id="1">ایجاد لینک Ajax</option>
+			<option id="2">حذف لینک</option>
+			<option id="3">رمزنگاری</option>
+			<option id="4">مدیریت خطا</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="38">
+		<description>اعتبارسنجی سمت کلاینت باعث چیست؟</description>
+		<options>
+			<option id="1">تشخیص سریع‌تر خطاها</option>
+			<option id="2">حذف Controller</option>
+			<option id="3">غیرفعال شدن مرورگر</option>
+			<option id="4">حذف پایگاه داده</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="39">
+		<description>HandleError Filter برای چیست؟</description>
+		<options>
+			<option id="1">مدیریت خطاها</option>
+			<option id="2">ایجاد Session</option>
+			<option id="3">ساخت View</option>
+			<option id="4">مدیریت کاربران</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="40">
+		<description>فایل Error.cshtml معمولاً چه کاربردی دارد؟</description>
+		<options>
+			<option id="1">نمایش صفحه خطا</option>
+			<option id="2">تعریف Model</option>
+			<option id="3">تعریف Route</option>
+			<option id="4">اتصال پایگاه داده</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="41">
+		<description>برای تغییر ظاهر تمام صفحات بهترین محل کدام است؟</description>
+		<options>
+			<option id="1">هر View جداگانه</option>
+			<option id="2">Layout</option>
+			<option id="3">Controller</option>
+			<option id="4">Model</option>
+		</options>
+		<answer>2</answer>
+	</question>
+
+	<question id="42">
+		<description>مزیت اصلی جداسازی View و Controller چیست؟</description>
+		<options>
+			<option id="1">نگهداری آسان‌تر کد</option>
+			<option id="2">کاهش RAM</option>
+			<option id="3">حذف پایگاه داده</option>
+			<option id="4">حذف CSS</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="43">
+		<description>در معماری MVC کدام بخش نباید مستقیماً با رابط کاربری درگیر باشد؟</description>
+		<options>
+			<option id="1">Model</option>
+			<option id="2">View</option>
+			<option id="3">Layout</option>
+			<option id="4">Shared</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="44">
+		<description>برای پیاده‌سازی سایت دو زبانه از چه چیزی استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Resource Files</option>
+			<option id="2">Ajax</option>
+			<option id="3">Session</option>
+			<option id="4">TempData</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="45">
+		<description>برای کنترل دسترسی کاربران مناسب‌ترین گزینه چیست؟</description>
+		<options>
+			<option id="1">Authorize Filter</option>
+			<option id="2">Layout</option>
+			<option id="3">Shared</option>
+			<option id="4">Razor</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="46">
+		<description>برای CRUD مبتنی بر پایگاه داده کدام ترکیب ضروری‌تر است؟</description>
+		<options>
+			<option id="1">Model + Controller + View</option>
+			<option id="2">View + Ajax</option>
+			<option id="3">Layout + Script</option>
+			<option id="4">Resource + Ajax</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="47">
+		<description>مزیت اعتبارسنجی سمت کلاینت و سرور به صورت همزمان چیست؟</description>
+		<options>
+			<option id="1">امنیت و تجربه کاربری بهتر</option>
+			<option id="2">حذف پایگاه داده</option>
+			<option id="3">کاهش تعداد View</option>
+			<option id="4">حذف خطاها</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="48">
+		<description>برای بروزرسانی بخشی از صفحه بدون Refresh از چه فناوری استفاده می‌شود؟</description>
+		<options>
+			<option id="1">Ajax</option>
+			<option id="2">Razor</option>
+			<option id="3">Layout</option>
+			<option id="4">Resource</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="49">
+		<description>مسئول نمایش اطلاعات در MVC کدام بخش است؟</description>
+		<options>
+			<option id="1">View</option>
+			<option id="2">Model</option>
+			<option id="3">Controller</option>
+			<option id="4">Route</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+	<question id="50">
+		<description>مهم‌ترین مزیت معماری MVC چیست؟</description>
+		<options>
+			<option id="1">تفکیک مسئولیت‌ها و توسعه‌پذیری بیشتر</option>
+			<option id="2">کاهش تعداد فایل‌ها</option>
+			<option id="3">حذف نیاز به دیتابیس</option>
+			<option id="4">حذف نیاز به View</option>
+		</options>
+		<answer>1</answer>
+	</question>
+
+		<question id="51">
+			<description>وظیفه Route در MVC چیست؟</description>
+			<options>
+				<option id="1">مدیریت پایگاه داده</option>
+				<option id="2">تعیین مسیر درخواست‌ها به Controller و Action</option>
+				<option id="3">نمایش View</option>
+				<option id="4">اعتبارسنجی داده‌ها</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="52">
+			<description>کدام فایل معمولاً تنظیمات Route را نگهداری می‌کند؟</description>
+			<options>
+				<option id="1">web.config</option>
+				<option id="2">RouteConfig</option>
+				<option id="3">Global.asax.cs</option>
+				<option id="4">Startup.cs</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="53">
+			<description>ViewBag از چه نوعی است؟</description>
+			<options>
+				<option id="1">Strongly Typed</option>
+				<option id="2">Dynamic</option>
+				<option id="3">Static</option>
+				<option id="4">Generic</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="54">
+			<description>برای انتقال داده از Controller به View فقط در همان درخواست از چه چیزی استفاده می‌شود؟</description>
+			<options>
+				<option id="1">ViewBag</option>
+				<option id="2">Session</option>
+				<option id="3">Cookie</option>
+				<option id="4">Cache</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="55">
+			<description>TempData برای چه منظوری مناسب‌تر است؟</description>
+			<options>
+				<option id="1">ذخیره دائمی اطلاعات</option>
+				<option id="2">انتقال داده بین دو Request متوالی</option>
+				<option id="3">ذخیره اطلاعات در دیتابیس</option>
+				<option id="4">مدیریت امنیت</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="56">
+			<description>Session تا چه زمانی داده را نگهداری می‌کند؟</description>
+			<options>
+				<option id="1">تا پایان اجرای متد</option>
+				<option id="2">تا بسته شدن برنامه</option>
+				<option id="3">تا پایان نشست کاربر</option>
+				<option id="4">فقط یک درخواست</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="57">
+			<description>Partial View چیست؟</description>
+			<options>
+				<option id="1">کنترلر فرعی</option>
+				<option id="2">بخشی قابل استفاده مجدد از رابط کاربری</option>
+				<option id="3">مدل فرعی</option>
+				<option id="4">مسیر فرعی</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="58">
+			<description>مزیت اصلی Partial View چیست؟</description>
+			<options>
+				<option id="1">کاهش تکرار کد</option>
+				<option id="2">افزایش حجم پروژه</option>
+				<option id="3">حذف Layout</option>
+				<option id="4">حذف Model</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="59">
+			<description>کدام ActionResult برای نمایش View استفاده می‌شود؟</description>
+			<options>
+				<option id="1">JsonResult</option>
+				<option id="2">RedirectResult</option>
+				<option id="3">ViewResult</option>
+				<option id="4">EmptyResult</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="60">
+			<description>RedirectToAction چه کاری انجام می‌دهد؟</description>
+			<options>
+				<option id="1">ارسال JSON</option>
+				<option id="2">هدایت به Action دیگر</option>
+				<option id="3">نمایش View</option>
+				<option id="4">ایجاد Session</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="61">
+			<description>JsonResult معمولاً برای چه کاری استفاده می‌شود؟</description>
+			<options>
+				<option id="1">نمایش CSS</option>
+				<option id="2">ارسال داده JSON</option>
+				<option id="3">مدیریت امنیت</option>
+				<option id="4">اجرای Razor</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="62">
+			<description>Strongly Typed View چه مزیتی دارد؟</description>
+			<options>
+				<option id="1">کاهش امنیت</option>
+				<option id="2">دسترسی تایپ‌شده به Model</option>
+				<option id="3">حذف Controller</option>
+				<option id="4">حذف Validation</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="63">
+			<description>در Razor نماد شروع کدنویسی C# چیست؟</description>
+			<options>
+				<option id="1">#</option>
+				<option id="2">$</option>
+				<option id="3">@</option>
+				<option id="4">%</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="64">
+			<description>کدام شی اطلاعات Controller فعلی را نگهداری می‌کند؟</description>
+			<options>
+				<option id="1">RouteData</option>
+				<option id="2">Session</option>
+				<option id="3">Cache</option>
+				<option id="4">TempData</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="65">
+			<description>مزیت Strongly Typed Model نسبت به ViewBag چیست؟</description>
+			<options>
+				<option id="1">سرعت کمتر</option>
+				<option id="2">بررسی خطا در زمان کامپایل</option>
+				<option id="3">حافظه بیشتر</option>
+				<option id="4">امنیت کمتر</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="66">
+			<description>اگر کاربر آدرس نامعتبری وارد کند معمولاً چه خطایی رخ می‌دهد؟</description>
+			<options>
+				<option id="1">200</option>
+				<option id="2">201</option>
+				<option id="3">404</option>
+				<option id="4">500</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="67">
+			<description>خطای 500 نشان‌دهنده چیست؟</description>
+			<options>
+				<option id="1">صفحه پیدا نشد</option>
+				<option id="2">خطای داخلی سرور</option>
+				<option id="3">دسترسی غیرمجاز</option>
+				<option id="4">انتقال موفق</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="68">
+			<description>هدف اعتبارسنجی داده‌های ورودی چیست؟</description>
+			<options>
+				<option id="1">افزایش حجم داده</option>
+				<option id="2">اطمینان از صحت اطلاعات</option>
+				<option id="3">حذف Controller</option>
+				<option id="4">حذف View</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="69">
+			<description>در MVC وابستگی کمتر بین اجزای برنامه چه مزیتی دارد؟</description>
+			<options>
+				<option id="1">نگهداری آسان‌تر</option>
+				<option id="2">افزایش خطا</option>
+				<option id="3">کاهش توسعه‌پذیری</option>
+				<option id="4">حذف تست نرم‌افزار</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="70">
+			<description>اگر چند صفحه از یک منوی مشترک استفاده کنند، بهترین راهکار چیست؟</description>
+			<options>
+				<option id="1">کپی کردن کد در همه صفحات</option>
+				<option id="2">استفاده از Partial View</option>
+				<option id="3">ایجاد چند Controller</option>
+				<option id="4">ایجاد چند Layout</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="71">
+			<description>اگر یک View به اشتباه در پوشه Controller دیگری قرار گیرد، نتیجه چیست؟</description>
+			<options>
+				<option id="1">View بدون مشکل اجرا می‌شود</option>
+				<option id="2">MVC قادر به یافتن View نخواهد بود</option>
+				<option id="3">Controller حذف می‌شود</option>
+				<option id="4">Route تغییر می‌کند</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="72">
+			<description>مهم‌ترین مزیت Strongly Typed View نسبت به ViewBag چیست؟</description>
+			<options>
+				<option id="1">مصرف حافظه کمتر</option>
+				<option id="2">پشتیبانی IntelliSense و بررسی خطا در زمان کامپایل</option>
+				<option id="3">امنیت بیشتر در دیتابیس</option>
+				<option id="4">حذف Model</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="73">
+			<description>کدام ActionResult برای بازگرداندن داده به صورت JSON مناسب‌تر است؟</description>
+			<options>
+				<option id="1">ViewResult</option>
+				<option id="2">RedirectResult</option>
+				<option id="3">JsonResult</option>
+				<option id="4">ContentResult</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="74">
+			<description>اگر چند Controller دارای Action همنام باشند، MVC چگونه آنها را متمایز می‌کند؟</description>
+			<options>
+				<option id="1">بر اساس View</option>
+				<option id="2">بر اساس Route و نام Controller</option>
+				<option id="3">بر اساس Session</option>
+				<option id="4">بر اساس Model</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="75">
+			<description>هدف از استفاده از Area در MVC چیست؟</description>
+			<options>
+				<option id="1">افزایش امنیت</option>
+				<option id="2">تقسیم پروژه‌های بزرگ به بخش‌های منطقی</option>
+				<option id="3">مدیریت دیتابیس</option>
+				<option id="4">مدیریت Session</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="76">
+			<description>کدام روش برای جلوگیری از ارسال مجدد فرم پس از ثبت اطلاعات مناسب‌تر است؟</description>
+			<options>
+				<option id="1">View()</option>
+				<option id="2">Json()</option>
+				<option id="3">RedirectToAction()</option>
+				<option id="4">PartialView()</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="77">
+			<description>کاربرد اصلی ViewModel چیست؟</description>
+			<options>
+				<option id="1">جایگزینی کامل Controller</option>
+				<option id="2">انتقال داده‌های موردنیاز View به صورت ساختاریافته</option>
+				<option id="3">مدیریت Route</option>
+				<option id="4">ایجاد Layout</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="78">
+			<description>در MVC وابستگی کمتر بین View و Model چه مزیتی دارد؟</description>
+			<options>
+				<option id="1">تست‌پذیری بهتر</option>
+				<option id="2">افزایش حجم کد</option>
+				<option id="3">کاهش امنیت</option>
+				<option id="4">حذف Controller</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="79">
+			<description>کدام ویژگی برای جلوگیری از حملات CSRF در فرم‌ها استفاده می‌شود؟</description>
+			<options>
+				<option id="1">Authorize</option>
+				<option id="2">ValidateAntiForgeryToken</option>
+				<option id="3">HttpGet</option>
+				<option id="4">OutputCache</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="80">
+			<description>مهم‌ترین مزیت استفاده از Repository Pattern در MVC چیست؟</description>
+			<options>
+				<option id="1">حذف Model</option>
+				<option id="2">جداسازی منطق دسترسی به داده از منطق برنامه</option>
+				<option id="3">افزایش وابستگی</option>
+				<option id="4">حذف پایگاه داده</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="81">
+			<description>اگر یک Action با HttpPost مشخص شود چه اتفاقی می‌افتد؟</description>
+			<options>
+				<option id="1">فقط درخواست‌های POST را می‌پذیرد</option>
+				<option id="2">فقط GET اجرا می‌شود</option>
+				<option id="3">فقط Ajax اجرا می‌شود</option>
+				<option id="4">غیرفعال می‌شود</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="82">
+			<description>کدام شی برای نگهداری اطلاعات در تمام درخواست‌های کاربران مناسب نیست؟</description>
+			<options>
+				<option id="1">Cache</option>
+				<option id="2">Session</option>
+				<option id="3">Database</option>
+				<option id="4">Distributed Cache</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="83">
+			<description>در الگوی PRG (Post-Redirect-Get) مرحله آخر چیست؟</description>
+			<options>
+				<option id="1">Post</option>
+				<option id="2">Get</option>
+				<option id="3">Redirect</option>
+				<option id="4">Validation</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="84">
+			<description>در MVC چه زمانی از PartialViewResult استفاده می‌شود؟</description>
+			<options>
+				<option id="1">هنگام نمایش بخشی از رابط کاربری</option>
+				<option id="2">هنگام ایجاد دیتابیس</option>
+				<option id="3">هنگام ثبت Route</option>
+				<option id="4">هنگام ایجاد Session</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="85">
+			<description>مزیت استفاده از Bundling و Minification چیست؟</description>
+			<options>
+				<option id="1">افزایش تعداد فایل‌ها</option>
+				<option id="2">بهبود سرعت بارگذاری صفحات</option>
+				<option id="3">حذف JavaScript</option>
+				<option id="4">افزایش مصرف پهنای باند</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="86">
+			<description>اگر ModelState.IsValid مقدار False داشته باشد، معمولاً چه نتیجه‌ای باید انجام شود؟</description>
+			<options>
+				<option id="1">ذخیره داده</option>
+				<option id="2">حذف داده</option>
+				<option id="3">بازگشت مجدد View همراه با خطاها</option>
+				<option id="4">بستن برنامه</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="87">
+			<description>هدف Dependency Injection در MVC چیست؟</description>
+			<options>
+				<option id="1">افزایش وابستگی کلاس‌ها</option>
+				<option id="2">کاهش Coupling و افزایش تست‌پذیری</option>
+				<option id="3">حذف سرویس‌ها</option>
+				<option id="4">حذف Interfaceها</option>
+			</options>
+			<answer>2</answer>
+		</question>
+
+		<question id="88">
+			<description>در پیاده‌سازی CRUD، عملیات Update معمولاً معادل کدام متد است؟</description>
+			<options>
+				<option id="1">Create</option>
+				<option id="2">Read</option>
+				<option id="3">Edit</option>
+				<option id="4">Delete</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+		<question id="89">
+			<description>چرا نباید منطق پیچیده تجاری در View نوشته شود؟</description>
+			<options>
+				<option id="1">باعث کاهش خوانایی و نگهداری‌پذیری برنامه می‌شود</option>
+				<option id="2">باعث افزایش امنیت می‌شود</option>
+				<option id="3">باعث کاهش سرعت SQL می‌شود</option>
+				<option id="4">باعث حذف Model می‌شود</option>
+			</options>
+			<answer>1</answer>
+		</question>
+
+		<question id="90">
+			<description>در یک پروژه MVC بزرگ، بهترین محل اعتبارسنجی قوانین تجاری کجاست؟</description>
+			<options>
+				<option id="1">View</option>
+				<option id="2">JavaScript</option>
+				<option id="3">Model یا لایه Business Logic</option>
+				<option id="4">Layout</option>
+			</options>
+			<answer>3</answer>
+		</question>
+
+</Quiz>

@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- < : &lt; -->
+<!--&& : &amp;&amp;-->
+<!-- non-breaking space: &#160;-->
+
+<CodeFile>
+	<Subject key="Base">
+		<Title>پیکربندی و ساختار اولیه</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//ASP.Net Empty
+				//بعضی رو شما خواهید ساخت *
+			</Description>
+			<Example>
+				/*
+				[projectName]
+				|__Dependencies
+				|____Packages
+				|______EntityFrameworkCore
+				|______EntityFrameworkCore.Tools
+				|______EntityFrameworkCore.Design
+				|______EntityFrameworkCore.Sqlite or SqlServer or ...
+				|
+				|__wwwroot
+				|____css, js, image,... فایل ها یا پوشه های
+				|____bootstrap, bootstrap_icon,...
+				|____Client_Side Library و سایر کتابخانه های فرانت اند
+				|
+				|__Controllers
+				|____[controllerName]Controller.cs (action شامل یک یا چند)
+				|
+				|__Models
+				|____[modelName].cs واسطه انتقال اطلاعات و ارتباط با دیتابیس
+				|
+				|__Views
+				|____[controllerName] پوشه ویوهای مربوط به هر کنترلر
+				|______[actionName].cshtml صفحه ویوی مربوط به اکشن
+				|____Shared
+				|______ _[layoutName].cshtml قالب صفحات
+				|______ _ViewImports.cshtml دسترسی های ویوها به منابع پروژه
+				|
+				|__DatabaseContext.cs دفترچه راهنمای ارتباط و فهم دیتابیس خارجی
+				|
+				|__Program.cs برگه تنظیمات پروژه
+				*/
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="BaseModel">
+		<Title>MVC : M مفاهیم پایه</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//M : Model مدل
+				//...cs کلاس های
+				//انتقال و جابجایی اطلاعات برپایه مدل ها
+				//ارتباط با دیتابیس
+				//مجموعه ای از ویژگی برای یک موجودیت
+
+				//entity (موجودیت) - property (ویژگی ها)
+				//public [propertyType] [propertyName] {get; set;}
+			</Description>
+			<Example>
+				namespace [projectName].Models;
+
+				public class [modelName]
+				{
+				&#160;&#160;&#160; public [propertyType] [propertyName] {get; set;}
+				...
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//entity دانش آموز : موجودیت
+				//property نام، نام خانوادگی، سن : ویژگی ها
+			</Description>
+			<Example>
+				public class Student
+				{
+				&#160;&#160;&#160; public string Name {get; set;}
+				&#160;&#160;&#160; public string Family {get; set;}
+				&#160;&#160;&#160; public int Age {get; set;}
+				}
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="BaseView">
+		<Title>MVC : V مفاهیم پایه</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//V : View ویو
+				//...cshtml صفحات
+				//صفحات نمایش سایت روی مرورگر
+				//واسط ارتباط کابر
+
+
+				//cshtml درباره
+				//html سی شارپ لابلای
+				/*
+				تک خطی
+				@...c# code...
+
+				یا
+
+				بلوک کد چند خطی
+				@{
+				...c# code...
+				}
+				*/
+			</Description>
+			<Example>
+				@model [modelDataType]
+
+				@{
+				&#160;&#160;&#160; ViewData["Title"] = "[page title]";//عنوان صفحه روی مرورگر
+				&#160;&#160;&#160; Layout = "[layout page]";//صفحات html لینک قالب
+				}
+
+				&lt;h1>@Model...&lt;/h1>
+				...
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				/* ها layout
+				|__Views
+				|____Shared
+				|______ _[layoutName].cshtml
+				*/
+				//قالب نمایش صفحات و ویوها
+				//برای ویوها HTML بدنه مشترک
+			</Description>
+			<Example>
+				&lt;html>
+				&#160;&#160;&#160; &lt;head>
+				&#160;&#160;&#160;&#160;&#160;&#160; &lt;meta ... />
+				&#160;&#160;&#160;&#160;&#160;&#160; &lt;title>...&lt;/title>
+				&#160;&#160;&#160;&#160;&#160;&#160; &lt;link ... >
+				&#160;&#160;&#160; &lt;/head>
+				&#160;&#160;&#160; &lt;body>
+				&#160;&#160;&#160;&#160;&#160;&#160; &lt;div>
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; @RenderBody //محل بارگزاری محتوای ویوها
+				&#160;&#160;&#160;&#160;&#160;&#160; &lt;/div>
+				&#160;&#160;&#160; &lt;script ...>&lt;/script>
+				&#160;&#160;&#160; &lt;/body>
+				&lt;/html>
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="BaseController">
+		<Title>MVC : C مفاهیم پایه</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//C : Controller کنترلر
+				//[controllerName]Controller.cs
+				//مرکز پردازش و عملیات سایت
+				//لایه ارتباط بین مدل ها و ویوها
+
+				//نکته : هر کنترلر شامل چندین اکشن که هر اکشن (معمولا) به یک ویو متصل است
+				//انتقال اطلاعات از کنترلر به ویو ها از طریق همین اکشن ها
+				//ویو و اکشن متصل به هم باید همنام باشند
+			</Description>
+			<Example>
+				namespace [projectName].Controllers;
+
+				public class [controllerName]Controller : Controller
+				{
+				&#160;&#160;&#160; public IActionResult [actionName]()
+				&#160;&#160;&#160;{
+				&#160;&#160;&#160;&#160;&#160;&#160;//...code...
+				&#160;&#160;&#160;&#160;&#160;&#160;return View(/*برپایه مدل data*/);
+				&#160;&#160;&#160;}
+
+				&#160;&#160;&#160; public IActionResult ...
+				}
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="FirstRun">
+		<Title>اولین اجرا</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//نصب پکیج ها
+				/*
+				|__Dependencies
+				|____Packages
+				|______ ...
+				*/
+
+				//[package version = نسخه دات نت پروژه]
+			</Description>
+			<Example>
+				//اصلی
+				//EntityFrameworkCore [version]
+				//EntityFrameworkCore.Tools [version]
+				//EntityFrameworkCore.Design [version]
+				//EntityFrameworkCore.Sqlite [version]
+
+				//جانبی
+				//webcode generation
+				//razor runtime
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				// پکیج های فرانت اند : Client_Side Library
+				/*
+				|__wwwroot
+				|____ ...
+				*/
+			</Description>
+			<Example>
+				//wwwroot -> add clientside liberary -> bootstrap, bootstarp icon,...
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//Controller اولین
+				/*
+				|__Controllers
+				|____[controllerName]Controller.cs
+				*/
+
+				//HomeController.cs
+			</Description>
+			<Example>
+				public class HomeController : Controller
+				{
+				&#160;&#160;&#160; public IActionResult Index()
+				&#160;&#160;&#160;{
+				&#160;&#160;&#160;&#160;&#160;&#160;return View();
+				&#160;&#160;&#160;}
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//Index ویو برای اکشن
+				/*
+				|__Views
+				|____[controllerName]
+				|______[actionName].cshtml
+				*/
+
+				//ویو و اکشن متصل به هم باید همنام باشند : یاد آوری
+				/*
+				|__Views
+				|____Home
+				|______Index.cshtml
+				*/
+			</Description>
+			<Example>
+				@{
+				&#160;&#160;&#160; ViewData["Title"] = "Index";
+				&#160;&#160;&#160; Layout = "~/Views/Shared/_Layout.cshtml;
+				}
+
+				&lt;h1>Index&lt;/h1>
+				...
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//فایل تنظیمات پروژه
+				//Program.cs
+			</Description>
+			<Example>
+				var builder = WebApplication.CreateBuilder(args);
+				builder.Services.AddControllersWithViews();
+				builder.Services.AddRazorPages().AddRazorRuntimeCompilation(); //اعمال تغییرات فرانت نیاز به راه اندازی مجدد ندارد
+
+				var app = builder.Build();
+
+				app.UseRouting();
+				app.UseStaticFiles(); //wwwroot دسترسی به پوشه
+
+				//app.MapGet("/", () => "Hello World!");
+
+
+				//تعریف الگوی لینک های سایت
+				app.UseEndpoints(endpoints =>
+				{
+				endpoints.MapControllerRoute(
+				name: "default",
+				pattern: "{controller=home}/{action=index}/{id?}");
+
+				});
+
+				app.Run();
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//اولین اجرا
+			</Description>
+			<Example>
+				//F5 -> ...
+				//را تایید کنید SSl برای اجرای اول نصب خودکار
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="DataTransformGet">
+		<Title>Get | انتقال اطلاعات بر پایه مدل از سمت کنترلر (اکشن) به ویو</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//یک مدل ساده
+			</Description>
+			<Example>
+				public class Student
+				{
+				&#160;&#160;&#160; public string Name {get; set;}
+				&#160;&#160;&#160; public string Family {get; set;}
+				&#160;&#160;&#160; public int Age {get; set;}
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//ارسال 'یک واحد' اطلاعات بر پایه مدل تعریف شده از اکشن به ویو
+				//در یک نمونه واقعی، در واقع این دیتا از سمت دیتابیس دریافت و به ویو ارسال خواهد شد
+				//سمت کنترلر
+			</Description>
+			<Example>
+				public class HomeController : Controller
+				{
+				&#160;&#160;&#160; public IActionResult GetStudent()
+				&#160;&#160;&#160;{
+				&#160;&#160;&#160;&#160;&#160;&#160;var data=new Student{
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Name = "amir",
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Family = "asadi",
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Age = 17 };
+				&#160;&#160;&#160;&#160;&#160;&#160;return View(data);
+				&#160;&#160;&#160;}
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//سمت ویو
+				//نام ویو همنام اکشن : یادآوری
+				//GetStudent.cshtml
+			</Description>
+			<Example>
+				@model Student //معرفی مدل ورودی به صفحه
+
+				@{
+				&#160;&#160;&#160; ViewData["Title"] = "Get Student";
+				&#160;&#160;&#160; Layout = "~/Views/Shared/_Layout.cshtml;
+				}
+
+				//در دسترس است Model دیتای ورودی به ویو همیشه از طریق
+				&lt;h1>@Model.Name @Model.Family&lt;/h1>
+				&lt;h3>@Model.Age&lt;/h3>
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//ارسال 'لیست' اطلاعات بر پایه مدل تعریف شده از اکشن به ویو
+				//سمت کنترلر
+			</Description>
+			<Example>
+				public class HomeController : Controller
+				{
+				&#160;&#160;&#160; public IActionResult GetStudents()
+				&#160;&#160;&#160;{
+				&#160;&#160;&#160;&#160;&#160;&#160;var data=new List&lt;Student>{
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; new Student{ Name = "amir", Family = "asadi", Age = 17 },
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; new Student{ Name = "sara", Family = "ahmadi", Age = 19 },
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; new Student{ Name = "arad", Family = "amiri", Age = 15 }
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};
+				&#160;&#160;&#160;&#160;&#160;&#160;return View(data);
+				&#160;&#160;&#160;}
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//سمت ویو
+				//GetStudents.cshtml
+			</Description>
+			<Example>
+				@model List&lt;Student> //معرفی مدل ورودی به صفحه
+
+				@{
+				&#160;&#160;&#160; ViewData["Title"] = "Get Students List";
+				&#160;&#160;&#160; Layout = "~/Views/Shared/_Layout.cshtml;
+				}
+
+				//در دسترس است Model دیتای ورودی به ویو همیشه از طریق
+				@foreach(var item in Model)
+				{
+				&#160;&#160;&#160; &lt;h1>@item.Name @item.Family&lt;/h1>
+				&#160;&#160;&#160; &lt;h3>@item.Age&lt;/h3>
+				}
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="DatabaseModels">
+		<Title>Models | پیاده سازی دیتابیس : مدل ها</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//مدل ها، کلیدهای اصلی و خارجی
+				//+Validation Rules : اعتبارسنجی ورودی های هر فیلد
+
+				//Product.cs : مدل محصول
+				//ارتباط 'یک به چند' روی مدل های محصول و دسته بندی
+			</Description>
+			<Example>
+				using System.ComponentModel.DataAnnotations; //key
+				using System.ComponentModel.DataAnnotations.Schema; //ForeignKey
+
+				public class Product
+				{
+				&#160;&#160;&#160; [Display(Name = "شماره محصول")]
+				&#160;&#160;&#160; [Key] //auto number کلید اصلی از نوع
+				&#160;&#160;&#160; public int Id {get; set;}
+
+				&#160;&#160;&#160; [Display(Name = "عنوان",Prompt = "نام محصول")]
+				&#160;&#160;&#160; [Required(ErrorMessage = "فیلد الزامی")]
+				&#160;&#160;&#160; public string Title {get; set;}
+
+				&#160;&#160;&#160; [Display(Name = "درباره محصول",Prompt = "توضیحات")]
+				&#160;&#160;&#160; //بودن nullable علامت سوال انتهای نوع داده به معنی
+				&#160;&#160;&#160; public string? Description {get; set;}
+
+				&#160;&#160;&#160; public string? Img {get; set;}
+
+				&#160;&#160;&#160; [Display(Name = "قیمت")]
+				&#160;&#160;&#160; //ثبت مقدار پیش فرض برای فیلد
+				&#160;&#160;&#160; public int Price {get; set;} = 0;
+
+				&#160;&#160;&#160; [Display(Name = "تعداد موجودی")]
+				&#160;&#160;&#160; public int Inventory {get; set;} = 0;
+
+				&#160;&#160;&#160; public int CategoryId {get; set;}
+
+				&#160;&#160;&#160; //ForeignKey on navigation
+				&#160;&#160;&#160; //product -> category -> 1
+				&#160;&#160;&#160; [ForeignKey(nameof(CategoryId))]
+				&#160;&#160;&#160; public Category Category {get; set;}
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//Category.cs : مدل دسته بندی
+			</Description>
+			<Example>
+				using System.ComponentModel.DataAnnotations; //key
+				using System.ComponentModel.DataAnnotations.Schema; //DatabaseGeneratedOption
+
+				public class Group
+				{
+				&#160;&#160;&#160; [Key] //کلید اصلی غیر خودکار
+				&#160;&#160;&#160; [DatabaseGenerated(DatabaseGeneratedOption.None)]
+				&#160;&#160;&#160; public int Id {get; set;}
+
+				&#160;&#160;&#160; [Display(Name = "عنوان",Prompt = "نام دسته بندی")]
+				&#160;&#160;&#160; public string Title {get; set;}
+
+				&#160;&#160;&#160; //category -> product -> n
+				&#160;&#160;&#160; public ICollection&lt;Product> Products {get; set;} = new List&lt;Product>();
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//Validation Rules
+				/*
+				using System.ComponentModel.DataAnnotations;
+				using System.ComponentModel.DataAnnotations.Schema;
+				*/
+			</Description>
+			<Example>
+				[Key]
+				[ForeignKey(nameof(...))]
+				[DatabaseGenerated(DatabaseGeneratedOption. ...)]
+
+				[Display(Name = "...")]//label
+				[Display(Prompt = "...")]//placeholder
+
+				[Required(ErrorMessage = "...")]
+				[StringLength(100, ErrorMessage = "...")]
+				[MaxLength(100, ErrorMessage = "...")]
+				[MinLength(100, ErrorMessage = "...")]
+				[Range(1, 1000)]
+
+				[DataType(DataType. ...)]
+				/* DataType
+				Password
+				EmailAddress
+				Date
+				MultilineText
+				... */
+
+				[DisplayFormat(DataFormatString = "{0:N}")]
+				/* DataFormatString
+				{0:N} : 1234.56 → 1,234.56
+				{0:P} : 0.25 → 25.00 %
+				{0:d} : 10/6/2026
+				{0:D} : Tuesday, October 6, 2026
+				{0:t} : 2:30 PM
+				{0:T} : 2:30:45 PM
+				{0:G} : 10/6/2026 2:30 PM
+				... */
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="DatabaseContext">
+		<Title>DatabaseContext | پیاده سازی دیتابیس : واسطه ارتباط با دیتابیس</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//DatabaseContext.cs فایل
+				//دفترچه راهنمای ارتباط سایت یا برنامه شما با دیتابیس اصلی
+
+				/*
+				using Microsoft.EntityFrameworkCore;
+
+				public class AppDbContext : DbContext
+				{
+
+				database tables base on models
+				public DbSet&lt;[modelName]> [tableName] => Set&lt;[modelName]>();
+				-----------------------------------------------------------------
+				database type, address, name, ...
+				1: public AppDbContext... -> confige in Program.cs
+
+				or
+
+				2: protected override void OnConfiguring...
+				-----------------------------------------------------------------
+				default values on table creating time
+				protected override void OnModelCreating...
+
+				}
+				*/
+			</Description>
+			<Example>
+				using Microsoft.EntityFrameworkCore;
+
+				public class AppDbContext : DbContext
+				{
+
+				// database tables base on models
+				&#160;&#160;&#160; //public DbSet&lt;[modelName]> [tableName] => { get; set; }
+				&#160;&#160;&#160; //public DbSet&lt;[modelName]> [tableName] => Set&lt;[modelName]>();
+
+				&#160;&#160;&#160; public DbSet&lt;Product> Products => Set&lt;Product>();
+				&#160;&#160;&#160; public DbSet&lt;Category> Categories => Set&lt;Category>();
+
+				// database type, address, name, ...
+				&#160;&#160;&#160; //1
+				&#160;&#160;&#160; public AppDbContext(DbContextOptions&lt;AppDbContext> options) : base(options)
+				&#160;&#160;&#160; {
+
+				&#160;&#160;&#160;&#160;&#160;&#160; //confige in Program.cs
+				&#160;&#160;&#160; }
+
+				&#160;&#160;&#160; //2
+				&#160;&#160;&#160; protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+				&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160;  //sqlite
+				&#160;&#160;&#160;&#160;&#160;&#160;  optionsBuilder.UseSqlite("Data Source=myData.db");
+
+				&#160;&#160;&#160;&#160;&#160;&#160;  //sql server
+				&#160;&#160;&#160;&#160;&#160;&#160;  //optionsBuilder.UseSqlServer("...");
+				}
+
+
+				// default values on table creating time
+				&#160;&#160;&#160; protected override void OnModelCreating(ModelBuilder modelBuilder)
+				&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160; base.OnModelCreating(modelBuilder);
+
+				&#160;&#160;&#160;&#160;&#160;&#160; var categories = new List&lt;Category>
+				&#160;&#160;&#160;&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; new(){Id = 1, Title = "پوشاک"},
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; new(){Id = 2, Title = "لوازم خانگی"},
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; new(){Id = 3, Title = "صنایع دستی"},
+				&#160;&#160;&#160;&#160;&#160;&#160; };
+
+				&#160;&#160;&#160;&#160;&#160;&#160; modelBuilder.Entity&lt;Category>().HasData(categories);
+				&#160;&#160;&#160;&#160;&#160;&#160; }}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//Migration
+				//انتقال و اعمال تغییرات و ساختارهای تعریف شده روی دیتابیس اصلی
+			</Description>
+			<Example>
+				using static System.Console;
+				using static System.ConsoleColor;
+				using static System.String;
+				using System.Collections;
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="DatabaseMigration">
+		<Title>Migration | پیاده سازی دیتابیس : اعمال تغییرات روی دیتابیس</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//Migration
+				//انتقال و اعمال تغییرات و ساختارهای تعریف شده روی دیتابیس اصلی
+
+				/* مرحله اول
+				tools -> NuGet Package ... -> Package Manager Console
+
+				add-migration [name]
+				*/
+			</Description>
+			<Example>
+				add-migration firstMigration
+
+				//کد انتقال توسط دات نت نوشته خواهد شد
+				//به ساختار پروژه اضافه خواهد شد migrations پوشه
+				/* پوشه سابقه/تاریخچه تغییرات
+				[projectName]
+				|__Migrations
+				|____ ..._firstMigration.cs
+				*/
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description></Description>
+			<Example>
+				using Microsoft.EntityFrameworkCore.Migrations;
+				 				 
+				namespace MyApp.Migrations
+				{
+				&#160;&#160;&#160; public partial class firstMigration : Migration
+				&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160; //apply change : اعمال تغییرات
+				&#160;&#160;&#160;&#160;&#160;&#160; protected override void Up(MigrationBuilder migrationBuilder)
+				&#160;&#160;&#160;&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; migrationBuilder.CreateTable ...
+				 
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; migrationBuilder.InsertData ...
+				&#160;&#160;&#160;&#160;&#160;&#160; }
+				 
+				&#160;&#160;&#160;&#160;&#160;&#160; //roll back change : در صورت نیاز به بازگشت به قبل از اعمال تغییرات
+				&#160;&#160;&#160;&#160;&#160;&#160; protected override void Down(MigrationBuilder migrationBuilder)
+				&#160;&#160;&#160;&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; migrationBuilder.DropTable...
+				 
+				&#160;&#160;&#160;&#160;&#160;&#160; }
+				&#160;&#160;&#160;}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				/* مرحله دوم
+				update-database
+				*/
+			</Description>
+			<Example>
+				update-database
+
+				//کدهای 'مرحله اول' روی دیتابیس اعمال خواهند شد
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="AdminArea">
+		<Title>Admin Area | پنل ادمین</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				/* ایجاد ناحیه مستقل برای مدیر سایت
+				[projectName]
+				|__Areas //کوچک درون پروژه MVC یک
+				|____Admin
+				|______Controllers
+				|______Views
+				|________Shared
+				|__________ _Layout.cshtml
+				|________ _ViewImports.cshtml
+				*/
+
+				//برای پروژه های کوچک/آموزشی میتوان فقط یک کنترلر ساده برای مدیر سایت ساخت
+			</Description>
+			<Example>
+				// project -> add scaffold item -> MVC Area -> [areaName=Admin]
+				// Areas -> Admin -> Controllers -> AdminController.cs
+				// یا
+				// Controllers -> AdminController.cs
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				/* _ViewImports : دسترسی های مورد نیاز ویوها
+				[projectName]
+				|__Areas
+				|____Admin
+				|______Views
+				|________ _ViewImports.cshtml
+				*/
+			</Description>
+			<Example>
+				@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+				@using [projectName]
+				@using [projectName].Models
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="TagHelpers">
+		<Title>Tag Helpers | ها tagHelper درباره</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//HTML ساختارها و دستورات دات نت/سی شارپ یکپارچه سازی شده در تگ های
+			</Description>
+			<Example>
+				/* asp-controller="..."
+				ارجاع به کنترلر */
+
+				/* asp-action="..."
+				ارجاع به اکشن */
+
+				/* asp-route-[parameterName]="..."
+				ارجاع پارامتر به پارامتر همنام در ورودی اکشن */
+
+				/* asp-for="..."
+				ارجاع به فیلد همنام در مدل تعریف شده */
+
+				/* asp-validation-for="..."
+				ارجاع به اعتبارسنجی فیلد همنام در مدل تعریف شده */
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="AdminCategoryIndex">
+		<Title>Admin Category Show | پنل ادمین : مدیریت دسته بندی ها : نمایش</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				/* ایجاد ناحیه مستقل برای مدیر سایت
+				[projectName]
+				|__Areas
+				|____Admin
+				|______Controllers
+				|________CategoryController.cs
+				*/
+
+				//نمایش دسته بندی ها : اولین اکشن
+			</Description>
+			<Example>
+				using Microsoft.AspNetCore.Mvc;
+				using Microsoft.EntityFrameworkCore;
+
+				public class CategoryController : Controller
+				{
+				&#160;&#160;&#160; //اتصال به دیتابیس
+				&#160;&#160;&#160; private readonly DatabaseContext _db;
+
+				&#160;&#160;&#160; public CategoryController(DatabaseContext db)
+				&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160; _db = db;
+				&#160;&#160;&#160; }
+
+
+				&#160;&#160;&#160; //الزامی نیسیت async/await استفاده از ساختار
+				&#160;&#160;&#160; public async Task&lt;IActionResult> Index()
+				&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160; var data = await _db.Categories.ToListAsync()
+				&#160;&#160;&#160;&#160;&#160;&#160; return View(data);
+				&#160;&#160;&#160; }
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//Index.cshtml
+				//نام ویو همنام اکشن : یادآوری
+			</Description>
+			<Example>
+				@model IEnumerable&lt;Category>
+
+				@{
+				&#160;&#160;&#160; ViewData["Title"] = "Categories";
+				}
+
+				&lt;h1>Categories&lt;/h1>
+
+				&lt;table class="table table-bordered">
+				&#160;&#160;&#160; &lt;thead>
+				&#160;&#160;&#160;&#160;&#160;&#160; &lt;tr>
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;th>Id&lt;/th>
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;th>Name&lt;/th>
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;th>&lt;/th>
+				&#160;&#160;&#160;&#160;&#160;&#160; &lt;/tr>
+				&#160;&#160;&#160; &lt;/thead>
+				&#160;&#160;&#160; &lt;tbody>
+				&#160;&#160;&#160; @foreach (var item in Model)
+				&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160; &lt;tr>
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;td>@item.CategoryId&lt;/td>
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;td>@item.Name&lt;/td>
+				&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;td>&lt;/td>
+				&#160;&#160;&#160;&#160;&#160;&#160; &lt;/tr>
+				&#160;&#160;&#160; }
+				&#160;&#160;&#160; &lt;/tbody>
+				&lt;/table>
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="DataTransformPost">
+		<Title>POST | انتقال اطلاعات بر پایه مدل از سمت ویو به اکشن</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//یک مدل ساده
+			</Description>
+			<Example>
+				public class Student
+				{
+				&#160;&#160;&#160; public string Name {get; set;}
+				&#160;&#160;&#160; public string Family {get; set;}
+				&#160;&#160;&#160; public int Age {get; set;}
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//یک اکشن ساده برای نمایش فرم(ویو) دریافت اطلاعات از سمت کاربر
+				//Get از نوع
+			</Description>
+			<Example>
+				public class HomeController : Controller
+				{
+				&#160;&#160;&#160; //[HttpGet]//غیرالزامی
+				&#160;&#160;&#160; public IActionResult SubmitStudent()
+				&#160;&#160;&#160;{
+				&#160;&#160;&#160;&#160;&#160;&#160;return View();
+				&#160;&#160;&#160;}
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//یک اکشن پُست برای دریافت اطلاعات ارسال شده از ویو
+				//Post از نوع
+			</Description>
+			<Example>
+				public class HomeController : Controller
+				{
+				&#160;&#160;&#160; [HttpPost]//الزامی
+				&#160;&#160;&#160; public IActionResult SubmitStudent(Student data)
+				&#160;&#160;&#160;{
+				&#160;&#160;&#160;&#160;&#160;&#160;//حالا اطلاعات یک دانش آموز دریافت شده
+				&#160;&#160;&#160;&#160;&#160;&#160;//add, edit, delete, search, ...
+				&#160;&#160;&#160;&#160;&#160;&#160;return View();
+				&#160;&#160;&#160;}
+				}
+			</Example>
+		</Content>
+		<Content>
+			<Video></Video>
+			<Description>
+				//سمت ویو
+				//SubmitStudent.cshtml
+
+				/* صفحات ارسال شامل
+
+				input تگ های
+				جهت درج اطلاعات توسط کاربر
+
+				button/input type submit و یک تگ
+				جهت ارسال اطلاعات درج شده می باشد
+
+				form که همه آنها در یک تگ
+				با مشخصات کنترلر و اکشن مقصد قرار می گیرند */
+			</Description>
+			<Example>
+				@model Student
+
+				@{
+				&#160;&#160;&#160; ViewData["Title"] = "Get Student";
+				&#160;&#160;&#160; Layout = "~/Views/Shared/_Layout.cshtml;
+				}
+
+				&lt;form asp-controller="home" asp-action="submitStudent" method="post">
+				&#160;&#160;&#160; &lt;input asp-for="Name"/>
+				&#160;&#160;&#160; &lt;input asp-for="Family"/>
+				&#160;&#160;&#160; &lt;input asp-for="Age"/>
+				&#160;&#160;&#160; &lt;button>send&lt;/button>
+				&lt;/form>
+			</Example>
+		</Content>
+	</Subject>
+	<Subject key="AdminCategoryCreate">
+		<Title>Admin Category Create | پنل ادمین : مدیریت دسته بندی ها : ثبت</Title>
+		<Content>
+			<Video></Video>
+			<Description>
+				//CategoryController.cs
+				//ثبت دسته بندی جدید
+			</Description>
+			<Example>
+				public async Task&lt;IActionResult> Create()
+				{
+				&#160;&#160;&#160; return View();
+				}
+
+				[httpPost]//الزامی
+				public async Task&lt;IActionResult> Create(Category data)
+				{
+
+				&#160;&#160;&#160; //بررسی اعتبارسنجی های تعریف شده روی مدل ورودی
+				&#160;&#160;&#160; if (ModelState.IsValid)
+				&#160;&#160;&#160; {
+				&#160;&#160;&#160;&#160;&#160;&#160; //ثبت دسته بندی
+				&#160;&#160;&#160;&#160;&#160;&#160; _db.Categories.Add(data)
+
+				&#160;&#160;&#160;&#160;&#160;&#160; //ذخیره تغییرات _ مهم پلاس
+				&#160;&#160;&#160;&#160;&#160;&#160; _db.SaveChanged()
+
+				&#160;&#160;&#160;&#160;&#160;&#160; //بازگشت به صفحه نمایش دسته بندی ها
+				&#160;&#160;&#160;&#160;&#160;&#160; return RedirectToAction(nameof(Index)); 
+				&#160;&#160;&#160; }
+
+				&#160;&#160;&#160; //بازگشت به صفحه ثبت
+				&#160;&#160;&#160; return View(data);
+				}
+			</Example>
+		</Content>
+	</Subject>
+</CodeFile>
