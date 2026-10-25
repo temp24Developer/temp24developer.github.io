@@ -2,7 +2,7 @@
 <GamesData>
 	<game id="1" titleEn="Blocks" titleFa="بلاکز" icon="blocks.png">
 		<GameLinks>
-			<link id="1" title="کافه بازار" url="https://cafebazaar.ir/app/com.temp24Developer.blocks" platform="android"></link>
+			<link id="1" title="کافه بازار" url="https://cafebazaar.ir/app/com.temp24DEVELOPER.blocks" platform="android"></link>
 			<link id="2" title="itch.io" url="https://temp24developer.itch.io/blocks-web" platform="web"></link>
 		</GameLinks>
 		<cover>blocks.png</cover>
