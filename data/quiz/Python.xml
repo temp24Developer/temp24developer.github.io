@@ -295,7 +295,7 @@
 		<options>
 			<option id="1">0 1 2 3</option>
 			<option id="2">0 1 2</option>
-			<option id="3">0 1 2</option>
+			<option id="3">012</option>
 			<option id="4">i,0,1,2</option>
 		</options>
 		<answer>2</answer>
@@ -519,7 +519,7 @@
 		<options>
 			<option id="1">فایل برای خواندن باز می‌شود</option>
 			<option id="2">فایل فقط خواندنی است</option>
-			<option id="3">رشته داخل کوتیشن یک رشته خام است و کاراکترهای خاص پردازش نمی‌شوند</option>
+			<option id="3">رشته داخل کوتیشن یک رشته خام است و کاراکترهای خاص پردازش نمی‌شوند (Raw String)</option>
 			<option id="4">مسیر اشاره به فایل باینری دارد</option>
 		</options>
 		<answer>3</answer>
@@ -575,6 +575,7 @@
 			class X:
 			def printLine(self, line='Python'):
 			print(line)
+
 			o1 = X()
 		</description>
 		<options>

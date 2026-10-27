@@ -954,7 +954,6 @@
 			</options>
 			<answer>2</answer>
 		</question>
-
 		<question id="88">
 			<description>در پیاده‌سازی CRUD، عملیات Update معمولاً معادل کدام متد است؟</description>
 			<options>
@@ -965,7 +964,6 @@
 			</options>
 			<answer>3</answer>
 		</question>
-
 		<question id="89">
 			<description>چرا نباید منطق پیچیده تجاری در View نوشته شود؟</description>
 			<options>
@@ -976,7 +974,6 @@
 			</options>
 			<answer>1</answer>
 		</question>
-
 		<question id="90">
 			<description>در یک پروژه MVC بزرگ، بهترین محل اعتبارسنجی قوانین تجاری کجاست؟</description>
 			<options>
@@ -987,5 +984,334 @@
 			</options>
 			<answer>3</answer>
 		</question>
-
+		<question id="91">
+			<description>SQL مخفف چیست؟</description>
+			<options>
+				<option id="1">Structured Query Language</option>
+				<option id="2">Simple Query Language</option>
+				<option id="3">System Query Logic</option>
+				<option id="4">Structured Queue Language</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="92">
+			<description>کدام دستور برای دریافت اطلاعات از جدول استفاده می‌شود؟</description>
+			<options>
+				<option id="1">INSERT</option>
+				<option id="2">UPDATE</option>
+				<option id="3">SELECT</option>
+				<option id="4">DELETE</option>
+			</options>
+			<answer>3</answer>
+		</question>
+		<question id="93">
+			<description>کدام دستور برای افزودن رکورد جدید استفاده می‌شود؟</description>
+			<options>
+				<option id="1">CREATE</option>
+				<option id="2">INSERT</option>
+				<option id="3">ALTER</option>
+				<option id="4">SELECT</option>
+			</options>
+			<answer>2</answer>
+		</question>
+		<question id="94">
+			<description>کدام دستور برای حذف رکوردها استفاده می‌شود؟</description>
+			<options>
+				<option id="1">DELETE</option>
+				<option id="2">DROP</option>
+				<option id="3">REMOVE</option>
+				<option id="4">TRUNCATE</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="95">
+			<description>برای فیلتر کردن نتایج از چه بخشی استفاده می‌شود؟</description>
+			<options>
+				<option id="1">ORDER BY</option>
+				<option id="2">GROUP BY</option>
+				<option id="3">WHERE</option>
+				<option id="4">JOIN</option>
+			</options>
+			<answer>3</answer>
+		</question>
+		<question id="96">
+			<description>کدام دستور برای مرتب‌سازی داده‌ها است؟</description>
+			<options>
+				<option id="1">ORDER BY</option>
+				<option id="2">GROUP BY</option>
+				<option id="3">WHERE</option>
+				<option id="4">HAVING</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="97">
+			<description>کلید اصلی (Primary Key) چه ویژگی دارد؟</description>
+			<options>
+				<option id="1">می‌تواند Null باشد</option>
+				<option id="2">مقدار آن تکراری است</option>
+				<option id="3">هر رکورد را یکتا مشخص می‌کند</option>
+				<option id="4">فقط برای مرتب‌سازی است</option>
+			</options>
+			<answer>3</answer>
+		</question>
+		<question id="98">
+			<description>کدام Join فقط رکوردهای مشترک دو جدول را برمی‌گرداند؟</description>
+			<options>
+				<option id="1">LEFT JOIN</option>
+				<option id="2">RIGHT JOIN</option>
+				<option id="3">FULL JOIN</option>
+				<option id="4">INNER JOIN</option>
+			</options>
+			<answer>4</answer>
+		</question>
+		<question id="99">
+			<description>کدام تابع تعداد رکوردها را محاسبه می‌کند؟</description>
+			<options>
+				<option id="1">SUM</option>
+				<option id="2">COUNT</option>
+				<option id="3">AVG</option>
+				<option id="4">MIN</option>
+			</options>
+			<answer>2</answer>
+		</question>
+		<question id="100">
+			<description>کدام تابع میانگین مقادیر عددی را محاسبه می‌کند؟</description>
+			<options>
+				<option id="1">AVG</option>
+				<option id="2">COUNT</option>
+				<option id="3">MAX</option>
+				<option id="4">SUM</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="101">
+			<description>Foreign Key برای چه استفاده می‌شود؟</description>
+			<options>
+				<option id="1">تعریف کاربر</option>
+				<option id="2">ایجاد ارتباط بین جداول</option>
+				<option id="3">مرتب‌سازی داده‌ها</option>
+				<option id="4">ایجاد View</option>
+			</options>
+			<answer>2</answer>
+		</question>
+		<question id="102">
+			<description>کدام دستور ساختار یک جدول را تغییر می‌دهد؟</description>
+			<options>
+				<option id="1">ALTER TABLE</option>
+				<option id="2">UPDATE TABLE</option>
+				<option id="3">MODIFY DATA</option>
+				<option id="4">SELECT TABLE</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="103">
+			<description>کدام نوع داده برای ذخیره متن با طول متغیر استفاده می‌شود؟</description>
+			<options>
+				<option id="1">INT</option>
+				<option id="2">VARCHAR</option>
+				<option id="3">DATE</option>
+				<option id="4">FLOAT</option>
+			</options>
+			<answer>2</answer>
+		</question>
+		<question id="104">
+			<description>کدام نوع داده برای ذخیره اعداد صحیح استفاده می‌شود؟</description>
+			<options>
+				<option id="1">INT</option>
+				<option id="2">DECIMAL</option>
+				<option id="3">VARCHAR</option>
+				<option id="4">DATETIME</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="105">
+			<description>کدام نوع داده برای ذخیره تاریخ استفاده می‌شود؟</description>
+			<options>
+				<option id="1">FLOAT</option>
+				<option id="2">CHAR</option>
+				<option id="3">DATE</option>
+				<option id="4">BIT</option>
+			</options>
+			<answer>3</answer>
+		</question>
+		<question id="106">
+			<description>نوع داده BIT معمولاً برای ذخیره چه مقادیری استفاده می‌شود؟</description>
+			<options>
+				<option id="1">تاریخ</option>
+				<option id="2">مقادیر صحیح و غلط</option>
+				<option id="3">متن طولانی</option>
+				<option id="4">اعداد اعشاری</option>
+			</options>
+			<answer>2</answer>
+		</question>
+		<question id="107">
+			<description>کدام نوع داده برای ذخیره اعداد اعشاری با دقت بالا مناسب‌تر است؟</description>
+			<options>
+				<option id="1">INT</option>
+				<option id="2">BIT</option>
+				<option id="3">DECIMAL</option>
+				<option id="4">CHAR</option>
+			</options>
+			<answer>3</answer>
+		</question>
+		<question id="108">
+			<description>تفاوت اصلی CHAR و VARCHAR چیست؟</description>
+			<options>
+				<option id="1">CHAR طول ثابت و VARCHAR طول متغیر دارد</option>
+				<option id="2">VARCHAR فقط عدد ذخیره می‌کند</option>
+				<option id="3">CHAR فقط تاریخ ذخیره می‌کند</option>
+				<option id="4">هیچ تفاوتی ندارند</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="109">
+			<description>برای ذخیره تاریخ و ساعت به صورت همزمان از کدام نوع داده استفاده می‌شود؟</description>
+			<options>
+				<option id="1">DATE</option>
+				<option id="2">TIME</option>
+				<option id="3">DATETIME</option>
+				<option id="4">INT</option>
+			</options>
+			<answer>3</answer>
+		</question>
+		<question id="110">
+			<description>کدام نوع داده کمترین فضای ذخیره‌سازی را در میان گزینه‌های زیر اشغال می‌کند؟</description>
+			<options>
+				<option id="1">BIGINT</option>
+				<option id="2">VARCHAR(500)</option>
+				<option id="3">BIT</option>
+				<option id="4">DATETIME</option>
+			</options>
+			<answer>3</answer>
+		</question>
+		<question id="111">
+			<description>اگر مقدار 2147483648 را ذخیره کنیم، کدام نوع داده مناسب‌تر است؟</description>
+			<options>
+				<option id="1">SMALLINT</option>
+				<option id="2">TINYINT</option>
+				<option id="3">INT</option>
+				<option id="4">BIGINT</option>
+			</options>
+			<answer>4</answer>
+		</question>
+		<question id="112">
+			<description>برای ذخیره توضیحات بسیار طولانی مانند متن مقاله کدام نوع داده مناسب‌تر است؟</description>
+			<options>
+				<option id="1">CHAR(10)</option>
+				<option id="2">VARCHAR(MAX)</option>
+				<option id="3">BIT</option>
+				<option id="4">SMALLINT</option>
+			</options>
+			<answer>2</answer>
+		</question>
+	<question id="113">
+		<description>کدام نوع داده برای ذخیره اعداد صحیح بین 0 تا 255 مناسب است؟</description>
+		<options>
+			<option id="1">INT</option>
+			<option id="2">BIGINT</option>
+			<option id="3">TINYINT</option>
+			<option id="4">SMALLINT</option>
+		</options>
+		<answer>3</answer>
+	</question>
+		<question id="114">
+			<description>Entity Framework چیست؟</description>
+			<options>
+				<option id="1">یک سیستم عامل</option>
+				<option id="2">یک ORM برای .NET</option>
+				<option id="3">یک پایگاه داده</option>
+				<option id="4">یک وب سرور</option>
+			</options>
+			<answer>2</answer>
+		</question>
+		<question id="115">
+			<description>هدف اصلی استفاده از Entity Framework چیست؟</description>
+			<options>
+				<option id="1">حذف نیاز به SQL Server</option>
+				<option id="2">کار با داده‌ها به صورت شی‌گرا</option>
+				<option id="3">جایگزینی MVC</option>
+				<option id="4">مدیریت Viewها</option>
+			</options>
+			<answer>2</answer>
+		</question>
+		<question id="116">
+			<description>کلاس DbContext چه وظیفه‌ای دارد؟</description>
+			<options>
+				<option id="1">مدیریت ارتباط با پایگاه داده</option>
+				<option id="2">نمایش View</option>
+				<option id="3">مدیریت Session</option>
+				<option id="4">مدیریت Route</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="117">
+			<description>DbSet چه چیزی را نمایش می‌دهد؟</description>
+			<options>
+				<option id="1">یک View</option>
+				<option id="2">یک جدول در پایگاه داده</option>
+				<option id="3">یک Route</option>
+				<option id="4">یک Controller</option>
+			</options>
+			<answer>2</answer>
+		</question>
+		<question id="118">
+			<description>کدام متد تغییرات اعمال شده را در پایگاه داده ذخیره می‌کند؟</description>
+			<options>
+				<option id="1">Update()</option>
+				<option id="2">Commit()</option>
+				<option id="3">SaveChanges()</option>
+				<option id="4">ApplyChanges()</option>
+			</options>
+			<answer>3</answer>
+		</question>
+		<question id="119">
+			<description>در Entity Framework، Migration برای چه استفاده می‌شود؟</description>
+			<options>
+				<option id="1">مدیریت تغییرات ساختار پایگاه داده</option>
+				<option id="2">نمایش داده‌ها</option>
+				<option id="3">مدیریت کاربران</option>
+				<option id="4">ایجاد Controller</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="120">
+			<description>کدام دستور Migration جدید ایجاد می‌کند؟</description>
+			<options>
+				<option id="1">Add-Migration</option>
+				<option id="2">Create-Migration</option>
+				<option id="3">New-Database</option>
+				<option id="4">Update-Database</option>
+			</options>
+			<answer>1</answer>
+		</question>
+		<question id="121">
+			<description>دستور Update-Database چه کاری انجام می‌دهد؟</description>
+			<options>
+				<option id="1">حذف پایگاه داده</option>
+				<option id="2">اعمال Migrationها روی پایگاه داده</option>
+				<option id="3">ایجاد Model</option>
+				<option id="4">به‌روزرسانی View</option>
+			</options>
+			<answer>2</answer>
+		</question>
+		<question id="122">
+			<description>در رویکرد Code First ابتدا چه چیزی ایجاد می‌شود؟</description>
+			<options>
+				<option id="1">پایگاه داده</option>
+				<option id="2">Stored Procedure</option>
+				<option id="3">کلاس‌های Model</option>
+				<option id="4">Viewها</option>
+			</options>
+			<answer>3</answer>
+		</question>
+		<question id="123">
+			<description>در Code First کدام خاصیت به طور معمول کلید اصلی در نظر گرفته می‌شود؟</description>
+			<options>
+				<option id="1">Name</option>
+				<option id="2">Id</option>
+				<option id="3">Description</option>
+				<option id="4">Title</option>
+			</options>
+			<answer>2</answer>
+		</question>
 </Quiz>
