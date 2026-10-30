@@ -1,0 +1,3765 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Quiz title="WordPress">
+	<question id="1">
+		<description>در نصب افزونه در محیط محلی به چه ابزار هایی نیاز داریم؟</description>
+		<options>
+			<option id="1">سرور محلی، سیستم وردپرس و ویرایش گر متن</option>
+			<option id="2">سیستم وردپرس ، سرور محلی و مرور گر</option>
+			<option id="3">مرورگر، سیستم وردپرس و ویرایشگر متن</option>
+			<option id="4">ویرایشگر متن ، سیستم وردپرس ، سرورمحلی و مرورگر</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="2">
+		<description>برای وارد شدن به پنل مدیریت وردپرس کدام گزینه را در نوار آدرس وارد میکنیم؟</description>
+		<options>
+			<option id="1">http://mysite.com/wp-admin</option>
+			<option id="2">http://mysite.com/admin</option>
+			<option id="3">http://wp-admin</option>
+			<option id="4">http://mysite.com/admin-wp</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="3">
+		<description>وردپرس یک CMS بر اساس ..... است.</description>
+		<options>
+			<option id="1">ASP</option>
+			<option id="2">PHP</option>
+			<option id="3">C#</option>
+			<option id="4">HTML</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="4">
+		<description>در این پیوند با استفاده از شناسه در ابتدای لینک و سپس نام یا عنوان نوشته ایجاد می‌شود</description>
+		<options>
+			<option id="1">پیوند یکتای عددی</option>
+			<option id="2">پیوند یکتای ساده</option>
+			<option id="3">پیوند یکتای نام نوشته</option>
+			<option id="4">پیوند یکتای ساختار دلخواه</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="5">
+		<description>کدام یک از موارد زیر یک سیستم مدیریت محتوا نمی‌باشد؟</description>
+		<options>
+			<option id="1">Wordpress</option>
+			<option id="2">Joomla</option>
+			<option id="3">Jquery</option>
+			<option id="4">Drupal</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="6">
+		<description>کدام یک از گزینه های زیر میتواند شبیه سازی سرویس دهنده را در محیط لینوکس انجام دهد؟</description>
+		<options>
+			<option id="1">Xammp</option>
+			<option id="2">Wamp</option>
+			<option id="3">IIS</option>
+			<option id="4">Joomla</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="7">
+		<description>کدام گزینه در نصب و راه اندازی وردپرس ضروری نیست؟</description>
+		<options>
+			<option id="1">اتصال به اینترنت</option>
+			<option id="2">سرویس دهنده وب</option>
+			<option id="3">سورس وردپرس</option>
+			<option id="4">پایگاه داده</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="8">
+		<description>وردپرس یک CMS بر اساس پایگاه داده ..... است.</description>
+		<options>
+			<option id="1">Access</option>
+			<option id="2">MySQL</option>
+			<option id="3">Oracle</option>
+			<option id="4">NoSQL</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="9">
+		<description>کدام گزینه زبان برنامه نویسی پیش فرض وردپرس را نشان می‌دهد؟</description>
+		<options>
+			<option id="1">Jquery</option>
+			<option id="2">HTML</option>
+			<option id="3">ASP</option>
+			<option id="4">PHP</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="10">
+		<description>CMS مخفف عبارت.....</description>
+		<options>
+			<option id="1">Content management server</option>
+			<option id="2">Common maintain system</option>
+			<option id="3">Common management server</option>
+			<option id="4">Content management system</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="11">
+		<description>کدام مورد از نرم افزار های زیر شبیه ساز سزویس دهنده وب در محیط Local نیست؟</description>
+		<options>
+			<option id="1">SQL</option>
+			<option id="2">Xammp</option>
+			<option id="3">Lamp</option>
+			<option id="4">Wamp</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="12">
+		<description>کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">امکان نصب وردپرس بر روی سیستم عامل ویندوز وود ندارد.</option>
+			<option id="2">امکان نصب وردپرس بر روی سیستم عامل ویندوز وجود دارد.</option>
+			<option id="3">امکان نصب ورد پرس بر بروی سیستم عامل لینوکس وجود ندارد.</option>
+			<option id="4">امکان نصب ورد پرس بر روی سیستم عامل مکینتاش وجود ندارد.</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="13">
+		<description>کدام گزینه در پنجره phpmyadmin وجود ندارد؟</description>
+		<options>
+			<option id="1">Export</option>
+			<option id="2">Inport</option>
+			<option id="3">mysql</option>
+			<option id="4">Insert</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="14">
+		<description>تغییر ساختار تاریخ و زمان در وردپرس از کدام روش امکان پذیر است؟</description>
+		<options>
+			<option id="1">تظیمات گفت و گو ها</option>
+			<option id="2">تنظیمات خواندن</option>
+			<option id="3">تنظیمات نوشتن</option>
+			<option id="4">تنظیمات همگانی</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="15">
+		<description>کدام مورد در بخش پیشخوان وجود دارد؟</description>
+		<options>
+			<option id="1">مدیریت ابزارک ها</option>
+			<option id="2">تنظیمات نمایش</option>
+			<option id="3">تنظیمات افزونه ها</option>
+			<option id="4">رسانه</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="16">
+		<description>کدام گزینه صحیح نیست؟</description>
+		<options>
+			<option id="1">وب سرور ویندوز IIS می باشد.</option>
+			<option id="2">وب سرورس لینوکس Apache می باشد.</option>
+			<option id="3">می توان سایت های با زبان برنامه نویسی PHP را در هاست وینئوزی اجرا کرد.</option>
+			<option id="4">نمی توان سایت های با زبان برنامه نویسی PHP را در هاست وینئوزی اجرا کرد.</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="17">
+		<description>........... مختص سایت هایی است که زبان برنامه نویسی آنها asp یا asp.net و همچنین سایت هایی که بانک های اطلاعاتی آنها SQL server است.</description>
+		<options>
+			<option id="1">هاست اختصاصی</option>
+			<option id="2">هاست ویندوز</option>
+			<option id="3">هاست لینوکس</option>
+			<option id="4">هاست مجازی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="18">
+		<description>............قسمتی است که به صورت خودکار، هر نسخه ی جدیدی که ایجاد شود را به ما یادآوری میکند</description>
+		<options>
+			<option id="1">بروزرسانی</option>
+			<option id="2">رسانه</option>
+			<option id="3">دیدگاه</option>
+			<option id="4">نمایش</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="19">
+		<description>کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">وردپرس این امکان را نمی دهد تا به نوشته ها عکس اضافه کرد</option>
+			<option id="2">وردپرس این امکان را نمی دهد تا به نوشته ها لینک اضافه کرد</option>
+			<option id="3">وردپرس این امکان را نمی دهد تا به نوشته ها موسیقی اضافه کرد</option>
+			<option id="4">وردپرس این امکان را می دهد تا به نوشته ها ویدیو اضافه کرد</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="20">
+		<description>وردپرس این قابلیت را دارد تا به شما این امکان را بدهد که پست های خود را در قالب ......... در وردپرس قرار دهید.</description>
+		<options>
+			<option id="1">JPG</option>
+			<option id="2">PSD</option>
+			<option id="3">XML</option>
+			<option id="4">GIF</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="21">
+		<description>کدام مورد از مزایای ساخت بلاگ نمیباشد؟</description>
+		<options>
+			<option id="1">تحت تاثیر قراردادن گوگل</option>
+			<option id="2">کاهش اعتبار</option>
+			<option id="3">تعامل با افراد</option>
+			<option id="4">جذب مشتری</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="22">
+		<description>یکی از بخش های مهم در وردپرس که برای تعامل مستقیم با مخاطبان وبسایت در نظر گرفته شده است ............ میباشد.</description>
+		<options>
+			<option id="1">شبکه اجتماعی</option>
+			<option id="2">برگه</option>
+			<option id="3">دسته</option>
+			<option id="4">بلاگ</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="23">
+		<description>کدام مورد در بخش منوی پیشخوان( داشبورد) ورد پرس وجود دارد؟</description>
+		<options>
+			<option id="1">مدیریت ابزارک ها</option>
+			<option id="2">شخصی سازی وبسایت</option>
+			<option id="3">تنظیمات افزونه ها</option>
+			<option id="4">مدیریت فهرست ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="24">
+		<description>ساخت.............. در وردپرس به دلیل داشتن ویژگی های خاص باعث بهبود وضعیت سایت، شناخته تر شدن و جذب بازدیدکننده خواهد شد.</description>
+		<options>
+			<option id="1">بلاگ</option>
+			<option id="2">برگه</option>
+			<option id="3">افزونه</option>
+			<option id="4">گروه</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="25">
+		<description>یک نقش را در وردپرس نمیتوان به صورت..............تعریف کرد.</description>
+		<options>
+			<option id="1">مشتری</option>
+			<option id="2">مشارکت کننده</option>
+			<option id="3">میهمان</option>
+			<option id="4">نویسنده</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="26">
+		<description>کدام نوع کاربر امکان دسترسی به تنظیمات بخش پیشخان را ندارد ؟</description>
+		<options>
+			<option id="1">مدیرکل</option>
+			<option id="2">مشارکت کننده</option>
+			<option id="3">مشترک</option>
+			<option id="4">نویسنده</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="27">
+		<description>در صورت اضافه کردن یک کاربر جدید به سایت....................</description>
+		<options>
+			<option id="1">به صورت پیش فرض، کاربر تازه ایمیلی دریافت میکند که اطلاع میدهد به سایت شما پیوسته است.</option>
+			<option id="2">به صورت پیش فرض، کاربر تازه در نقش مشارکت کننده قرار می گیرد</option>
+			<option id="3">به صورت پیش فرض، کاربر تازه ایمیلی دریافت میکند که حاوی آدرس سایت می باشد</option>
+			<option id="4">به صورت پیش فرض ، کاربر تازه در نقش کاربر جدید قرار میگیرد.</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="28">
+		<description>............ میتوانند به عنوان فهرست ها یا منو های اصلی سایت از بخش فهرست ها فراخوانی شده و قرار گیرند.</description>
+		<options>
+			<option id="1">تصویر ها</option>
+			<option id="2">دسته ها</option>
+			<option id="3">ابزار ها</option>
+			<option id="4">پرونده ها</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="29">
+		<description>برچسب ها با عنوان .................... شناخته میشوند.</description>
+		<options>
+			<option id="1">Themes</option>
+			<option id="2">Plugins</option>
+			<option id="3">Tags</option>
+			<option id="4">Posts</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="30">
+		<description>…............ کلماتی هستند که با متن و محتوای نوشته ارتباط دارند و میتوان گفت پر کاربرد ترین کلمات و یا نیمه عبارت در متن را شامل خواهند شد</description>
+		<options>
+			<option id="1">دسته ها</option>
+			<option id="2">برچسب ها</option>
+			<option id="3">گروه ها</option>
+			<option id="4">نوشته ها</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="31">
+		<description>کدام گزینه در بخش بهینه سازی سایت موثر نیست؟</description>
+		<options>
+			<option id="1">برچسب ها</option>
+			<option id="2">موتور های جوستجو</option>
+			<option id="3">لینک ها</option>
+			<option id="4">برگه ها</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="32">
+		<description>پس از نصب وردپرس کاربرد اصلی به صورت پیش فرض ............. میباشد.</description>
+		<options>
+			<option id="1">مشترک/مشتری</option>
+			<option id="2">نویسنده</option>
+			<option id="3">مدیرکل</option>
+			<option id="4">ویرایشگر</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="33">
+		<description>کاربر با نقش مشتری به ................ دسترسی ندارد.</description>
+		<options>
+			<option id="1">برگه ها</option>
+			<option id="2">رسانه</option>
+			<option id="3">پیشخوان</option>
+			<option id="4">نوشته ها</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="34">
+		<description>کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">حداکثر حجم فایل بارگذاری شده در کتاب خوانه 4 کیلو بایت است.</option>
+			<option id="2">حداکثر حجم فایل بارگذاری شده در کتاب خوانه 4 مگابایت است</option>
+			<option id="3">حداکثر حجم فایل بارگذاری شده در کتاب خوانه 2 کیلو بایت است</option>
+			<option id="4">حداکثر حجم فایل بارگذاری شده در کتاب خوانه 2 مگابایت</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="35">
+		<description>برای وارد کردن یک عکس به یک برگه از کدام مسیر اقدام میکنیم؟</description>
+		<options>
+			<option id="1">افزودن پرونده چند رسانه ای کتاخابه گالری گذاشتن در برگه</option>
+			<option id="2">افزودن پرونده چند رسانه ای گذاشتن در برگه</option>
+			<option id="3">افزودن پرونده چند رسانه ای کتاخابه</option>
+			<option id="4">عکس را copyt و در برگه paste میکنیم</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="36">
+		<description>موارد رسانه شامل کدام گزینه نیست؟</description>
+		<options>
+			<option id="1">صوت</option>
+			<option id="2">تصویر</option>
+			<option id="3">ویدیو</option>
+			<option id="4">متن</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="37">
+		<description>در مراجعه به کتابخانه وردپرس کدام اطلاعات درموردیک پرونده چند رسانه ای قابل بررسی نمی باشد؟</description>
+		<options>
+			<option id="1">نوع پرونده چند رسانه ای</option>
+			<option id="2">حجم پرونده چند رسانه ای</option>
+			<option id="3">اندازه پرونده چند رسانه ای</option>
+			<option id="4">تاریخ تغییرات و ساعت پرونده چند رسانه ای</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="38">
+		<description>کئام گزینه در کتابخانه برای پرونده های چند رسانه ای قابل اعمال است؟</description>
+		<options>
+			<option id="1">پاک کردن برای همیشه</option>
+			<option id="2">فعال کردن</option>
+			<option id="3">نمایش</option>
+			<option id="4">ویرایش</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="39">
+		<description>کدام نوع فایل را نمی توان در کتابخانه وردپرس آپلود نمود؟</description>
+		<options>
+			<option id="1">Jpeg</option>
+			<option id="2">Exe</option>
+			<option id="3">Gif</option>
+			<option id="4">Pdf</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="40">
+		<description>…...............ابزار قدرتمندی برای مدیریت مالتی مدیا یا همان پرونده های چند رسانه ای می باشد؟</description>
+		<options>
+			<option id="1">کتابخانه</option>
+			<option id="2">گالری</option>
+			<option id="3">برگه</option>
+			<option id="4">دسته</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="41">
+		<description>کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">امکان تغییر کیفیت عکس ها در کتابخانه وردپرس وجود ندارد.</option>
+			<option id="2">امکان تغییر ابعاد عکس ها در کتابخانه وردپرس وجود ندارد.</option>
+			<option id="3">امکانفشرده سازی عکس ها در کتابخانه وردپرس وجود ندارد.</option>
+			<option id="4">امکان تغییر نام عکس ها در کتابخانه وردپرس وجود ندارد.</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="42">
+		<description>کدام مورد از افزونه های زیر مانع از تجمع عکس های تکراری و بدون استفاده از کتابخانه وردپرس میشود؟</description>
+		<options>
+			<option id="1">down ML</option>
+			<option id="2">Disable JPEG Conpression</option>
+			<option id="3">Increase Max Upload File size</option>
+			<option id="4">Image cleanup</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="43">
+		<description>در کدام مرحله طراخی اهداف وب سایت باید مشخص شود؟</description>
+		<options>
+			<option id="1">معماری اطلاعات</option>
+			<option id="2">نیاز سنجی</option>
+			<option id="3">طراحی</option>
+			<option id="4">پشتیبانی</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="44">
+		<description>در مرحله نیاز سنجی کدام مورد انجام نمیشود؟</description>
+		<options>
+			<option id="1">بازدید ارزوند فعالیت سیستم</option>
+			<option id="2">انتخاب نام دامنه</option>
+			<option id="3">شناخت مخاطبین</option>
+			<option id="4">انتخاب بانک اطلاعاتی</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="45">
+		<description>واژه های content و structure به ترتیب به چه معنی هستند؟</description>
+		<options>
+			<option id="1">طراحی مخاطب</option>
+			<option id="2">محتوا ساختار</option>
+			<option id="3">مخاطب طراحی</option>
+			<option id="4">ساختار محتوا</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="46">
+		<description>معروف ترین مرورگر دنیا که همراه با سیستم عامل ویندوز عرضه میگردد کدام است؟</description>
+		<options>
+			<option id="1">FireFox</option>
+			<option id="2">Google Chrome</option>
+			<option id="3">Operta</option>
+			<option id="4">IE</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="47">
+		<description>موتور جستجو شرکت مایکروسافت کدام است؟</description>
+		<options>
+			<option id="1">Bing</option>
+			<option id="2">Yahoo</option>
+			<option id="3">Ask</option>
+			<option id="4">Google</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="48">
+		<description>کدامیک از گزینه های زیر از عوامل افزایش رتبه وبسایت در نتایج جستجو نیست؟</description>
+		<options>
+			<option id="1">بهینه سازی متاتک ها</option>
+			<option id="2">بهینه سازی کلمات کلیدی</option>
+			<option id="3">بهینه سازی سرور</option>
+			<option id="4">بهینه سازی داخلی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="49">
+		<description>کدام گزینه توسط ابزار تحلیل گوگل قابل بررسی نیست؟</description>
+		<options>
+			<option id="1">نرخ خروج-ازسایت</option>
+			<option id="2">تحلیل ترافیک</option>
+			<option id="3">مشاهده صفحاتی که بیشترین ورودی را از گوگل داشته اند.</option>
+			<option id="4">یافتن محتوای تکراری</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="50">
+		<description>کدام مورد از اهداف بهینه سازی موتور های جستجو نیست؟</description>
+		<options>
+			<option id="1">قرار گرفتن در رتبه های پایین نتایج</option>
+			<option id="2">قرارگرفتن در رتبه های بالا نتایج</option>
+			<option id="3">افزایش فروش</option>
+			<option id="4">رقابت بیشتر با سایر سایتها</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="51">
+		<description>کدام مورد صحیح است؟</description>
+		<options>
+			<option id="1">تگ های h همان کلمات کلیدی هستند.</option>
+			<option id="2">تاثیر تگ های h در بهینه سازی سایت بیش از سایر عوامل است.</option>
+			<option id="3">از تگ های h به منظور تفکیک بین عنوان و زیر عنوان ها استفاده میشود.</option>
+			<option id="4">تگ های h با محتوا مرتبط نیستند.</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="52">
+		<description>کدام گزینه مهمترین اصل در طراحی صفحات وب می باشد؟</description>
+		<options>
+			<option id="1">استفاده از تصویر</option>
+			<option id="2">استفاده از مرورگر مناسب</option>
+			<option id="3">سرعت بارگذاری صفحه وب</option>
+			<option id="4">زیبایی پویایی</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="53">
+		<description>مکانیزم جستجوی نتایج-در یک موتور جستجو توسط برنامه ای به نام ..............انجام می شود؟</description>
+		<options>
+			<option id="1">Engine</option>
+			<option id="2">Crawler</option>
+			<option id="3">Finder</option>
+			<option id="4">Search</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="54">
+		<description>کدامیک از گزینه های زیر فرمت مناسبی برای ذخیره سازی تصاویر کوچک مانند لوگو در صفحات وب است؟</description>
+		<options>
+			<option id="1">Jpeg</option>
+			<option id="2">Gif</option>
+			<option id="3">Bmp</option>
+			<option id="4">3gp</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="55">
+		<description>یکی از رایج-ترین اشتباهات در دنیای سئو، استفاده بیش از حد از.................... می باشد.</description>
+		<options>
+			<option id="1">کلمات کلیدی</option>
+			<option id="2">برگه ها</option>
+			<option id="3">پست ها</option>
+			<option id="4">عکس ها</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="56">
+		<description>معادل فارسی عبارت SEO کدام مورد می باشد؟</description>
+		<options>
+			<option id="1">Search Engine Optimization</option>
+			<option id="2">Server Engine Optimization</option>
+			<option id="3">Search Engine Optimization</option>
+			<option id="4">System Engine Optimiziation</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="57">
+		<description>کدام گزینه مفهوم SERP را نشان می دهد؟</description>
+		<options>
+			<option id="1">Search Engine Resolution page</option>
+			<option id="2">Search Engine Result Page</option>
+			<option id="3">Sampale Engine Resource Page</option>
+			<option id="4">Search Engine Ressource Page</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="58">
+		<description>نتیجه به کارگیری فرآیند بهینه سازی وب به منظور ارتقاء رتبه بندی وب سایت در موتور های جستوجو است.</description>
+		<options>
+			<option id="1">SEO</option>
+			<option id="2">Web Visibility</option>
+			<option id="3">Ranking</option>
+			<option id="4">Optimization</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="59">
+		<description>کدام یک از ابزار های زیر می تواند سرعت بارگذاری سایت را بیازماید؟</description>
+		<options>
+			<option id="1">Google search console</option>
+			<option id="2">Google page speed insights</option>
+			<option id="3">Google key word planner</option>
+			<option id="4">هر سه مورد</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="60">
+		<description>کدام گزینه ابزار تست سایت در پلتفرم های مختلف است؟</description>
+		<options>
+			<option id="1">Google page insight</option>
+			<option id="2">Brow SEO</option>
+			<option id="3">Site check up</option>
+			<option id="4">Google mobile friendly test</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="61">
+		<description>.................ابزاری برای مشاهده سایت به روش عنکبوتی موتور های جستجو است.</description>
+		<options>
+			<option id="1">Brow SEO</option>
+			<option id="2">Open site explorer</option>
+			<option id="3">Google analyytics</option>
+			<option id="4">گزینه الف و ب</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="62">
+		<description>..................کدامیک از گزینه های زیر توسطGoogle analyticsقابل بررسی نمی باشد؟</description>
+		<options>
+			<option id="1">یافتن محتوای تکراری</option>
+			<option id="2">مشاهده صفحاتی که بیشترین ورودی و کلیک را از گوگل داشته اند.</option>
+			<option id="3">تحلیل ترافیک</option>
+			<option id="4">نرخ خروج-ازسایت</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="63">
+		<description>کدامیک از گزینه های زیر ابزاری برای کشف و انتخاب کلمات کلیدی مناسب جهت فرآیندSEO می باشد؟</description>
+		<options>
+			<option id="1">Google search console</option>
+			<option id="2">Google key word planner</option>
+			<option id="3">Brow SEO</option>
+			<option id="4">Crawl</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="64">
+		<description>…........به کنترل مستقیم کد ها یا محتویات وب سایت اعم از متن و تصویر و...مرتبط میباشد.</description>
+		<options>
+			<option id="1">Off pae SEO</option>
+			<option id="2">On page SEO</option>
+			<option id="3">Brow SEO</option>
+			<option id="4">SEO</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="65">
+		<description>.......شامل تمام بهینه سازی هایی است که در خارج از وب سایت انجام میگیرد.</description>
+		<options>
+			<option id="1">Off page SEO</option>
+			<option id="2">On page SEO</option>
+			<option id="3">Brow SEO</option>
+			<option id="4">SEO</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="66">
+		<description>..................برای تغییر تصویر سربرگ از کدام گزینه اقدام میکنیم؟</description>
+		<options>
+			<option id="1">نمایش سفارشی سازی</option>
+			<option id="2">نمایش تصویر سربرگ</option>
+			<option id="3">ابزراک ها تصویر سربرگ</option>
+			<option id="4">ابزارک های سفارشی سازی</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="67">
+		<description>برون ریزی فرآیندی است که ظی آن یک فایل با فرمت...........ایجاد میشود.</description>
+		<options>
+			<option id="1">PDF</option>
+			<option id="2">DOC</option>
+			<option id="3">XML</option>
+			<option id="4">SWF</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="68">
+		<description>در صورتی که یک افزونه وردپرسی را برای CMS دیگر نصب کنیم..............</description>
+		<options>
+			<option id="1">نصب میشود اما فعال نمیشود</option>
+			<option id="2">نصب نمیشود اما فعال میشود</option>
+			<option id="3">نصب و فعال نمیشود</option>
+			<option id="4">نصب میشود اما به درستی عمل نمیکند</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="69">
+		<description>وردپرس اجازه آپلود کدام نوع فایل را نمیدهد؟</description>
+		<options>
+			<option id="1">Pdf</option>
+			<option id="2">Psd</option>
+			<option id="3">Jpg</option>
+			<option id="4">Doc</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="70">
+		<description>روش های زیادی برای جذب بازدید کننده وجود دارد و یکی از اصلی ترین های آن از طریق .............. است.</description>
+		<options>
+			<option id="1">افزایش تعداد برگه ها</option>
+			<option id="2">کاهش تعداد لینک ها</option>
+			<option id="3">تعداد گروه ها</option>
+			<option id="4">موتور های جستجو</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="71">
+		<description>.................. در حقیقت نام وب سایت شما میباشد.</description>
+		<options>
+			<option id="1">هاست</option>
+			<option id="2">دامنه</option>
+			<option id="3">نام</option>
+			<option id="4">سرویس</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="72">
+		<description>کدام مورد از ویژگی های وبلاگ نمیباشد؟</description>
+		<options>
+			<option id="1">ماهیت بلاگ پویا و متغیر است</option>
+			<option id="2">باعث بالا رفتن تعداد بازدید ها میگردد</option>
+			<option id="3">محتوا را اختصصای تر میکند</option>
+			<option id="4">باعث افزایش اطلاعات میشود</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="73">
+		<description>به فضایی در اینترنت میگویند که برای میزبانی وب سایت شما استفاده میشود.</description>
+		<options>
+			<option id="1">Host</option>
+			<option id="2">Service</option>
+			<option id="3">Server</option>
+			<option id="4">Net</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="74">
+		<description>اولین مرحله برای قرار دادن وب سایت بر روی هاست ......................... میباشد.</description>
+		<options>
+			<option id="1">آپلود دیتابیس</option>
+			<option id="2">ثبت دامنه</option>
+			<option id="3">ثبت نام</option>
+			<option id="4">ثبت آدرس</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="75">
+		<description>کدام افزونه برای ایجاد تبلیغات در وب سایت به کار میرود؟</description>
+		<options>
+			<option id="1">Gravity From</option>
+			<option id="2">Sticky Menu</option>
+			<option id="3">Smart Slider</option>
+			<option id="4">Local Time Clock</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="76">
+		<description>ووکامرس ابزاری جهت ساخت ..................... میباشد.</description>
+		<options>
+			<option id="1">جدول</option>
+			<option id="2">فروشگاه</option>
+			<option id="3">پوستر</option>
+			<option id="4">برگه</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="77">
+		<description>بیشتر افزونه ها برای نمایش عملکرد خود نیاز به اضافه کردن خروجی آنها به طور دستی به پوسته و یا به محتوای نوشته یا برگه هستند که به شکل............ میباشند.</description>
+		<options>
+			<option id="1">Short Code</option>
+			<option id="2">Activation Code</option>
+			<option id="3">Output Code</option>
+			<option id="4">Plugin</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="78">
+		<description>Visual Composer یکی از ....................</description>
+		<options>
+			<option id="1">افزونه های وردپرسی است که برای ساخت فرم استفاده میشود</option>
+			<option id="2">افزونه های وردپرسی است که صرفا برای ساخت ایجاد امکانات صفحه استفاده میشود</option>
+			<option id="3">افزونه های وردپرسی است که صرفا برای ساخت جدول استفاده میشود</option>
+			<option id="4">افزونه های وردپرسی است که صرفا برای ساخت تبلیغات وب سایت استفاده میشود</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="79">
+		<description>یکی از افزونه های صفحه ساز با امکانات بالا میباشد که در بسیاری از وب سایت های وردپرسی به کار گرفته میشود .</description>
+		<options>
+			<option id="1">Visual Composer</option>
+			<option id="2">Visual Studio</option>
+			<option id="3">Visual Form</option>
+			<option id="4">Visual Comfort</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="80">
+		<description>دسته بندی افزونه های نصب شده در وردپرس در کدام گزینه آمده است؟</description>
+		<options>
+			<option id="1">همه غیر فعال آماده بروزرسانی</option>
+			<option id="2">همه فعال غیر فعال آماده بروزرسانی</option>
+			<option id="3">همه منتشر شده آماده بروزرسانی</option>
+			<option id="4">همه غیر فعال منتشر شده</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="81">
+		<description>کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">امکان ویرایش افزونه ها در وردپرس وجود ندارد.</option>
+			<option id="2">امکان ویرایش افزونه ها در وردپرس وجود دارد.</option>
+			<option id="3">امکان بروزرسانی افزونه ها در وردپرس وجود ندارد.</option>
+			<option id="4">امکان حذف افزونه ها در وردپرس وجوذ ندارد.</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="82">
+		<description>هر سایتی برای کامل شدن به مکمل هایی با نام .................. نیاز دارد تا با کمک آن ها بتواند خدمات بهتری را ارائه دهد.</description>
+		<options>
+			<option id="1">پوسته</option>
+			<option id="2">افزونه های وردپرسی است که صرفا برای ساخت ایجاد امکانات صفحه استفاده میشود</option>
+			<option id="3">برچسب</option>
+			<option id="4">دیدگاه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="83">
+		<description>کدام گزینه تعریف مناسبی از یک افزونه میباشد؟</description>
+		<options>
+			<option id="1">در این قسمت تمامی نوشته هایی را که ایجاد میکنید قابل مشاهده هستندو میتوانید آنهارا ویرایش کنید.</option>
+			<option id="2">در این قسمت مربوط به تصاویر ، فایل های تصویری،صوتی و یا ویدیویی میباشد.</option>
+			<option id="3">هر سایتی برای کامل شدن به مکمل هایی نیاز دارد تا با کمک آنها بتواند خدمات بهتری را ارائه دهد.</option>
+			<option id="4">قسمتی است که به صورت خودکار هر نسخه جدیدی که ایجاد شود.</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="84">
+		<description>کدام مورد صحیح نیست؟</description>
+		<options>
+			<option id="1">امکان حذف عنوان سایت وجود دارد.</option>
+			<option id="2">امکان حذف معرفی کوتاه سایت وجود دارد.</option>
+			<option id="3">امکان حذف نمادک سایت وجود دارد.</option>
+			<option id="4">امکان تغییر عنوان و معرفی کوتاه وجود دارد.</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="85">
+		<description>در وردپرس به صورت پیش فرض برگه نخست بر روی کدام گزینه تنظیم شده است؟</description>
+		<options>
+			<option id="1">برگه ی ایستا</option>
+			<option id="2">خانه</option>
+			<option id="3">پیوند ها</option>
+			<option id="4">اخرین نوشته ها</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="86">
+		<description>کدام مورد صحیح است؟</description>
+		<options>
+			<option id="1">قالب وردپرس برای جوملا نیز قابل استفاده است</option>
+			<option id="2">قالب جوملا برای وردپرس نیز قابل استفاده است.</option>
+			<option id="3">قالب جوملا برای ورد پرس قابل استفاده نیست.</option>
+			<option id="4">استفاده از قالب در وردپرس ضروری نیست.</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="87">
+		<description>پوسته ها در وردپرس به صورت فایل ....................... هستند.</description>
+		<options>
+			<option id="1">Zip</option>
+			<option id="2">Gif</option>
+			<option id="3">Css</option>
+			<option id="4">Gpeg</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="88">
+		<description>همه ی قالب های وردپرسی در قالب ........................ هستند.</description>
+		<options>
+			<option id="1">فشرده</option>
+			<option id="2">حفاظت شده</option>
+			<option id="3">رمز گذاری شده</option>
+			<option id="4">ساده</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="89">
+		<description>پس از نصب ورد پرس بصورت پیش فرض چند قالب در دسترس میباشد؟</description>
+		<options>
+			<option id="1">1</option>
+			<option id="2">2</option>
+			<option id="3">3</option>
+			<option id="4">4</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="90">
+		<description>کدام گزینه ابزار ساخت قالب میباشد ؟</description>
+		<options>
+			<option id="1">Artisteer</option>
+			<option id="2">Flash</option>
+			<option id="3">Shockwave</option>
+			<option id="4">InDesign</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="91">
+		<description>اطلاعات قالب نصب شده را از کدام مسیر میتوان به دست آورد؟</description>
+		<options>
+			<option id="1">پوسته اطلاعات قالب</option>
+			<option id="2">نمایش اطلاغات قالب</option>
+			<option id="3">ابزارها اطلاعات قالب</option>
+			<option id="4">تنظیمات اطلاعات قالب</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="92">
+		<description>کدام مورد نرم افزار مخصوص طراحی قالب میباشد؟</description>
+		<options>
+			<option id="1">Illustrator</option>
+			<option id="2">InDesign</option>
+			<option id="3">Flash Player</option>
+			<option id="4">Template Toaste</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="93">
+		<description>در قالب های وردپرسی کدام مورد صحیح نیست؟</description>
+		<options>
+			<option id="1">همواره امکان تغییر بنر وجود دارد</option>
+			<option id="2">همواره امکان تغییر تعداد منو ها وجود ندارد.</option>
+			<option id="3">همواره امکان تغییر مکان نوار های کناری وجود دارد.</option>
+			<option id="4">همواره امکان تغییر پس زمینه وجود دارد.</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="94">
+		<description>کداممورد صحیح است؟</description>
+		<options>
+			<option id="1">تمامی قالب هایی که در مخزن وردپرس موجود است به صورت نسخه ی اصلی است و فارسی سازی شده نمیباشد.</option>
+			<option id="2">تمامی قالب هایی که در مخزن وردپرس موجود است به صورت نسخه ی اصلی است و فارسی سازی شده می باشد.</option>
+			<option id="3">تمامی قالب هایی که در مخزن وردپرس موجود است به صورت نسخه ی اصلی نیست و فارسی سازی شده می باشد.</option>
+			<option id="4">تمامی قالب هایی که در مخزن وردپرس موجود است به صورت نسخه ی اصلی نیست و فارسی سازی شده نمیباشد.</option>
+		</options>
+		<answer>1</answer>
+	</question>
+	<question id="95">
+		<description>کدام گزینه در مورد یک برگه امکان پذیر نمیباشد؟</description>
+		<options>
+			<option id="1">ویرایش</option>
+			<option id="2">فعال</option>
+			<option id="3">انقال به زباله دان</option>
+			<option id="4">نمایش</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="96">
+		<description>برای ایجاد یک برگه که در منوی اصلی قراردارد بایذ از ویژگی برگه کدام مورد قرار دهیم؟</description>
+		<options>
+			<option id="1">عمومی</option>
+			<option id="2">برگه تمام صفحه</option>
+			<option id="3">بدون مادر</option>
+			<option id="4">پیش فرض</option>
+		</options>
+		<answer>3</answer>
+	</question>
+	<question id="97">
+		<description>وقتی وب سایت های وردپرسی دیگر از نوشته های شما نقل قول می آورند یا کل آن را کپی میکنند ورد پرس به صورت خودکار برای ورد پرس شما..............میفرستد.</description>
+		<options>
+			<option id="1">برچسب ها</option>
+			<option id="2">بازتاب</option>
+			<option id="3">پیوند یکتا</option>
+			<option id="4">لینک</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="98">
+		<description>از کدام مسیر میتوان دریافت پیام های مربوط به نظرات را در ورد پرس غیرفعال کرد ؟</description>
+		<options>
+			<option id="1">تنظیمات خواندن</option>
+			<option id="2">تنظیمات نوشتن</option>
+			<option id="3">تنظیمات پیوند های یکتا</option>
+			<option id="4">تنظیمات گفت و گو ها</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="99">
+		<description>در محیط وردپرس چند منو(برگه) میتوان ساخت؟</description>
+		<options>
+			<option id="1">ده برگه</option>
+			<option id="2">نمیتوان بیش از ده برگه ایجاد کرد</option>
+			<option id="3">بین چهار تا ده برگه</option>
+			<option id="4">نامحدود</option>
+		</options>
+		<answer>4</answer>
+	</question>
+	<question id="100">
+		<description>برای ذخیره برگه جدید باید گزینه ............. را انتخاب کرد.</description>
+		<options>
+			<option id="1">نمایش سفارشی سازی</option>
+			<option id="2">انتشار</option>
+			<option id="3">افزودن</option>
+			<option id="4">ویرایش</option>
+		</options>
+		<answer>2</answer>
+	</question>
+	<question id="101">
+		<description>برای مشاهده محتویات یک صفحه در قالب HTNL میتوانیم گزینه ....... را فعال کنیم.</description>
+		<options>
+			<option id="1">متن</option>
+			<option id="2">دیداری</option>
+			<option id="3">ویرایش</option>
+			<option id="4">پیوند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="102">
+		<description>با استفاده از ............ میتوانید لینک دوستان و وب سایت ها و وبلاگ های موردعلاقه خود را در ستون کناری سایت نمایش دهید.</description>
+		<options>
+			<option id="1">برگه ها</option>
+			<option id="2">پیوند</option>
+			<option id="3">خوراک خوان</option>
+			<option id="4">فهرست ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="103">
+		<description>افزونه ای است که میتوانیم توسط آن بخش پیوند ها را به وردپرس اضافه کنیم.</description>
+		<options>
+			<option id="1">Location</option>
+			<option id="2">Visual composer</option>
+			<option id="3">Link Manager</option>
+			<option id="4">woo commerce</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="104">
+		<description>با استفاده از ............... میتوانید لینک دوستان و وبلاگ های موردعلاقه خود را در ستون کناری نمایش دهید.</description>
+		<options>
+			<option id="1">برگه ها</option>
+			<option id="2">پیوندها</option>
+			<option id="3">خوراک خوان</option>
+			<option id="4">فهرست ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="105">
+		<description>یکی از موارد مهم در بخش seo وب سایت.................... است.</description>
+		<options>
+			<option id="1">دسته ها</option>
+			<option id="2">برگه ها</option>
+			<option id="3">پیوندها</option>
+			<option id="4">تبلیغات</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="106">
+		<description>کدام مورد صحیح است؟</description>
+		<options>
+			<option id="1">در یک سایت امکان استفاده از مطالب سایت های دیگر وجود دارد.</option>
+			<option id="2">در یک سایت امکان استفاده از مطالب سایت های دیگر وجود ندارد.</option>
+			<option id="3">در یک سایت امکان استفاده از تبلیغات سایت های دیگر وجود ندارد.</option>
+			<option id="4">در یک سایت امکان استفاده از لینک های سایت های دیگر وجود ندارد.</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="107">
+		<description>کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">امکان قرار دادن لینک دوستان در وب سایت وردپرسی وجود ندارد.</option>
+			<option id="2">امکان قرار دادن خوراک خوان در وب سایت وردپرسی وجود ندارد.</option>
+			<option id="3">امکان قرار دادن لینک دوستان در وب سایت وردپرسی وجود دارد.</option>
+			<option id="4">امکان قرار دادن لینک داخلی در وب سایت وردپرسی وجود ندارد.</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="108">
+		<description>یکی از گزینه های مهم در بخش seo سایت می باشد.</description>
+		<options>
+			<option id="1">برگه ها</option>
+			<option id="2">نوشته ها</option>
+			<option id="3">پیوند ها</option>
+			<option id="4">دیدگاه ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="109">
+		<description>کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">هاست نمی تواند شامل چندین سرور باشد.</option>
+			<option id="2">هاست می تواند شامل چندین سرور باشد.</option>
+			<option id="3">سرور نمی تواند شامل چندین هاست باشد.</option>
+			<option id="4">هاست و سرور ارتباطی با هم ندارد.</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="110">
+		<description>کدام گزینه صحیح است؟</description>
+		<options>
+			<option id="1">org پسوندی برای معرفی سایت های تجاری است.</option>
+			<option id="2">کاهش تعداد لینک ها</option>
+			<option id="3">org پسوندی برای معرفی سایت های دانشگاهی است.</option>
+			<option id="4">org پسوندی برای معرفی سایت های آموزشی است.</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="111">
+		<description>کدام گزینه مختص نصب فقط بررروی سیستم عامل ویندوز میباشد؟</description>
+		<options>
+			<option id="1">Mamp</option>
+			<option id="2">Wamp</option>
+			<option id="3">Xampp</option>
+			<option id="4">Lamp</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="112">
+		<description>روش های زیادی برای جذب بازدید کننده وجود دارد و یکی از اصلی ترین های آن از طریق .............. است.</description>
+		<options>
+			<option id="1">افزایش تعداد برگه ها</option>
+			<option id="2">کاهش تعداد لینک ها</option>
+			<option id="3">تعداد گروه ها</option>
+			<option id="4">موتور های جستجو</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="113">
+		<description>دامنه از دو بخش..................و.................. تشکیل شده است.</description>
+		<options>
+			<option id="1">نام،آدرس</option>
+			<option id="2">نام،سرور</option>
+			<option id="3">نام،پسوند</option>
+			<option id="4">پسوند،آدرس</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="114">
+		<description>پیش نیاز های یادگیری ورد پرس عبارتند از:</description>
+		<options>
+			<option id="1">محیط کاربری وردپرس،HTML,CSS و دانش اندکی در زبان برنامه نویسی PHP</option>
+			<option id="2">زبان برنامه نویسی جاوا اسکریپت، HTML,CSS</option>
+			<option id="3">سیستم مدیریت محتوای وردپرس و برنامه نویسی به زبان PHP</option>
+			<option id="4">سیستم مدیریت محتوای وردپرس و برنامه نویسی به زبان PHP</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="115">
+		<description>ورد پرس با زبان برنامه نویسی ................. نوشته شده است.</description>
+		<options>
+			<option id="1">جاوا اسکریپت</option>
+			<option id="2">PHP</option>
+			<option id="3">HTML,CSS</option>
+			<option id="4">ویژوال بیسیک</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="116">
+		<description>برای شروع یادگیری نحوه کار و ساخت پوسته در وردپرس ابتدا میتوانید....</description>
+		<options>
+			<option id="1">یک پوسته ساده بخرید و آن را تغییر دهید</option>
+			<option id="2">چند پوسته بخرید و آنها را مقایسه کنید.</option>
+			<option id="3">از پوسته های Premium استفاده کنید.</option>
+			<option id="4">یک پوسته ساده و رایگان دریافت کنید و با ایجاد تغییرات به چگونگی کار پوسته ها پی ببرید.</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="117">
+		<description>دلیل ساخت پوسته با وجود تعداد زیاد پوسته های آماده رایگان در وردپرس چیست؟</description>
+		<options>
+			<option id="1">پوسته های آماده استاندارد نیستند</option>
+			<option id="2">خرابی بسیاری از پوسته های آماده</option>
+			<option id="3">نیاز به داشتن پوسته کاملا شخصی سازی شده برای ساخت تارنما</option>
+			<option id="4">قیمت بالای پوسته های آماده در سیستم وردپرس</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="118">
+		<description>با استفاده از کدام گزینه(الگو) میتوانیم برگه تماس با ما بسازیم؟</description>
+		<options>
+			<option id="1">single.php و سرایند</option>
+			<option id="2">سرایند، پانوشت و comments.php</option>
+			<option id="3">page.php</option>
+			<option id="4">tag.php</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="119">
+		<description>پوسته های پیش فرض و دریافتی در پوشه .................. قراردارند.</description>
+		<options>
+			<option id="1">Themes</option>
+			<option id="2">Plugins</option>
+			<option id="3">languages</option>
+			<option id="4">uploads</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="120">
+		<description>برای ساختن یک پایگاه داده کدام مسیر را در مرورگر وارد میکنیم؟</description>
+		<options>
+			<option id="1">localhost</option>
+			<option id="2">localhost/wp-admin</option>
+			<option id="3">localhost/phpmyadmin</option>
+			<option id="4">local</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="121">
+		<description>برای ایجاد پست در وردپرس کدام گزینه را انتخاب میکنیم؟</description>
+		<options>
+			<option id="1">Post/add new</option>
+			<option id="2">Post/categories</option>
+			<option id="3">Page/add new</option>
+			<option id="4">Page/edit</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="122">
+		<description>برچسب ها را در کدام قسمت وارد میکنیم؟</description>
+		<options>
+			<option id="1">tag</option>
+			<option id="2">categories</option>
+			<option id="3">post</option>
+			<option id="4">featured</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="123">
+		<description>برای ایجاد دسته ها از کدام قسمت استفاده می کنیم؟</description>
+		<options>
+			<option id="1">post/categories</option>
+			<option id="2">page/categories</option>
+			<option id="3">library/categories</option>
+			<option id="4">page/new</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="124">
+		<description>برای فعال کردن یک افزونه از کدام گزینه ستفاده میکنیم؟</description>
+		<options>
+			<option id="1">active</option>
+			<option id="2">deactive</option>
+			<option id="3">yes</option>
+			<option id="4">no</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="125">
+		<description>برای نصب وردپرس ابتدا آن را در کدام پوشه قرار می دهیم؟</description>
+		<options>
+			<option id="1">PHP</option>
+			<option id="2">htdocs</option>
+			<option id="3">docs</option>
+			<option id="4">xampp</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="126">
+		<description>برای ویرایش سریع پست ها از کدام گزینه استفاده می کنیم؟</description>
+		<options>
+			<option id="1">Edite</option>
+			<option id="2">Quick edit</option>
+			<option id="3">delete</option>
+			<option id="4">update</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="127">
+		<description>چگونه یک دیدگاه را در وردپرس تایید کنیم؟</description>
+		<options>
+			<option id="1">approved</option>
+			<option id="2">active</option>
+			<option id="3">deactive</option>
+			<option id="4">cancel</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="128">
+		<description>هنگام نصب وردپرسusername را چه وارد میکنیم؟</description>
+		<options>
+			<option id="1">root</option>
+			<option id="2">amin</option>
+			<option id="3">خالی میگذاریم</option>
+			<option id="4">نام دلخواه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="129">
+		<description>افزونه ها برای نصب در کدام پوشه وردپرس قرار می گیرند؟</description>
+		<options>
+			<option id="1">plugin</option>
+			<option id="2">themes</option>
+			<option id="3">wp-contact</option>
+			<option id="4">PHP</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="130">
+		<description>برای ساخت یک صفحه تماس با ما از کدام گزینه استفاده می کنیم؟</description>
+		<options>
+			<option id="1">post</option>
+			<option id="2">page</option>
+			<option id="3">link</option>
+			<option id="4">categories</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="131">
+		<description>برای اینکه یک دسته را به عنوان زیر مجموعه دسته دیگر قرار دهیم کدام گزینه را باید برای آن فعالی کنیم؟</description>
+		<options>
+			<option id="1">parent</option>
+			<option id="2">slug</option>
+			<option id="3">catergories</option>
+			<option id="4">name</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="132">
+		<description>برای ایجاد یک کاربر جدید از کدام گزینه ستفاده میشود؟</description>
+		<options>
+			<option id="1">user/new</option>
+			<option id="2">user/sdit</option>
+			<option id="3">user/add new</option>
+			<option id="4">page/add new</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="133">
+		<description>در چه صورت یک کاربر فقط نقش نویسنده دارد؟</description>
+		<options>
+			<option id="1">author</option>
+			<option id="2">administrator</option>
+			<option id="3">user</option>
+			<option id="4">name</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="134">
+		<description>قالب در کدام کوشه وردپرس قرار میدهیم؟</description>
+		<options>
+			<option id="1">xampp</option>
+			<option id="2">phpmyadmin</option>
+			<option id="3">wp-contact</option>
+			<option id="4">wp-admin</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="135">
+		<description>برای حذف یک comment چه کاری انجام میدهیم؟</description>
+		<options>
+			<option id="1">delete</option>
+			<option id="2">edit</option>
+			<option id="3">drop</option>
+			<option id="4">new</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="136">
+		<description>آدرس ورود به وردپرس چیست؟</description>
+		<options>
+			<option id="1">localhost/admin</option>
+			<option id="2">localhost/wp-admin</option>
+			<option id="3">localhost/folder name/wp-admin</option>
+			<option id="4">localhost/folder name</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="137">
+		<description>نوع پایگاه داده را در phpmyadmin چه میگذاریم؟</description>
+		<options>
+			<option id="1">utf8-persian-ci</option>
+			<option id="2">ut-persian</option>
+			<option id="3">persian</option>
+			<option id="4">usa</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="138">
+		<description>برای ایجاد منو از کدام قسمت وارد میشویم؟</description>
+		<options>
+			<option id="1">appearance/menu</option>
+			<option id="2">widget/appearance</option>
+			<option id="3">menu</option>
+			<option id="4">widget</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="139">
+		<description>برای ویرایش سک متن از کدام گزینه استفاده می کنیم؟</description>
+		<options>
+			<option id="1">delete</option>
+			<option id="2">edit</option>
+			<option id="3">undelete</option>
+			<option id="4">update</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="140">
+		<description>برای ویرایش تابع های یک قالب از کدام بخش وارد میشویم؟</description>
+		<options>
+			<option id="1">appearance/themes</option>
+			<option id="2">appearance/edit</option>
+			<option id="3">appearance</option>
+			<option id="4">appearance/update</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="141">
+		<description>برای ایجاد یک لینک در فهرست ها از کدام قسمت وارد میشویم؟</description>
+		<options>
+			<option id="1">menu/page</option>
+			<option id="2">menu/link</option>
+			<option id="3">manu/categories</option>
+			<option id="4">menu/post</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="142">
+		<description>برای راه اندازی وردپرس در قسمت پسورد چه وارد میکنیم؟</description>
+		<options>
+			<option id="1">خالی میگذاریم</option>
+			<option id="2">رمز عبور دلخواه</option>
+			<option id="3">root</option>
+			<option id="4">111111</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="143">
+		<description>از برچسب ها به چه عنوانی استفاده میکنیم؟</description>
+		<options>
+			<option id="1">بالا رفتن بازدید سایت</option>
+			<option id="2">معرفی سایت به موتور جستجو</option>
+			<option id="3">بالا رفتن سرعت سایت</option>
+			<option id="4">بهینه سازی سایت</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="144">
+		<description>برای قرار دادن موسیقی در page از کدام گزینه استفاده می کنیم؟</description>
+		<options>
+			<option id="1">add media</option>
+			<option id="2">add music</option>
+			<option id="3">add image</option>
+			<option id="4">media</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="145">
+		<description>برای قرار دادن تصویر شاخص از کدام گزینه استفاده می کنیم؟</description>
+		<options>
+			<option id="1">image</option>
+			<option id="2">add media</option>
+			<option id="3">future image</option>
+			<option id="4">future</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="146">
+		<description>جفنگ در دیدگاه ها به چه معنی است؟</description>
+		<options>
+			<option id="1">دیدگاه های بی معنی</option>
+			<option id="2">دیدگاه تایید نشده</option>
+			<option id="3">دیدگاهی که نمیخواهیم دریافت کنیم</option>
+			<option id="4">دیدگاه در انتظار برسی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="147">
+		<description>از طریق کدام قسمت به فهرست صفحات را اضافه کنیم؟</description>
+		<options>
+			<option id="1">page</option>
+			<option id="2">categories</option>
+			<option id="3">link</option>
+			<option id="4">Post</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="148">
+		<description>برای فعال کردن یک قالب کدام گزینه را می زنیم؟</description>
+		<options>
+			<option id="1">active</option>
+			<option id="2">deactive</option>
+			<option id="3">approve</option>
+			<option id="4">add</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="149">
+		<description>برای تنظیمات منحصر به فرد هر قالب از کدام بخش وارد می شویم؟</description>
+		<options>
+			<option id="1">سفارشی سازی</option>
+			<option id="2">ابزارک</option>
+			<option id="3">فهرست</option>
+			<option id="4">برگه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="150">
+		<description>برای قرار دادن فهرست در بالای سایت کدام گزینه را تیک میزنیم؟</description>
+		<options>
+			<option id="1">top footer</option>
+			<option id="2">top header</option>
+			<option id="3">header</option>
+			<option id="4">footer</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="151">
+		<description>الگو در وردپرس چیست؟</description>
+		<options>
+			<option id="1">مجموعه کد هایی که سازنده ابزارک ها هستند</option>
+			<option id="2">به فایل هایی گفته میشود که نما و چگونگی نمایش داده ها در تارنمای ساخته شده در وردپرس را می سارند</option>
+			<option id="3">صفحات وردپرس در اینترنت را الگو مینامند</option>
+			<option id="4">ستون های کناری وردپرس را الگو مینامند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="152">
+		<description>دلیل استفاده از سرایند و پانوشت در وردپرس چیست؟</description>
+		<options>
+			<option id="1">استفاده ز فایل های سرآیند و پانوشت از بکار گیری کد های تکراری در برگه ها جلوگیری میکند</option>
+			<option id="2">زیبایی در هر تارنما را با سرآیند و پانوشت افزایش می دهیم</option>
+			<option id="3">چیدمان درست داده ها توسط سرآیند و پانوشت انجام میشود</option>
+			<option id="4">فایل های سرآیند و پانوشت مدیریت داده ها را آسان تر میکند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="153">
+		<description>برای نمایش یک مطلب جداگانه در هر برگه از چه الگویی استفاده میکنیم؟</description>
+		<options>
+			<option id="1">سرآیند</option>
+			<option id="2">پانوشت</option>
+			<option id="3">home.php</option>
+			<option id="4">single.php</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="154">
+		<description>پوشه هایی که برای ساخت یک پوستر به آن نیاز داریم پوشه.............. است.</description>
+		<options>
+			<option id="1">wp-admin</option>
+			<option id="2">wp-content</option>
+			<option id="3">wp-includes</option>
+			<option id="4">wp-themse</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="155">
+		<description>برچسب های الگو چه هستند؟</description>
+		<options>
+			<option id="1">الگو هایی هستند برای ساخت برگه های تارنما</option>
+			<option id="2">دستوراتی هستند که سازندگان وردپرس آنها را جایگزین دستورات PHP کرده اند</option>
+			<option id="3">دستورات PHP هستند که در وردپرس استفاده می شوند</option>
+			<option id="4">مجموعه کد های سازنده برگه نخست هستند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="156">
+		<description>ابتدایی ترین کار در ساخت پوستر چیست؟</description>
+		<options>
+			<option id="1">ایجاد فایل شیوه دهی</option>
+			<option id="2">ایجاد فایل ایندکس</option>
+			<option id="3">ایجاد فایل سرایند</option>
+			<option id="4">ایجاد فایل پانوشت</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="157">
+		<description>برای نصب یک افزونه بر روی وردپرس کدام مورد صحیح نیست؟</description>
+		<options>
+			<option id="1">نصب از طریق فایل منیجر هاست</option>
+			<option id="2">نصب افزونه از طریق داشبورد مدیریت وردپرس</option>
+			<option id="3">نصب از طریق جستجوگر افزونه ها</option>
+			<option id="4">نصب از طریق اجرای فایل EXE</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="158">
+		<description>برای نصب یک افزونه از طریق فایل منجیر هاست به کدام مسیر باید رفت؟</description>
+		<options>
+			<option id="1">public_html/wp-content/plugins</option>
+			<option id="2">public_ftp/wp-content/plugins</option>
+			<option id="3">public_html/wp-admin/plugins</option>
+			<option id="4">public_html/wp-content/uploads</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="159">
+		<description>برای آپلود یک افزونه از طریق فایل منیجر هاست فایل باید دارای چه ویژگی باشد؟</description>
+		<options>
+			<option id="1">بصورت فشرده باشد</option>
+			<option id="2">فشرده نباشد</option>
+			<option id="3">بصورت فایلexe باشد</option>
+			<option id="4">بصورت فایلtxt باشد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="160">
+		<description>برای ویرایش دیتابیس یک افزونه از کجا اقدام میکنیم؟</description>
+		<options>
+			<option id="1">منوی افزونه ها</option>
+			<option id="2">منوی تنظیمات</option>
+			<option id="3">منوی افزونه ها گزینه ویرایش افزونه</option>
+			<option id="4">منوی تنظیمات گزینه ویرایش</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="161">
+		<description>به چند روش می توان یک افزونه را نصب نمود؟</description>
+		<options>
+			<option id="1">1</option>
+			<option id="2">2</option>
+			<option id="3">3</option>
+			<option id="4">4</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="162">
+		<description>پوشه ای که برای نصب یک افزونه به آن نیاز داریم کدام است؟</description>
+		<options>
+			<option id="1">wp-admin</option>
+			<option id="2">wp-content</option>
+			<option id="3">wp-includes</option>
+			<option id="4">wp-themse</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="163">
+		<description>افزون های پیش فرض و دریافتی در پوشه ................... قرار دارد.</description>
+		<options>
+			<option id="1">Themes</option>
+			<option id="2">Plugins</option>
+			<option id="3">languages</option>
+			<option id="4">uploads</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="164">
+		<description>ابتدایی ترین و ساده ترین روش در نصب یک افزونه چیست؟</description>
+		<options>
+			<option id="1">از طریق جستجو گر افزونه ها</option>
+			<option id="2">از طریق داشبورد مدیریت وردپرس</option>
+			<option id="3">مراجعه به filemanager هاست</option>
+			<option id="4">از طریق جستجو در اینترنت</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="165">
+		<description>دلیل ساخت افزونه با وجود تعداد زیاد افزونه های آماده و رایگان در وردپرس چیست؟</description>
+		<options>
+			<option id="1">افزونه ها آماده استاندارد نیستند</option>
+			<option id="2">خرابی بسیاری از افزونه های آماده</option>
+			<option id="3">نیاز به داشتن افزونه کاملا شخصی سازی شده</option>
+			<option id="4">قیمت بالای افزونه های آماده در سیستم وردپرس</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="166">
+		<description>دلیل استفاده از افزونه ها چیست ؟</description>
+		<options>
+			<option id="1">افزودن قابلیت رمز دار کردن داده ها</option>
+			<option id="2">بالا بردن سرعت دریافت داده ها از پایگاه داده</option>
+			<option id="3">کم کردن حجم فایل ها</option>
+			<option id="4">افزونه ها توانایی های وردپرس را افزایش می دهند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="167">
+		<description>برای پنهان کردن توضیحات افزونه از کدام قسمت اقدام می کنیم؟</description>
+		<options>
+			<option id="1">منوی افزونه ها / تنظیمات صفحه</option>
+			<option id="2">منوی افزونه ها/راهنمایی</option>
+			<option id="3">منوی افزونه ها/پاک کردن</option>
+			<option id="4">منوی افزونه /ویرایش</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="168">
+		<description>منظور از plugins در وردپرس چیست ؟</description>
+		<options>
+			<option id="1">نقشه سایت</option>
+			<option id="2">راهنمای سایت</option>
+			<option id="3">محل ذخیره اطلاعات</option>
+			<option id="4">افزونه ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="169">
+		<description>برای اطلاع از وضعیت یک افزونه اعم از فعال، غیر فعال، بروزرسانی از کدام منو می توان اقدام کرد؟</description>
+		<options>
+			<option id="1">منوی ویرایشگر</option>
+			<option id="2">منوی افزودن</option>
+			<option id="3">منوی افزونه های نصب شد</option>
+			<option id="4">منوی تنظیمات</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="170">
+		<description>اولین اقدام پس از نصب یک افزونه میتواند ............ باشد.</description>
+		<options>
+			<option id="1">تنظیمات</option>
+			<option id="2">فعال کردن</option>
+			<option id="3">بروزرسانی</option>
+			<option id="4">غیرفعال کردن</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="171">
+		<description>برای نصب وردپرس کدام یک از موارد زیر لازم نمی باشد؟</description>
+		<options>
+			<option id="1">MySQL</option>
+			<option id="2">سرور آپاچی</option>
+			<option id="3">SDK</option>
+			<option id="4">PHP</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="172">
+		<description>کدام مورد جزء پیش نیاز های طراحی قالب وردپرس نمی باشد؟</description>
+		<options>
+			<option id="1">html</option>
+			<option id="2">css</option>
+			<option id="3">asp.net</option>
+			<option id="4">php</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="173">
+		<description>فایل index.php در پوشه themes مربوط به .......... می باشد.</description>
+		<options>
+			<option id="1">قالب صفحه اصلی</option>
+			<option id="2">قالب برگه ها</option>
+			<option id="3">قالب مطالب</option>
+			<option id="4">کد های ستون کناری</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="174">
+		<description>فایل header.php در پوشه themes مربوط به ......... می باشد.</description>
+		<options>
+			<option id="1">قالب صفحه اصلی</option>
+			<option id="2">کد های سر صفحه در این فایل قرار میگیرند</option>
+			<option id="3">قالب مطالب</option>
+			<option id="4">کد های ستون کناری</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="175">
+		<description>فایل single.php در پوشه themes مربوط به ......... می باشد.</description>
+		<options>
+			<option id="1">قالب صفحه اصلی</option>
+			<option id="2">قالب برگه ها</option>
+			<option id="3">قالب مطالب</option>
+			<option id="4">کد های ستون کناری</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="176">
+		<description>فایل page.php در پوشه themes مربوط به ......... می باشد.</description>
+		<options>
+			<option id="1">قالب صفحه اصلی</option>
+			<option id="2">قالب برگه ها</option>
+			<option id="3">قالب مطالب</option>
+			<option id="4">کد های ستون کناری</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="177">
+		<description>فایل searchform.php در پوشه themes مربوط به ......... می باشد.</description>
+		<options>
+			<option id="1">قالب صفحه اصلی</option>
+			<option id="2">کد های فرم جستجو</option>
+			<option id="3">کد های قالب نظر ها</option>
+			<option id="4">قالب صفحه نتایج-جستجو</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="178">
+		<description>کدام یک از پایگاه های زیر می تواند به صورت پیش فرض وردپرس نصب شود؟</description>
+		<options>
+			<option id="1">MySQL</option>
+			<option id="2">Oracle Database</option>
+			<option id="3">Microsoft SQL Server</option>
+			<option id="4">Access</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="179">
+		<description>مهم ترین بخش برای معرفی وب سایت به موتور های جستجو چیست؟</description>
+		<options>
+			<option id="1">عنوان سایت</option>
+			<option id="2">کلمات کلیدی سایت</option>
+			<option id="3">ساختار طراحی سایت</option>
+			<option id="4">نام دامنه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="180">
+		<description>کدام مورد از سناریو های زیر ممکن است به جای متا تگ توضیحات نمایش داده نشود؟</description>
+		<options>
+			<option id="1">زمانی که هیچ محتوای html در صفحه شما وجود ندارد</option>
+			<option id="2">زمانی که تصویری در متحوای سایت شما وجود داشته باشد</option>
+			<option id="3">زمانی که سایت شما توسط کسی سرچ می شود که در آن آدرس اینترنتی شما از هیچ کلمه کلیدی استفاده نشده باشد</option>
+			<option id="4">زمانی که سایت شما توسط روش های off-page با کلمه موردنظر در نتایج- جستجو نمایش داده شد ولی محتوا مرتبط نیست</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="181">
+		<description>در بهینه سازی تصاویر کدام مورد را باید اعمال کرد؟</description>
+		<options>
+			<option id="1">وضوح 300DPI برای تصاویر تعیین کنیم</option>
+			<option id="2">استفاده ی بیش از حد از تصاویر در سایت خود</option>
+			<option id="3">لینکدهی تصاویر به سایر مطالب سایت</option>
+			<option id="4">استفاده از کلمات کلیدی زیاد در تصویر</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="182">
+		<description>کدام محتوا از نظر seo سایت قابل قبول نیست؟</description>
+		<options>
+			<option id="1">قراردادن لینک تصویر در سایت های دیگر</option>
+			<option id="2">محتوایی که برای ربات های جستجوگر قابل رویت باشند</option>
+			<option id="3">محتوایی که قابلیت خواندن توسط انواع دستگاه های هوشمند را داشته باشند</option>
+			<option id="4">محتوایی که قابلیت لینک دهی و اشتراک گذاری داشته باشند.</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="183">
+		<description>کدام مورد مهمترین فاکتور های on-page SEO سئو سایت نمی باشد؟</description>
+		<options>
+			<option id="1">تصاویر درون محتوا</option>
+			<option id="2">آدرس دهی صفحات</option>
+			<option id="3">ساختار سایت</option>
+			<option id="4">تگ عنوان</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="184">
+		<description>این توضیح مربوط به کدام عبارت است "در پشت صحنه یک سایت محتوای خاصی وجود دارد که برای خزنده ها طراحی شده اند"</description>
+		<options>
+			<option id="1">الگوریتم موتور جستجو</option>
+			<option id="2">متا تگ</option>
+			<option id="3">ساختار لینک</option>
+			<option id="4">محتوای صفحه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="185">
+		<description>به مجموعه فعالیت هایی که باعث جذب ترافیک و بازدید کننده برای یک سایت میشود چه میگویند؟</description>
+		<options>
+			<option id="1">On Page SEO</option>
+			<option id="2">Title Tag</option>
+			<option id="3">Duplicate Content</option>
+			<option id="4">off page Seo</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="186">
+		<description>کدام جمله در مورد صفحه فرود صحیح نیست؟</description>
+		<options>
+			<option id="1">عنوان صفحه و عنوان فرود باید مکمل همدیگر باشند</option>
+			<option id="2">از نماد اعتماد در صفحه ی فرود استفاده شود</option>
+			<option id="3">بیش از حد لینک نکنید</option>
+			<option id="4">از ویدیو و تصاویر در صفحه فرود استفاده نکنید</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="187">
+		<description>کدامیک پنل مدیریت هاست نیست؟</description>
+		<options>
+			<option id="1">سی پنل</option>
+			<option id="2">پلکس</option>
+			<option id="3">وردپرس</option>
+			<option id="4">دایرکت ادمین</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="188">
+		<description>نام و نشانی که بری سایت در نظر گرفته می شود چه نام دارد؟</description>
+		<options>
+			<option id="1">دامین</option>
+			<option id="2">هاست می تواند شامل چندین سرور باشد.</option>
+			<option id="3">پنل</option>
+			<option id="4">ایمیل</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="189">
+		<description>چک کردن وضعیت آزاد بودن دومین با کدام مورد انجام می شود؟</description>
+		<options>
+			<option id="1">هوایز</option>
+			<option id="2">وردپرس</option>
+			<option id="3">جوملا</option>
+			<option id="4">دروپال</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="190">
+		<description>برای وردپرس چه نوع دیتابیسی باید ایجاد کرد؟</description>
+		<options>
+			<option id="1">Access</option>
+			<option id="2">SQL</option>
+			<option id="3">My Sql</option>
+			<option id="4">Oracle</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="191">
+		<description>فایل های اصلی مربوط به سایت در کدام پوشه قرار میگیرد؟</description>
+		<options>
+			<option id="1">public_html</option>
+			<option id="2">Html</option>
+			<option id="3">Cpanel</option>
+			<option id="4">httdocs</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="192">
+		<description>لوکال هاست برای کدام وب سرویس ها طراحی شده اند؟</description>
+		<options>
+			<option id="1">iis</option>
+			<option id="2">http</option>
+			<option id="3">NginX</option>
+			<option id="4">Apache</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="193">
+		<description>سیستم مدیریت محتوا چه نام دارد؟</description>
+		<options>
+			<option id="1">cms</option>
+			<option id="2">PayPal</option>
+			<option id="3">Mlamp</option>
+			<option id="4">iis</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="194">
+		<description>محل قرارگیری وردپرس در لوکال هاست؟</description>
+		<options>
+			<option id="1">Wamp Server</option>
+			<option id="2">Wordpess_Folder</option>
+			<option id="3">root</option>
+			<option id="4">www</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="195">
+		<description>در صورت مشکل در تارنما و انتقال اطلاعات برای تنظیم وردپرس باید کدام فایل را تغییر داد؟</description>
+		<options>
+			<option id="1">Php config</option>
+			<option id="2">wp-config.php</option>
+			<option id="3">wp.php</option>
+			<option id="4">theme.php</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="196">
+		<description>برای تهیه هاست یک سایت با داشتن حجم فایل و بازدید بالا کدام گزینه مدنظر است؟</description>
+		<options>
+			<option id="1">مکان میزبانی داخل یا خارج-کشور</option>
+			<option id="2">میزان ترافیک ماهانه</option>
+			<option id="3">میزان فضای دیسک هاست</option>
+			<option id="4">میزان ترافیک ماهانه و میزان فضای دیسک هاست</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="197">
+		<description>منظور از صفحه پیشخوان در وردپرس چیست؟</description>
+		<options>
+			<option id="1">صفحه نمایش وردپرس</option>
+			<option id="2">صفحه مدیریت وردپرس</option>
+			<option id="3">صفحه تغییر رمز وردپرس</option>
+			<option id="4">صفحه تنظیمات</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="198">
+		<description>نام بخش راست پیشخوان چیست؟</description>
+		<options>
+			<option id="1">toolbox</option>
+			<option id="2">navigation</option>
+			<option id="3">column</option>
+			<option id="4">plugin</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="199">
+		<description>در پیشخوان وردپرس نام علامت حباب گونه چیست؟</description>
+		<options>
+			<option id="1">پیوند به صفحه دیگر</option>
+			<option id="2">بروز شدن وردپرس</option>
+			<option id="3">افزودن مطلب جدید</option>
+			<option id="4">ویجت جدید وردپرس</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="200">
+		<description>پوسته های معروف وردپرس؟</description>
+		<options>
+			<option id="1">2011، 2010</option>
+			<option id="2">2020، 2009</option>
+			<option id="3">2050، 2030</option>
+			<option id="4">2050، 2010</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="201">
+		<description>منظور از گزینه بولد در وردپرس چیست؟</description>
+		<options>
+			<option id="1">کج- دار</option>
+			<option id="2">ضخامت</option>
+			<option id="3">زیرخط دار</option>
+			<option id="4">توان</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="202">
+		<description>انتقال در زباله دانی در وردپرس چیست؟</description>
+		<options>
+			<option id="1">مطلب یا محتوا پاک شده و قابل برگشت نیست</option>
+			<option id="2">مطلب یا محتوا پاک شده و قابل برگشت است</option>
+			<option id="3">مطلب یا محتوا پاک نشده</option>
+			<option id="4">مطلب یا محتوا هرگز قابل دسترس نیست</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="203">
+		<description>نامک در کجا استفاده میشود؟</description>
+		<options>
+			<option id="1">در کدهای html</option>
+			<option id="2">در نشانی url</option>
+			<option id="3">در کدهای php</option>
+			<option id="4">در سرویس دهنده</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="204">
+		<description>کدام مورد برنامه های کوچکی هستند که به منظور انجام کارهای مشخصی نوشته میشود و در کنار قالب به شما ارائه میشود؟</description>
+		<options>
+			<option id="1">پیشخوان</option>
+			<option id="2">ابزارک</option>
+			<option id="3">پوسته ها</option>
+			<option id="4">صفحات مرکزی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="205">
+		<description>برای استفاده در یک ابزارک، باید آن را در کدام کادر قرارداد؟</description>
+		<options>
+			<option id="1">fragrence</option>
+			<option id="2">administrator</option>
+			<option id="3">sidebar</option>
+			<option id="4">browse</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="206">
+		<description>کدام علامت برای نوشتن رنگ استفاده میشود؟</description>
+		<options>
+			<option id="1">#</option>
+			<option id="2">$</option>
+			<option id="3">!</option>
+			<option id="4">؟</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="207">
+		<description>کدام یک از گزینه های زیر در زیر مجموعه قسمت پیوند های نیست؟</description>
+		<options>
+			<option id="1">لیست ها</option>
+			<option id="2">همه پیوند ها</option>
+			<option id="3">افزودن</option>
+			<option id="4">دسته های پیوند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="208">
+		<description>دستور blank چه اعمالی را انجام میدهد؟</description>
+		<options>
+			<option id="1">تارنمای شما به نشانه جدیدی رفته است</option>
+			<option id="2">پیوند در کادر همین پنجره باز میشود</option>
+			<option id="3">پیوند در پنجره با زبانه دید باز میشود</option>
+			<option id="4">پیوند باز نمیشود</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="209">
+		<description>کدام یک از ویژگی های زیر مربوط به یک پنجره یا page است؟</description>
+		<options>
+			<option id="1">پویا بودن</option>
+			<option id="2">ایستا بودن</option>
+			<option id="3">پیوند به تارنمای مربوطه</option>
+			<option id="4">درج لیستی از پیوند ها در وردپرس</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="210">
+		<description>برگخ ها به طور پیش فرض به چه صورتی مرتب شده اند؟</description>
+		<options>
+			<option id="1">بصورت حروف الفبا</option>
+			<option id="2">بصورت عددی</option>
+			<option id="3">کم حجم به پر حجم</option>
+			<option id="4">پر حجم به کم حجم</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="211">
+		<description>کدام یک از بخش ها زیر در کادر دیدگاه وجود ندارد؟</description>
+		<options>
+			<option id="1">نام،آدرس</option>
+			<option id="2">ایمیل</option>
+			<option id="3">نشانی وبلاگ</option>
+			<option id="4">شماره تلفن</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="212">
+		<description>افزونه چیست؟</description>
+		<options>
+			<option id="1">به صفحات جانبی میگویند</option>
+			<option id="2">کوچک برنامه ها</option>
+			<option id="3">بخش مدیریت دیدگاه ها</option>
+			<option id="4">بروزرسانی خودکار نرم افزار</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="213">
+		<description>افزونه ای برای جلوگیری از حمله اسپم ها کدام است؟</description>
+		<options>
+			<option id="1">statpress</option>
+			<option id="2">akismet</option>
+			<option id="3">plugs</option>
+			<option id="4">attack</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="214">
+		<description>کدام یک از این افزونه ها برای تهیه آمار بازدید است؟</description>
+		<options>
+			<option id="1">statpress</option>
+			<option id="2">akismet</option>
+			<option id="3">plugs</option>
+			<option id="4">attack</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="215">
+		<description>کدام یک از گزینه های زیر مربوط به بخش کاربران نیست؟</description>
+		<options>
+			<option id="1">همه کاربران</option>
+			<option id="2">افزودنی ها</option>
+			<option id="3">نشانی url</option>
+			<option id="4">شناسنامه شناسه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="216">
+		<description>کدام یک از موارددر هنگام ساخت شناسه لازم نیست که پر شود؟</description>
+		<options>
+			<option id="1">شناسه</option>
+			<option id="2">ایمیل</option>
+			<option id="3">رمز عبور</option>
+			<option id="4">شماره تلفن</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="217">
+		<description>کدام قسمت جز سه قسمت اصلی وردپرس نیست؟</description>
+		<options>
+			<option id="1">بدنه اصلی وردپرس</option>
+			<option id="2">پوسته وردپرس</option>
+			<option id="3">افزونه ها</option>
+			<option id="4">نظرسنجی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="218">
+		<description>کدام یک از افزونه ها anti span است؟</description>
+		<options>
+			<option id="1">SEO</option>
+			<option id="2">akismet</option>
+			<option id="3">wp-jalali</option>
+			<option id="4">jfk</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="219">
+		<description>با استفاده از کدام یک افزونه های زیر میتوان یک پشتیبان از اطلاعات تارنما گرفت؟</description>
+		<options>
+			<option id="1">Wordpress Back it up</option>
+			<option id="2">Subscript to comment</option>
+			<option id="3">Google xml sitemap</option>
+			<option id="4">wpp state</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="220">
+		<description>ویظیفه افزونه All in One SEO Pack چیست؟</description>
+		<options>
+			<option id="1">برای ساخت فرم ارتباط ساز</option>
+			<option id="2">بهینه ساز موتور جستجو</option>
+			<option id="3">افزودن تارنما به بخش های مختلف</option>
+			<option id="4">گرفتن feed و RSS</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="221">
+		<description>برای پنهان کردن توضیحات افزونه از کدام قسمت اقدام می کنیم؟</description>
+		<options>
+			<option id="1">منوی افزونه ها / تنظیمات صفحه</option>
+			<option id="2">منوی افزونه ها / پاک کردن</option>
+			<option id="3">منوی افزونه / ویرایش</option>
+			<option id="4">منوی افزونه /راهنمایی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="222">
+		<description>در استفاده از نقشه گوگل احتمال ..... وجود دارد.</description>
+		<options>
+			<option id="1">کاهش سرعت لود فایل</option>
+			<option id="2">افزایش سرعت لود فایل</option>
+			<option id="3">کم شدن حجم فایل ها</option>
+			<option id="4">رمز دار شدن داده ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="223">
+		<description>منظور از پلاگین در وردپرس چیست؟</description>
+		<options>
+			<option id="1">نقشه سایت</option>
+			<option id="2">راهنمای سایت</option>
+			<option id="3">محل ذخیره اطلاعات</option>
+			<option id="4">افزونه ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="224">
+		<description>یوزر و پسورد تایید شده در اخرین مرحله نصب وردپرس برای کدام قسمت کاربرد دارد؟</description>
+		<options>
+			<option id="1">ورود به کنترل پنل هاست</option>
+			<option id="2">ورود به ftp</option>
+			<option id="3">باز کردن دیتابیس</option>
+			<option id="4">ورود به پیشخوان سایت</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="225">
+		<description>توضیحات سایت در وردپرس حداکثر چند کاراکتر باید باشد؟</description>
+		<options>
+			<option id="1">165</option>
+			<option id="2">100</option>
+			<option id="3">85</option>
+			<option id="4">120</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="226">
+		<description>کلید میانبر برای ایتالیک کردن کدان است؟</description>
+		<options>
+			<option id="1">ctrl + b</option>
+			<option id="2">ctrl + i</option>
+			<option id="3">ctrl + d + shift</option>
+			<option id="4">shift + s</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="227">
+		<description>برای پیوند یک تصویر به خودش از کدام نشانی استفاده میشود؟</description>
+		<options>
+			<option id="1">نشانی نوشته</option>
+			<option id="2">نشانی پرونده</option>
+			<option id="3">پیوند یکتا</option>
+			<option id="4">نام تصویر با پسوند jpg</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="228">
+		<description>افزونه گراویتی فرم چه کاری انجام میدهد؟</description>
+		<options>
+			<option id="1">فرم ساز</option>
+			<option id="2">فروشگاه ساز</option>
+			<option id="3">مدیریت SEO</option>
+			<option id="4">صفحات SEO</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="229">
+		<description>برای افزودن دکمه از کدام گزینه استفاده میشود؟</description>
+		<options>
+			<option id="1">لینک</option>
+			<option id="2">رسانه</option>
+			<option id="3">برچسب</option>
+			<option id="4">پوسته</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="230">
+		<description>کدام قسمت جز اجزای اصلی وردپرس می باشد؟</description>
+		<options>
+			<option id="1">فهرست ها</option>
+			<option id="2">پوسته وردپرس</option>
+			<option id="3">بخش کاربران</option>
+			<option id="4">نظرسنجی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="231">
+		<description>کدامیک از مزایای لوکال هاست نمی باشد؟</description>
+		<options>
+			<option id="1">عدم نیاز به اینترنت</option>
+			<option id="2">عدم نیاز به پایگاه داده</option>
+			<option id="3">سرعت بالا</option>
+			<option id="4">سهولت تست قبل از آپلود</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="232">
+		<description>کدامیک از مزایای استفاده از easyphp نمی باشد؟</description>
+		<options>
+			<option id="1">نصب سریع و آسان</option>
+			<option id="2">ویزارد پیکر بندی</option>
+			<option id="3">وجود کامپوننت های مختلف</option>
+			<option id="4">پشتیانی از زبان Perl</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="233">
+		<description>نام دامنه حداکثر چند کارکتر می تواند باشد؟</description>
+		<options>
+			<option id="1">54</option>
+			<option id="2">32</option>
+			<option id="3">256</option>
+			<option id="4">67</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="234">
+		<description>کدامیک نام دامنه را به آی پی تبدیل میکند؟</description>
+		<options>
+			<option id="1">cms</option>
+			<option id="2">dns</option>
+			<option id="3">nikhandle</option>
+			<option id="4">alias</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="235">
+		<description>اگر دامنه از یک شرکت و هاست از جایی دیگر باشد کدامیک را باید تنظیم نمایید؟</description>
+		<options>
+			<option id="1">cms</option>
+			<option id="2">dns</option>
+			<option id="3">nikhandle</option>
+			<option id="4">پسوند دامنه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="236">
+		<description>در کنترل پنل هاستینگ چه قابلیتی وجود ندارد ؟</description>
+		<options>
+			<option id="1">ایجاد دیتابیس</option>
+			<option id="2">آپلود فایل</option>
+			<option id="3">پارک دامنه دیگر</option>
+			<option id="4">ثبت دامنه جدید</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="237">
+		<description>در ایجاد پایگاه داده جدید کدام مورد نیاز نیست؟</description>
+		<options>
+			<option id="1">Database Name</option>
+			<option id="2">Database Username</option>
+			<option id="3">New Password</option>
+			<option id="4">Email</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="238">
+		<description>کدام پسوند برای ثبت دامنه یک سازمان یا ارگان دولتی مناسب تر است؟</description>
+		<options>
+			<option id="1">org</option>
+			<option id="2">net</option>
+			<option id="3">biz</option>
+			<option id="4">us</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="239">
+		<description>نام دامنه edu. برای کدام مورد صحیح می باشد؟</description>
+		<options>
+			<option id="1">نظامی</option>
+			<option id="2">دولتی</option>
+			<option id="3">آموزشی</option>
+			<option id="4">تجاری</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="240">
+		<description>اولین موتور جستجو که به بررسی متون و جستجو در اطلاعات می پرداخت چه نام داشت؟</description>
+		<options>
+			<option id="1">کوفر</option>
+			<option id="2">گوگل</option>
+			<option id="3">آلتاویستا</option>
+			<option id="4">یاهو</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="241">
+		<description>کدام جمله درمورد تگ 1H صحیح نم یباشد؟</description>
+		<options>
+			<option id="1">با ارزش ترین تگ Heading می باشد</option>
+			<option id="2">برای عوان سایت یا عنوان مطلب بکار می رود</option>
+			<option id="3">نباید کمتر از 3 بار در هر صفحه استفاده شود</option>
+			<option id="4">استفاده از این تگ برای seo سایت لازم است</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="242">
+		<description>کدام یک از گزینه های زیر از تکنیک های seo کلاه خاکستری محسوب نمی شود؟</description>
+		<options>
+			<option id="1">طراحی مجدد آپدیت سایت</option>
+			<option id="2">ایجاد کامنت</option>
+			<option id="3">قرار دادن لینک در سایت های خبری</option>
+			<option id="4">تغییر مسیر های موذیانه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="243">
+		<description>کدام یک از موارد زیر از جریمه های گوگل برای سئوی کلاه سیاه نیست؟</description>
+		<options>
+			<option id="1">کاهش شدید رتبه سایت</option>
+			<option id="2">قرار دادن سایت در سند باکس گوگل</option>
+			<option id="3">حذف همیشگی سایت</option>
+			<option id="4">خروج دامنه از کنترل ادمین</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="244">
+		<description>کدام یک از گزینه های زیر در انتخاب پایگاه داده موثر تر است؟</description>
+		<options>
+			<option id="1">متن باز بودن</option>
+			<option id="2">داشتن امکان نصب آسان</option>
+			<option id="3">وجودAPI</option>
+			<option id="4">عملیات پردازشی و محاسباتی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="245">
+		<description>در MY sql 4.1.5 عدد 1 نشان دهنده چیست؟</description>
+		<options>
+			<option id="1">سطح انتشار</option>
+			<option id="2">شماره ویرایش</option>
+			<option id="3">زمان انتشار</option>
+			<option id="4">توصیف کننده قالب فایل</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="246">
+		<description>در MY sql 4.1.5 عدد 5 نشان دهنده چیست؟</description>
+		<options>
+			<option id="1">سطح انتشار</option>
+			<option id="2">شماره ویرایش</option>
+			<option id="3">زمان انتشار</option>
+			<option id="4">توصیف کننده قالب فایل</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="247">
+		<description>MY sql به چه دلیل توسط زبان های برنامه نویسی می تواند مورد استفاده قرار گیرد؟</description>
+		<options>
+			<option id="1">متن باز بودن</option>
+			<option id="2">وجودIP های متعدد</option>
+			<option id="3">عملیات پردازشی و محاسباتی</option>
+			<option id="4">امکان نصب سریع</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="248">
+		<description>در MY sql 4.1.5 عدد 4 نشان دهنده چیست؟</description>
+		<options>
+			<option id="1">سطح انتشار</option>
+			<option id="2">شماره ویرایش</option>
+			<option id="3">زمان انتشار</option>
+			<option id="4">توصیف کننده قالب فایل</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="249">
+		<description>روی کدام یک از انواع نسخه های زیر از MY SQL علاوه بر تست ، تعمیر نیز صورت گرفته است؟</description>
+		<options>
+			<option id="1">Alpha1</option>
+			<option id="2">Beta</option>
+			<option id="3">Gama</option>
+			<option id="4">5</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="250">
+		<description>به مجموعه ای سازمان یافته از اطلاعات ........ گفته میشود؟</description>
+		<options>
+			<option id="1">پایگاه داده</option>
+			<option id="2">جدول</option>
+			<option id="3">رکورد</option>
+			<option id="4">فیلد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="251">
+		<description>پیاده سازی کدام یک از مدلهای پایگاه داده زیر مشکل تر از سایر مدل هاست؟</description>
+		<options>
+			<option id="1">شبکه ای</option>
+			<option id="2">رابطه ای</option>
+			<option id="3">شی گرا</option>
+			<option id="4">سلسله مراتبی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="252">
+		<description>مجموعه ها و رکورد ها در کدام مدل بررسی میشود؟</description>
+		<options>
+			<option id="1">شبکه ای</option>
+			<option id="2">رابطه ای</option>
+			<option id="3">شی گرا</option>
+			<option id="4">سلسله مراتبی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="253">
+		<description>در سیستم عملیاتی مدرسه موجودیت های دانش اموز درس چه نوع رابطه ای با هم دارند؟</description>
+		<options>
+			<option id="1">یک به یک</option>
+			<option id="2">یک به چند</option>
+			<option id="3">چند به چند</option>
+			<option id="4">این دو موجودیت به طور مستقیم رابطه ای ندارند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="254">
+		<description>کدام یک از گزینه های زیر از اهداف نرمال سازی بانک اطلاعات است؟</description>
+		<options>
+			<option id="1">کاهش افزونگی و حفظ یک پارچگی اطلاعات</option>
+			<option id="2">افزایش افزونگی و حفظ یک پارچگی اطلاعات</option>
+			<option id="3">کاهش تعداد جدول های بانک اطلاعات و حفظ یک پارچگی</option>
+			<option id="4">افزایش تعداد رابطه های بانک اطلاعات و افزایش یک پارچگی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="255">
+		<description>اگر تمام صفت های غیر کلیدی یک موجودیت به تمام کلید اصلی وابستگی تابعی داشته باشند و همچنین تمام صفت های ان یکتا باشد این موجودیت در کدام فرم نرمال است؟</description>
+		<options>
+			<option id="1">فرم نرمال اول</option>
+			<option id="2">فرم نرمال دوم</option>
+			<option id="3">فرم نرمال سوم</option>
+			<option id="4">فرم نرمال چهارم</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="256">
+		<description>در کدام مدل پایگاه داده ها هر گره فرزند فقط یک گره پدر دارد؟</description>
+		<options>
+			<option id="1">شبکه ای</option>
+			<option id="2">رابطه ای</option>
+			<option id="3">شی گرا</option>
+			<option id="4">سلسله مراتبی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="257">
+		<description>در مدل رابطه ای به صفتی که مقدارد منحصر به فرد داشته باشد.... می گویند.</description>
+		<options>
+			<option id="1">رکورد</option>
+			<option id="2">فیلد</option>
+			<option id="3">کلید</option>
+			<option id="4">جدول</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="258">
+		<description>کدام یک از موارد زیر مفهوم یکپارچگی اطلاعات را میرساند؟</description>
+		<options>
+			<option id="1">در جدول فیلد های قابل تقسیم نباشد</option>
+			<option id="2">در جدول اطلاعات تکراری نباشد</option>
+			<option id="3">اعمال تغییرات روی اطلاعات در یک مکان انجام شود</option>
+			<option id="4">فیلد های جداول نوابسگی تابعی داشته باشند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="259">
+		<description>بهترین مدل پیاده سازی سیستم های بانک اطلاعاتی کدام است؟</description>
+		<options>
+			<option id="1">شبکه ای</option>
+			<option id="2">رابطه ای</option>
+			<option id="3">شی گرا</option>
+			<option id="4">سلسله مراتبی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="260">
+		<description>کدام مدل پیاده سازی توسط گراف پیاده سازی می شود؟</description>
+		<options>
+			<option id="1">شبکه ای</option>
+			<option id="2">رابطه ای</option>
+			<option id="3">شی گرا</option>
+			<option id="4">سلسله مراتبی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="261">
+		<description>به کدام یک از موارد زیر محیط عملیاتی گفته میشود؟</description>
+		<options>
+			<option id="1">دانش اموز</option>
+			<option id="2">نام دانش اموز</option>
+			<option id="3">مدرسه</option>
+			<option id="4">پایگاه داده</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="262">
+		<description>اگر کلید انتخاب شده شامل یک فیلد باشد آن را فیلد ..... میگویند.</description>
+		<options>
+			<option id="1">کلید ساده</option>
+			<option id="2">کلید مرکب</option>
+			<option id="3">جدول</option>
+			<option id="4">پایگاه داده</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="263">
+		<description>در یک مدرسه کدام یک از موارد زیر موجودیت به حساب می آید؟</description>
+		<options>
+			<option id="1">معلم</option>
+			<option id="2">کد معلم</option>
+			<option id="3">نام درس</option>
+			<option id="4">نام مدرسه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="264">
+		<description>در سیستم عملیاتی مدرسه موجودیت های درس و معلم چه نوع رابطه ی باهم دارند؟</description>
+		<options>
+			<option id="1">یک به یک</option>
+			<option id="2">یک به چند</option>
+			<option id="3">چند به چند</option>
+			<option id="4">رابطه ای ندارد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="265">
+		<description>به عمل تکراری بودن داده ها در جدول که موجب اشغال فضای زیاد می شود چه می گویند؟</description>
+		<options>
+			<option id="1">نرمال سازی اطلاعات</option>
+			<option id="2">بهنگام سازی داده ها</option>
+			<option id="3">افزونگی داده</option>
+			<option id="4">بهینه سازی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="266">
+		<description>در کدام مدل پایگاه داده ها پیاده سازی ارتباط از پایین به بالا راحت تر است یا هر گره فرزند بیش از یک گره پدر است؟</description>
+		<options>
+			<option id="1">شبکه ای</option>
+			<option id="2">رابطه ای</option>
+			<option id="3">شی گرا</option>
+			<option id="4">سلسله مراتبی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="267">
+		<description>عملی که به آن رتبه وب سایت را در موتورهای جستجو از طریق نقض کردن قوانین بالا میبرند چه نام دارد؟</description>
+		<options>
+			<option id="1">سئوی کلاه سیاه</option>
+			<option id="2">سئوی کلاه خاکستری</option>
+			<option id="3">سئوی کلاه سفید</option>
+			<option id="4">مخفی کاری</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="268">
+		<description>مهمترین عامل در سئوی یک سایت کدام گزینه است؟</description>
+		<options>
+			<option id="1">ایجاد یک لینک</option>
+			<option id="2">اتصال به شبکه های اجتماعی</option>
+			<option id="3">تولید محتوای منحصر بفرد</option>
+			<option id="4">انتخاب کلمات کلیدی مناسب</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="269">
+		<description>کدام الگوریتم، الگوریتم اصلی موتور جستجو گوگل می باشد؟</description>
+		<options>
+			<option id="1">کبوتر</option>
+			<option id="2">مرغ مگس خوار</option>
+			<option id="3">پاندا</option>
+			<option id="4">پنگوئن</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="270">
+		<description>مهمترین و موثرترین تگ در سئوی سایت کدام است؟</description>
+		<options>
+			<option id="1">متا تگ توضیحات</option>
+			<option id="2">تگ عنوان</option>
+			<option id="3">تگ Body</option>
+			<option id="4">تگ html</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="271">
+		<description>کدام یک از موارد زیر به کاهش نرخ پرش کمک می کند؟</description>
+		<options>
+			<option id="1">استفاده از منو های تو در تو</option>
+			<option id="2">استفاده از تبلیغات</option>
+			<option id="3">جذاب و مرتبط بودن محتوا</option>
+			<option id="4">استفاده از پاراگراف با متون زیاد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="272">
+		<description>Anchor text چیست؟</description>
+		<options>
+			<option id="1">کلمه کلیدی اصلی</option>
+			<option id="2">کلمه کلیدی فرعی</option>
+			<option id="3">کلمه کلیدی پرکار</option>
+			<option id="4">کلمه ای که قابل کلیک کردن است</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="273">
+		<description>کدام موذد درموذد گلباران کلمات کلیدی صحیح می باشد؟</description>
+		<options>
+			<option id="1">موب افزایش کلمات کلیدی میشود</option>
+			<option id="2">به درک گوگل از کوضوع سایت کمک میکند</option>
+			<option id="3">موجب بهبود جایگاه سایت در گوگل میشود</option>
+			<option id="4">امتیاز سایت بیشتر میشود</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="274">
+		<description>از کدام تگ برای توصیف چیزی که در تصویر دارد استفاده میشود؟</description>
+		<options>
+			<option id="1">H3</option>
+			<option id="2">تگ توضیح</option>
+			<option id="3">Alt</option>
+			<option id="4">عنوان</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="275">
+		<description>لینک هایی که با '#' آغاز می شوند چه لینک هایی هستند؟</description>
+		<options>
+			<option id="1">خارجی</option>
+			<option id="2">داخلی</option>
+			<option id="3">بک لینک</option>
+			<option id="4">hyperlink</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="276">
+		<description>بطور معمول از کدام تگ برای نوشتن متن یک پست در سایت استفاده میشود؟</description>
+		<options>
+			<option id="1">H1</option>
+			<option id="2">H2</option>
+			<option id="3">H3</option>
+			<option id="4">H6</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="277">
+		<description>سایت ریسپانسیو به چه معناست؟</description>
+		<options>
+			<option id="1">سایتی که پویا ساخته شده باشد</option>
+			<option id="2">سایتی که پشتیبانی 24 ساعته دارد</option>
+			<option id="3">سایتی که سوالات کاربر را آنلاین پاسخ می دهد</option>
+			<option id="4">سایتی که با تغییر سایز صفحه نمایش بهم نریزد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="278">
+		<description>مهم ترین گام برای راه اندازی یک سایت کسب و کار اینترنتی کدام گزینه است؟</description>
+		<options>
+			<option id="1">انتخاب دامنه مناسب</option>
+			<option id="2">انتخاب هاست مناسب</option>
+			<option id="3">انتخاب قالب مناسب</option>
+			<option id="4">فعالیت در شبکه های اجتماعی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="279">
+		<description>یک دامین مناسب بهینه حداکثر می تواند چند کاراکتر باشد؟</description>
+		<options>
+			<option id="1">8</option>
+			<option id="2">11</option>
+			<option id="3">13</option>
+			<option id="4">16</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="280">
+		<description>جهت بهبود رتبه و جایگاه سایت کدام مورد را نباید انجام داد؟</description>
+		<options>
+			<option id="1">استفاده فراوان از کلمات کلیدی</option>
+			<option id="2">بروزرسانی منظم محتوا و مطلب</option>
+			<option id="3">استفاده از تگ های H</option>
+			<option id="4">استفاده از بک لینک های معتبر</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="281">
+		<description>متا تگ توضیحات حداکثر چند کارکتر میتواند باشد؟</description>
+		<options>
+			<option id="1">150</option>
+			<option id="2">160</option>
+			<option id="3">165</option>
+			<option id="4">170</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="282">
+		<description>از نظر کارشناسان سئو کدام مورد مهمترین فاکتور لینک سازی داخلی است؟</description>
+		<options>
+			<option id="1">داشتن مطالب با کیفیت</option>
+			<option id="2">قراردادن لینک ها در منوی سایت</option>
+			<option id="3">لینک دادن به مهمترین مطالب</option>
+			<option id="4">ارزش افزوده لینک داخلی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="283">
+		<description>در هنگام لینک....... بهتر است لینک های ایجاد شده به شکل نوفالو باشد.</description>
+		<options>
+			<option id="1">داخلی</option>
+			<option id="2">خارجی</option>
+			<option id="3">سایت های معتبر</option>
+			<option id="4">شبکه های اجتماعی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="284">
+		<description>کدام مورد از ویژگی های یک cms نیست؟</description>
+		<options>
+			<option id="1">برنامه ای که از ایجاد و مدیریت و بروزرسانی وب سایت پشتیبانی میکند.</option>
+			<option id="2">دارای قابلیت مدیریت ساختار سایت است</option>
+			<option id="3">برای تولید وب سایت حرفه ای بکار میرود</option>
+			<option id="4">باید تمام وب سایت را برنامه نویسی کرد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="285">
+		<description>کدام مورد از امکانات وردپرس نمیباشد؟</description>
+		<options>
+			<option id="1">هسته قابل حمل</option>
+			<option id="2">نصب محلی</option>
+			<option id="3">قابلیت gzip</option>
+			<option id="4">انحصاری در اختیار یک شرکت خاص</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="286">
+		<description>کدام مورد در مورد بایگانی مطالب در وردپرس صحیح نمیباشد؟</description>
+		<options>
+			<option id="1">به صورت خودکار در مطالب دسته بندی میشوند</option>
+			<option id="2">به صورت موضوعی مطالب دسته بندی میشوند</option>
+			<option id="3">مطالب برحسب نویسنده دسته بندی میشوند</option>
+			<option id="4">مطالب براساس زمان قابل دسته بندی نیست</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="287">
+		<description>محل ذخیره پیش فرض فایل های آپلودی کدام است؟</description>
+		<options>
+			<option id="1">wp-content/uploads</option>
+			<option id="2">wp-content/download</option>
+			<option id="3">wp-admin-uploads</option>
+			<option id="4">wp-themse/uploads</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="288">
+		<description>برای پاک کردن لینک متن از کدام گزینه استفاده میشود؟</description>
+		<options>
+			<option id="1">alt+shift+s</option>
+			<option id="2">alt+ctrl+s</option>
+			<option id="3">shift+ctrl+s</option>
+			<option id="4">alt+del</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="289">
+		<description>کدام گزینه باعث justify متن میشود؟</description>
+		<options>
+			<option id="1">alt+shift+j</option>
+			<option id="2">alt+shift+k</option>
+			<option id="3">alt+ctrl+j</option>
+			<option id="4">alt+shift+d</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="290">
+		<description>sticky کردن نوشته چه تاثیری بر روی آن دارد؟</description>
+		<options>
+			<option id="1">باعث نمایش پست در بالاترین قسمت صفحه اصلی میشود</option>
+			<option id="2">باعث رفتن متن نوشته در پایین صفحه میشود</option>
+			<option id="3">باعث کج نوشته شدن نوشته میشود</option>
+			<option id="4">متن نوشته را به صورت لینک تنظیم مینماید</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="291">
+		<description>کدام گزینه تعریف برچسب میباشد ؟</description>
+		<options>
+			<option id="1">لینک به صفحات دیگر</option>
+			<option id="2">نمایش مشخصات یک نوشته</option>
+			<option id="3">راهی برای نظم بخشیدن به پست ها و راهبری ساده طراحی</option>
+			<option id="4">عکسی با نام دلخواه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="292">
+		<description>این گزینه نقشی شبیه به نقش شاخه در ویندوز دارد و باعث نظم و انسجام بیشتر میشود.</description>
+		<options>
+			<option id="1">برگه</option>
+			<option id="2">دسته</option>
+			<option id="3">فهرست</option>
+			<option id="4">لینک</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="293">
+		<description>برای مدیریت دسته ها از کدام قسمت وارد میشویم؟</description>
+		<options>
+			<option id="1">پیشخوان / دسته</option>
+			<option id="2">نمایش / دسته</option>
+			<option id="3">نوشته / دسته</option>
+			<option id="4">برگه ها / دسته</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="294">
+		<description>اگر در قسمت پیوند یک نوشته گزینه top_ استفاده شود ، صفحه به چه صورت نمایش داده میشود؟</description>
+		<options>
+			<option id="1">در فریم بالایی صفحه</option>
+			<option id="2">در زبانه جدید</option>
+			<option id="3">در همان زبانه</option>
+			<option id="4">در قسمت والد خود</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="295">
+		<description>در این نقش ، علاوه بر اختیارات مشترک میتواند نسبت به نوشتن و ویرایش پست های خود اقدام کند؟</description>
+		<options>
+			<option id="1">مشارکت کننده</option>
+			<option id="2">نویسنده</option>
+			<option id="3">ویراستار</option>
+			<option id="4">مدیر</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="296">
+		<description>این نقش علاوه بر نوشتن و ویرایش پست میتواند آنرا انتشار دهد؟</description>
+		<options>
+			<option id="1">مشارکت کننده</option>
+			<option id="2">ویراستار</option>
+			<option id="3">نویسنده</option>
+			<option id="4">مشترک</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="297">
+		<description>این نقش میتواند بنویسد ، پست را انتشار دهد و به مدیریت دیدگاه ها ، دسته ها ، صفحات و لینک اقدام نماید ؟</description>
+		<options>
+			<option id="1">ویراستار</option>
+			<option id="2">مشترک</option>
+			<option id="3">مدیر</option>
+			<option id="4">مشارکت کننده</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="298">
+		<description>کدام یک از خصوصیات نقش مشترک نمیباشد؟</description>
+		<options>
+			<option id="1">به پیشخوان دسترسی دارد</option>
+			<option id="2">نقش پیشفرض وردپرس است</option>
+			<option id="3">میتواند تنظیمات کاربری خود را تغییر دهد</option>
+			<option id="4">میتواند پست انتشار دهد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="299">
+		<description>کدام یک از خصوصیات نقش مشارکت کننده نیست؟</description>
+		<options>
+			<option id="1">نوشتن پست</option>
+			<option id="2">ویرایش پست</option>
+			<option id="3">دسترسی به پیشخوان</option>
+			<option id="4">انتشار پست</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="300">
+		<description>کدام یک از خصوصیات نقش نویسنده نیست؟</description>
+		<options>
+			<option id="1">نوشتن پست</option>
+			<option id="2">ویرایش پست</option>
+			<option id="3">انتشار پست</option>
+			<option id="4">مدیریت دیدگاه ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="301">
+		<description>معرفی کوتاه سایت در کدام قسمت وجود دارد؟</description>
+		<options>
+			<option id="1">تنظیمات / همگانی</option>
+			<option id="2">تنظیمات / رمز</option>
+			<option id="3">نمایش / همگانی</option>
+			<option id="4">نمایش / معرفی کوتاه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="302">
+		<description>برای بهروزرسانی اتوماتیک وردپرس از کدام قسمت تنظیمات را انجام میدهیم ؟</description>
+		<options>
+			<option id="1">ابزارها / ارتقا</option>
+			<option id="2">ابزار ها / درون ریزی</option>
+			<option id="3">ابزار ها / پشتیبان گیری</option>
+			<option id="4">ابزار ها / برون ریزی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="303">
+		<description>منظور از permalink چیست؟</description>
+		<options>
+			<option id="1">پیوند به صفحه ای دیگر در سایت خود</option>
+			<option id="2">پیوند یکتا</option>
+			<option id="3">پیوند به یک عکس در سایت</option>
+			<option id="4">پیوند به یک موتور جستجو</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="304">
+		<description>کدام گزینه از ویژگی های تصویر شاخص است ؟</description>
+		<options>
+			<option id="1">همان تصویری است که درون مطلب قرار میگیرد</option>
+			<option id="2">بر روی صفحه اصلی و در کنار عنوان قرار میگیرد</option>
+			<option id="3">در صفحه اصلی و در قسمت منوها قرار میگیرد</option>
+			<option id="4">تصویری که در صفحه اول هر نوشته قرار میگیرد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="305">
+		<description>قابلیت gzip در وردپرس به چه معناست؟</description>
+		<options>
+			<option id="1">میزان مصرف پهنای باند را کاهش میدهد</option>
+			<option id="2">میزان بازدید را افزایش میدهد</option>
+			<option id="3">در سئو سایت تاثیر مستقیم دارد</option>
+			<option id="4">از روش های آپلود عکس میباشد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="306">
+		<description>کدام مورد از امکانات وردپرس برای مدیریت دیدگاه ها نمیباشد؟</description>
+		<options>
+			<option id="1">میتوان تمام نظرات را پیش از نمایش در سایت دید</option>
+			<option id="2">دیدگاه های فرستاده شده میتواند از یک آی پی خاص باشد</option>
+			<option id="3">دیدگاه ها با بیش از یک تعداد مشخص میتواند لینک شود</option>
+			<option id="4">دیدگاه ها در وردپرس قابل ویرایش توسط همه هستند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="307">
+		<description>ویژگی Quickpress چیست؟</description>
+		<options>
+			<option id="1">میتوان بدون هیچ دردسری در صفحه اول پیشخوان پست ارسال کرد</option>
+			<option id="2">میتوان به راحتی و سریع دیدگاه اضافه نمود</option>
+			<option id="3">قابلیت ارسال سریع منو ها به محیط وردپرس را فراهم میکند</option>
+			<option id="4">قابلیت ویرایش سریع برگه ها را به ما میدهد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="308">
+		<description>در کتابخونه وردپرس چه فایل هایی قابل آپلود کردن نیستند؟</description>
+		<options>
+			<option id="1">فایل های صوتی</option>
+			<option id="2">فایل های تصویری</option>
+			<option id="3">فایل های برنامه</option>
+			<option id="4">فایل های عکس</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="309">
+		<description>اگر از بخش سر آغاز دسته گزینه هیچکدام انتخاب شود، دسته چه خصوصتی پیدا میکند؟</description>
+		<options>
+			<option id="1">دسته دارای زیر دسته میشود</option>
+			<option id="2">در بالا ترین سطح یعنی بدون یک والد قرار میگیرد</option>
+			<option id="3">دسته دارای بیش از یک والد میشود</option>
+			<option id="4">دسته هم رده با بقیه دسته ها قرار میگیرد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="310">
+		<description>اگر دسته ای را پاک کنیم برای پست های آن دسته چه اتفاقی می افتد؟</description>
+		<options>
+			<option id="1">پست ها هم پاک میشوند</option>
+			<option id="2">پست ها زیر مجموعه هیچ دسته ای نمی شوند</option>
+			<option id="3">پست ها به دسته پیش فرض انتقال داده میشوند</option>
+			<option id="4">پست ها یک دسته به بالا منتقل میشوند</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="311">
+		<description>نیم رخ ها چه هستند؟</description>
+		<options>
+			<option id="1">تصویر محیط وردپرس</option>
+			<option id="2">تصویر پروفایل کاربران</option>
+			<option id="3">تصویر لوگوی سایت</option>
+			<option id="4">تصویر شاخص</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="312">
+		<description>وردپرس چند سطح دسترسی برای کاربران تعریف کرده است؟</description>
+		<options>
+			<option id="1">3</option>
+			<option id="2">6</option>
+			<option id="3">4</option>
+			<option id="4">5</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="313">
+		<description>کدام گزینه در سایت تایید نمی شود اما در قسمتی قرار می گیرد که بتوان انها را ویرایش یا برای همیشه به زباله دان منتقل کنید؟</description>
+		<options>
+			<option id="1">چفنگ</option>
+			<option id="2">در انتظار تایید</option>
+			<option id="3">تایید شده ها</option>
+			<option id="4">دیدگاه ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="314">
+		<description>لوگویی که در مرورگر کنار نام سایت قرار می گیرد چه نام دارد؟</description>
+		<options>
+			<option id="1">logo</option>
+			<option id="2">favicon</option>
+			<option id="3">visual composer</option>
+			<option id="4">widget</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="315">
+		<description>کدام گزینه ابزار هایی هستند که امکاناتی جدید را به وردپرس اضافه می کنند ؟</description>
+		<options>
+			<option id="1">اسلایدر</option>
+			<option id="2">افزونه ها</option>
+			<option id="3">قالب ها</option>
+			<option id="4">نوشته ها</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="316">
+		<description>کدام افزونه برای ایجاد فرم در سایت استفاده میشود؟</description>
+		<options>
+			<option id="1">Visual Composer</option>
+			<option id="2">Contact Form7</option>
+			<option id="3">Akismet</option>
+			<option id="4">Yoast SEO</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="317">
+		<description>کدام افزونه برای ایجاد تنظیمات امنیتی استفاده می شود؟</description>
+		<options>
+			<option id="1">iThems Security Pro</option>
+			<option id="2">WP Rocket</option>
+			<option id="3">Akismet</option>
+			<option id="4">Ultimate Member</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="318">
+		<description>کدام افزونه برای افزایش لود سایت است؟</description>
+		<options>
+			<option id="1">iThems Security Pro</option>
+			<option id="2">WP Rocket</option>
+			<option id="3">WooCommerce</option>
+			<option id="4">Ultimate Member</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="319">
+		<description>کدام افزونه در هنگام آپلود ، تصاویر را فشرده و بهینه می نماید؟</description>
+		<options>
+			<option id="1">GADWP</option>
+			<option id="2">WP Smush Pro</option>
+			<option id="3">WooCommerce</option>
+			<option id="4">Ultimate Member</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="320">
+		<description>کدام افزونه سیستم عضوگیری را به صورت حرفه ای پیاده می کند؟</description>
+		<options>
+			<option id="1">Ultimate Member</option>
+			<option id="2">WooCommerce</option>
+			<option id="3">WP Smush Pro</option>
+			<option id="4">Akismet</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="321">
+		<description>کدام لوکال هاست برای سیستم عامل های لینوکس تحت دبیان طراحی شده؟</description>
+		<options>
+			<option id="1">Xampp</option>
+			<option id="2">EasyPHP</option>
+			<option id="3">Lamp</option>
+			<option id="4">Mamp</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="322">
+		<description>کدام لوکال هاست برای سیستم عامل های مکینتاش طراحی شده؟</description>
+		<options>
+			<option id="1">Xampp</option>
+			<option id="2">EasyPHP</option>
+			<option id="3">Lamp</option>
+			<option id="4">Mamp</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="323">
+		<description>آدرس URL یک سایت از چه قسمت هایی تشکیل شده است؟</description>
+		<options>
+			<option id="1">پروتکل نام سایت نام دامنه</option>
+			<option id="2">پروتوکل نام دامنه نام سایت</option>
+			<option id="3">نام دامنه نام سایت پروتوکل</option>
+			<option id="4">نام سایت پروتوکل دامنه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="324">
+		<description>کسب و کار اینترنتی چیست؟</description>
+		<options>
+			<option id="1">هر کاری که در فضای اینترنت انجام شود و منجر به کسب درآمد شود</option>
+			<option id="2">تبلیغات در اینترنت</option>
+			<option id="3">جستجوی کار مورد نظر به منظور کسب درآمد در اینترنت</option>
+			<option id="4">استخدام افراد به صورت اینترنتی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="325">
+		<description>کدام یک از مزایای کسب و کار اینرتنتی نیست؟</description>
+		<options>
+			<option id="1">انعطاف پذیر بودن</option>
+			<option id="2">عدم محدودیت در مکان</option>
+			<option id="3">محدودیت در زمان</option>
+			<option id="4">ارزان بودن</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="326">
+		<description>کدام یک از معایب کسب و کار اینترنتی نمی باشد؟</description>
+		<options>
+			<option id="1">احتیاج به صبر و حوصله دارد</option>
+			<option id="2">نسبت به کسب و کار های دیگر حساس تر است</option>
+			<option id="3">نیاز به ایده و خلاقیت دارد</option>
+			<option id="4">مختص مکان خاصی نمی باشد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="327">
+		<description>کدام مورد جزء مراحل کسب و کار اینترنتی نمی باشد؟</description>
+		<options>
+			<option id="1">مشخص کردن هدف</option>
+			<option id="2">برنامه ریزی</option>
+			<option id="3">استخدام نیرو</option>
+			<option id="4">بررسی نتایج</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="328">
+		<description>داشتن خلاقیت در کسب و کار اینرتنتی جز کدام مورد به حساب می آید؟</description>
+		<options>
+			<option id="1">معایب کسب و کار اینترنتی</option>
+			<option id="2">مزایای کسب و کار اینرتنتی</option>
+			<option id="3">تفاوت کسب و کار اینرتنتی با کار فیزیکی</option>
+			<option id="4">شباهت کار اینرتنتی با کسب و کار فیزیکی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="329">
+		<description>مشاوره و رزور هتل جز کدام گروه کسب و کار اینترنتی است؟</description>
+		<options>
+			<option id="1">فروش خدمات</option>
+			<option id="2">فروش محصولات مجازی</option>
+			<option id="3">فروش مستقیم</option>
+			<option id="4">فروش واسطه ای</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="330">
+		<description>کدام مورد جزء مراحل اصلی راه اندازی کسب و کار اینترنتی نمی باشد؟</description>
+		<options>
+			<option id="1">ارزیابی ایده</option>
+			<option id="2">تولید محتوا</option>
+			<option id="3">بازاریابی اینترنتی</option>
+			<option id="4">تصور آینده بهتر</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="331">
+		<description>ثبت دامنه جزء کدام مورد از مراحل کسب و کار اینترنتی به حساب می آید؟</description>
+		<options>
+			<option id="1">راه اندازی</option>
+			<option id="2">انواع کسب و کار</option>
+			<option id="3">ایده های کسب و کار</option>
+			<option id="4">مدیریت کسب و کار</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="332">
+		<description>سیستم فروش حرفه ای جزء کدام یک از مراحل کسب و کار اینترنتی است؟</description>
+		<options>
+			<option id="1">راه اندازی</option>
+			<option id="2">ارزیابی</option>
+			<option id="3">نیاز سنجی</option>
+			<option id="4">توسعه و مدیریت</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="333">
+		<description>علامت * در فایل ROBOTS.TXT به چه معناست؟</description>
+		<options>
+			<option id="1">تمام صفحات مورد نظر</option>
+			<option id="2">تمام پوشه های مورد نظر</option>
+			<option id="3">تمام ربات های جستجوگر</option>
+			<option id="4">هیچ کدام از ربات های جستجوگر</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="334">
+		<description>یکی از مهمترین ملاک های آماری و اطلاعاتی برای رتبه بندی سایت ها........... می باشد.</description>
+		<options>
+			<option id="1">الکسا</option>
+			<option id="2">google ads</option>
+			<option id="3">موتور جستجو</option>
+			<option id="4">فایل robots.txt</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="335">
+		<description>یکی از معیار های اصلی الکسا برای رتبه دهی به سایت............. می باشد.</description>
+		<options>
+			<option id="1">آمار بازدید سایت</option>
+			<option id="2">حجم محتوای سایت</option>
+			<option id="3">تعداد بک لینک ها</option>
+			<option id="4">تعداد کاربران</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="336">
+		<description>
+			خروجی این دستور چیست؟ select name , family from tblusers where avg&lt;=12
+		</description>
+		<options>
+			<option id="1">نمایش نام و نام خانوادگی افرادی که تعداد آنها بیش از 12 نفر باشند</option>
+			<option id="2">نمایش نام و نام خانوادگی افرادی که معدل آنها بزرگتر مساوی 12 باشد</option>
+			<option id="3">نمایش تمام اطلاعات موجود در جدولtblusers</option>
+			<option id="4">نمایش نام و نام خانوادگی 12 رکورد از جدول tblusers</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="337">
+		<description>به چه تعداد برچسب در وردپرس می توان تعریف کرد؟</description>
+		<options>
+			<option id="1">150</option>
+			<option id="2">256</option>
+			<option id="3">512</option>
+			<option id="4">نامحدود</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="338">
+		<description>به چه تعداد دسته میتوان در وردپرس تعریف کرد؟</description>
+		<options>
+			<option id="1">256</option>
+			<option id="2">512</option>
+			<option id="3">نامحدود</option>
+			<option id="4">1024</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="339">
+		<description>هنگام ساخت برگه، بطور پیش فرض جزء کدام دسته قرار می گیرند؟</description>
+		<options>
+			<option id="1">دسته اس که از اول تعریف شده</option>
+			<option id="2">دسته ای که بیشترین برگه ها را دارد</option>
+			<option id="3">آخرین دسته تعریف شده</option>
+			<option id="4">فاقد دسته بندی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="340">
+		<description>برای درج اطلاعات در یک رکورد از کدام دستور استفاده می شود؟</description>
+		<options>
+			<option id="1">insert</option>
+			<option id="2">update</option>
+			<option id="3">select</option>
+			<option id="4">delete</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="341">
+		<description>برای حذف اطلاعات در یک رکورد از کدام دستور استفاده می شود؟</description>
+		<options>
+			<option id="1">insert</option>
+			<option id="2">update</option>
+			<option id="3">delete</option>
+			<option id="4">select</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="342">
+		<description>برای ویرایش اطلاعات در یک رکورد از کدام دستور استفاده میشود؟</description>
+		<options>
+			<option id="1">insert</option>
+			<option id="2">update</option>
+			<option id="3">select</option>
+			<option id="4">delete</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="343">
+		<description>برای حذف اطلاعات یک رکورد از کدام دستور استفاده می کنیم؟</description>
+		<options>
+			<option id="1">insert</option>
+			<option id="2">update</option>
+			<option id="3">delete</option>
+			<option id="4">select</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="344">
+		<description>دستور Alter کدام کار را انجام می دهد؟</description>
+		<options>
+			<option id="1">حذف جدول از بانک اطلاعاتی</option>
+			<option id="2">افزودن یک ستون به جدول</option>
+			<option id="3">افزودن یک سطر به جدول</option>
+			<option id="4">انتخاب یک سطر از جدول</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="345">
+		<description>دستور update میتواند:</description>
+		<options>
+			<option id="1">در یک زمان چندین سطر را ویرایش نماید</option>
+			<option id="2">در یک زمان میتواند فقط یک سطر را ویرایش نماید</option>
+			<option id="3">در یک زمان یک سطر را حذف نماید</option>
+			<option id="4">در یک زمان بیش از یک سطر را حذف نماید</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="346">
+		<description>برای ایجاد یک جدول جدید از نتیجه پرس و جو کدام گزینه بکار می رود؟</description>
+		<options>
+			<option id="1">select</option>
+			<option id="2">select into</option>
+			<option id="3">insert</option>
+			<option id="4">update</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="347">
+		<description>اصلاح مقادیر فیلد یا فیلد های از رکورد......نام دارد.</description>
+		<options>
+			<option id="1">بازیابی</option>
+			<option id="2">ویرایش پست</option>
+			<option id="3">تغییر ساختار</option>
+			<option id="4">بهنگام سازی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="348">
+		<description>برای تفاضل بین دو پرس و جو از کدام دستور استفاده میشود؟</description>
+		<options>
+			<option id="1">intersect</option>
+			<option id="2">union</option>
+			<option id="3">null</option>
+			<option id="4">except</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="349">
+		<description>برای اشتراک دو پرس و جو از کدام دستور استفاده میشود؟</description>
+		<options>
+			<option id="1">union</option>
+			<option id="2">intersect</option>
+			<option id="3">not null</option>
+			<option id="4">except</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="350">
+		<description>برای اجتماع دو پرس و جو از کدام دستور استفاده میشود؟</description>
+		<options>
+			<option id="1">union</option>
+			<option id="2">except</option>
+			<option id="3">intersect</option>
+			<option id="4">all</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="351">
+		<description>اولین مرحله انجام وردپرس کدام است؟</description>
+		<options>
+			<option id="1">تدوین نقشه سایت</option>
+			<option id="2">طراحی</option>
+			<option id="3">برنامه نویسی</option>
+			<option id="4">اجرا</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="352">
+		<description>در این مرحله از انجام پروژه تمامی اطلاعات مورد نیاز از سفارش دهنده دریافت میشود و یک نمودار درختی تدوین می گردد.</description>
+		<options>
+			<option id="1">طراحی</option>
+			<option id="2">اجرا</option>
+			<option id="3">برنامه نویسی</option>
+			<option id="4">تدوین نقشه سایت</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="353">
+		<description>در این مرحله از انجام پروژه نمونه کامل سایت روی هاست قرار می گیرد.</description>
+		<options>
+			<option id="1">نصب و راه اندازی</option>
+			<option id="2">برنامه نویسی</option>
+			<option id="3">اجرا</option>
+			<option id="4">پشتیبانی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="354">
+		<description>در این مرحله مطالب و تنظیماتی که از طریق cms در پایگاه داده ذخیره شده است در سایت نمایش داده می شود.</description>
+		<options>
+			<option id="1">اجرای استاتیک</option>
+			<option id="2">اجرای محتوای داینامیک در طراحی استاتیک</option>
+			<option id="3">طراحی استاتیک</option>
+			<option id="4">طراحی داینامیک</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="355">
+		<description>فایل robots.txt به خزندگان موتور های جستجو چه اطلاعاتی را منتقل می کند؟</description>
+		<options>
+			<option id="1">کدام صفحه از سایت برا ی اسکن کردن باز است</option>
+			<option id="2">چه پروتکل هایی در سایت استفاده شده اند</option>
+			<option id="3">چه تعداد آمار بازدید آن سایت داشته است</option>
+			<option id="4">رتبه سایت در الکسا چند است</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="356">
+		<description>توسط کدام دستور در فایل robots.txt به ربات ها گفته میشود که لازم نیست این مسیر را جستجو کند؟</description>
+		<options>
+			<option id="1">user-agent</option>
+			<option id="2">Disallow</option>
+			<option id="3">Crawl-delay</option>
+			<option id="4">Sitemap</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="357">
+		<description>تبلیغات و بازاریابی سایت در کدام یک از مراحل پروژه انجام می شود؟</description>
+		<options>
+			<option id="1">تولید محتوا</option>
+			<option id="2">خدمات پس از فروش</option>
+			<option id="3">پشتیبانی و مدیریت</option>
+			<option id="4">طراحی گرافیکی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="358">
+		<description>کدام یک از گزینه های زیر برای انتخاب نام دامین باید مورد نظر قرار بگیرد؟</description>
+		<options>
+			<option id="1">تقلید از سایت های بزرگ باشد</option>
+			<option id="2">کوتاه و مختصر نباشد</option>
+			<option id="3">حتما از حروف فارسی استفاده شده باشد</option>
+			<option id="4">به ذهن سپردنش راحت باشد</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="359">
+		<description>در بخش طراحی ظاهری یا رابط کاربری وب سایت رعایت کدام مورد ضروری نیست؟</description>
+		<options>
+			<option id="1">توجه به روانشاسی رنگ ها</option>
+			<option id="2">نمایش در انواع دستگاه ها</option>
+			<option id="3">کاربر پسند بودن</option>
+			<option id="4">ساده و تک رنگ بودن</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="360">
+		<description>در این مرحله از طراحی سایت بایستی از مشکلات پیش بینی نشده جلوگیری و آن را حل کرد.</description>
+		<options>
+			<option id="1">پیاده سازی نهایی</option>
+			<option id="2">انجام امور فنی</option>
+			<option id="3">نیازسنجی</option>
+			<option id="4">پشتیبانی و بروز آوری مداوم</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="361">
+		<description>تمام فایل هایی که ما به نوشته هایمان پیوست میکنیم در قسمت ...... قرار میگرند.</description>
+		<options>
+			<option id="1">برکه</option>
+			<option id="2">رسانه</option>
+			<option id="3">فهرست</option>
+			<option id="4">پیشخوان</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="362">
+		<description>در قسمت رسانه های وردپرس کدام مورد روی تصویر قایل اجرا نیست؟</description>
+		<options>
+			<option id="1">آپلود تصویر</option>
+			<option id="2">ویرایش تصویر</option>
+			<option id="3">تغییر اندازه تصویر</option>
+			<option id="4">تغییر رنگ تصویر</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="363">
+		<description>با تغییر دادن محتوای کدام فایل میتوان تصویر با اندازه بزرگتری را وارد نماییم؟</description>
+		<options>
+			<option id="1">htaccess</option>
+			<option id="2">sitemap</option>
+			<option id="3">robots.txt</option>
+			<option id="4">phpmyadmin</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="364">
+		<description>در سمت ندازه های تصاویر در ورد پرس، تصاویر به کدام روش نمی توانند نمایش داده شده و تغییر اندازه داشته باشند؟</description>
+		<options>
+			<option id="1">بند انگشتی</option>
+			<option id="2">میانه</option>
+			<option id="3">بزرگ</option>
+			<option id="4">کوچک</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="365">
+		<description>کدام یک از موارد نمایش فایل در رسانه نیست؟</description>
+		<options>
+			<option id="1">بصورت لیستی یا سطری</option>
+			<option id="2">براساس فرمت</option>
+			<option id="3">براساس تاریخ</option>
+			<option id="4">بر اساس نام کاربر</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="366">
+		<description>یکی از بهترین انواع پیوند یکتا که موجب حداکثر خزش موتور جستجو روی نوشته می شود کدام است؟</description>
+		<options>
+			<option id="1">پیوند یکتای ساده</option>
+			<option id="2">پیوند یکتای عددی</option>
+			<option id="3">پیوند یکتای نام نوشته</option>
+			<option id="4">پیوند یکتای ساختار دلخواه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="367">
+		<description>این نوع پیوند یکتا جهت ایجاد آدرس دهی مناسب برای سایت های خاص مورد استفاده قرار میگیرد.</description>
+		<options>
+			<option id="1">پیوند یکتای نام نوشته</option>
+			<option id="2">پیوند یکتای ساده</option>
+			<option id="3">پیوند یکتای ماه و نام</option>
+			<option id="4">پیوند یکتای ساختار دلخواه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="368">
+		<description>بهترین نوع پیوند یکتا در وردپرس کدام است؟</description>
+		<options>
+			<option id="1">پیوند یکتای ساده</option>
+			<option id="2">پیوند یکتای عددی</option>
+			<option id="3">پیوند یکتای نام نوشته</option>
+			<option id="4">پیوند یکتای ساختار دلخواه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="369">
+		<description>این نوع پیوند یکتا با استفاده از آیدی یا شناسه مطلب لینک آن را ایجاد میکند.</description>
+		<options>
+			<option id="1">پیوند یکتای ساده</option>
+			<option id="2">پیوند یکتای عددی</option>
+			<option id="3">پیوند یکتای نام نوشته</option>
+			<option id="4">پیوند یکتای ساختار دلخواه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="370">
+		<description>کدام پیوند یکتا پیش فرض ورد پرس است؟</description>
+		<options>
+			<option id="1">ساده</option>
+			<option id="2">عددی</option>
+			<option id="3">نام نوشته</option>
+			<option id="4">دلخواه</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="371">
+		<description>صفحاتی هستند که در هر سایت بدون تغییر باقی می مانند و نیازی نیست تغییر کنند؟</description>
+		<options>
+			<option id="1">ایستا</option>
+			<option id="2">پویا</option>
+			<option id="3">سفارشی</option>
+			<option id="4">یکتا</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="372">
+		<description>صفحاتی هستند که دائما درحال تغییرند و بهتر است دسته بندی و برچسب گذاری شوند.</description>
+		<options>
+			<option id="1">ایستا</option>
+			<option id="2">پویا</option>
+			<option id="3">یکتا</option>
+			<option id="4">سفارشی</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="373">
+		<description>محتوای متنی سایت شما هستند که برای ایاد توضیحات کلی به کار می روند.</description>
+		<options>
+			<option id="1">برگه</option>
+			<option id="2">نوشته</option>
+			<option id="3">دسته</option>
+			<option id="4">برچسب</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="374">
+		<description>نوعی از محتوا هستند که بر اسا تاریخ انتشار قابل نمایش هستند.</description>
+		<options>
+			<option id="1">برگه</option>
+			<option id="2">نوشته</option>
+			<option id="3">دسته</option>
+			<option id="4">برچسب</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="375">
+		<description>موضوعهای کلی هستند که برگه ها می توانند زیر مجموعه آن قرار گیرند.</description>
+		<options>
+			<option id="1">برگه</option>
+			<option id="2">نوشته</option>
+			<option id="3">دسته</option>
+			<option id="4">برچسب</option>
+		</options>
+		<answer/>
+	</question>
+	<question id="376">
+		<description>دسته بندی های خاص و کوچک تر را برای مطالب سایت شما انجام میدهند و به محتوای هر نوشته بستگی خواهند داشت.</description>
+		<options>
+			<option id="1">برچسب</option>
+			<option id="2">برگه</option>
+			<option id="3">نوشته</option>
+			<option id="4">فهرست</option>
+		</options>
+		<answer/>
+	</question>
+</Quiz>
